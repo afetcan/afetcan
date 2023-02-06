@@ -20,7 +20,7 @@
       "vite/client",
       "node",
       "vite-plugin-pages/client",
-      "vite-plugin-vue-layouts/client",
+      "vite-plugin-vue-layouts/client"
     ]
   },
   "include": [
