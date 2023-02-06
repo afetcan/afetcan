@@ -4,6 +4,11 @@ import Components from 'unplugin-vue-components/vite'
 import Pages from 'vite-plugin-pages'
 import Layouts from 'vite-plugin-vue-layouts'
 import AutoImport from 'unplugin-auto-import/vite'
+import {
+  HeadlessUiResolver,
+  IonicResolver,
+  NaiveUiResolver,
+} from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -14,6 +19,11 @@ export default defineConfig({
     Components({
       directoryAsNamespace: true,
       dts: 'src/components.d.ts',
+      resolvers: [
+        HeadlessUiResolver(),
+        NaiveUiResolver(),
+        IonicResolver(),
+      ],
     }),
     // https://github.com/hannoeru/vite-plugin-pages
     Pages(),
