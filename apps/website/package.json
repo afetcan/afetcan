@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3100 --host",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
