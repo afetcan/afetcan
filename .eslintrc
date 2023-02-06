@@ -1,0 +1,16 @@
+{
+    "extends": "@antfu",
+    "rules": {
+        "no-console": "off",
+        "@ts-expect-error": "off",
+        "@typescript-eslint/ban-ts-comment": "off"
+    },
+    "ignorePatterns": [
+        "node_modules",
+        "dist",
+        "public",
+        "src/assets",
+        "**.yaml",
+        "turbo.json"
+    ]
+}
