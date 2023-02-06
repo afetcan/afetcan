@@ -1,0 +1,56 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:base"
+    ],
+    "rebaseWhen": "conflicted",
+    "schedule": [
+        "before 6am on the first day of the month"
+    ],
+    "baseBranches": [
+        "main"
+    ],
+    "rangeStrategy": "bump",
+    "packageRules": [
+        {
+            "matchPaths": [
+                "apps/website/**"
+            ],
+            "matchDatasources": [
+                "npm"
+            ],
+            "matchUpdateTypes": [
+                "patch",
+                "minor",
+                "major"
+            ],
+            "groupName": "website",
+            "labels": [
+                "website"
+            ],
+            "addLabels": [
+                "website"
+            ]
+        },
+        {
+            "matchPaths": [
+                "packages/**"
+            ],
+            "matchDatasources": [
+                "npm"
+            ],
+            "matchUpdateTypes": [
+                "patch",
+                "minor",
+                "major"
+            ],
+            "groupName": "packages",
+            "labels": [
+                "packages"
+            ],
+            "addLabels": [
+                "packages"
+            ]
+        }
+    ]
+}
