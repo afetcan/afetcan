@@ -1,8 +1,15 @@
 {
   "name": "deprem",
   "version": "0.0.0",
+  "packageManager": "pnpm@7.26.3",
   "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
   "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -13,12 +20,6 @@
     "apps/*",
     "packages/*"
   ],
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.1",
     "eslint": "^8.33.0",
@@ -32,6 +33,5 @@
     "@vee-validate/zod": "4.7.3",
     "vee-validate": "4.7.3",
     "zod": "3.20.2"
-  },
-  "packageManager": "pnpm@7.26.3"
+  }
 }
