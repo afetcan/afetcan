@@ -5,7 +5,7 @@ Bu proje Türkiyedeki depremin yaralarını sarabilmek amacıyla üretildi.
 Yazılım konusunda destek vermek istiyorsanız, discord sunucumuza katılabilirsiniz. Deprem etiketi bölümünden bu projeye katkıda bulunabilirsiniz. Ayrıca pr veya issue açarak katkıda bulunabilirsiniz.
 <p>
      </a>
-      <a href="https://chat.huntersofbook.com"> <img src="https://img.shields.io/discord/982896043463180310?color=7289da&label=Discord&logo=discord&logoColor=white" alt="Discord"></a>
+      <a href="https://discord.gg/UN8mqgC79S"> <img src="https://img.shields.io/discord/982896043463180310?color=7289da&label=Discord&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 
