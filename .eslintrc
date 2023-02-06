@@ -11,6 +11,7 @@
         "public",
         "src/assets",
         "**.yaml",
-        "turbo.json"
+        "turbo.json",
+        "renovate.json"
     ]
 }

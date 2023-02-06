@@ -1,0 +1,6 @@
+{
+    "extends": [
+        "../../.eslintrc",
+        "./.eslintrc-auto-import.json"
+    ]
+}
