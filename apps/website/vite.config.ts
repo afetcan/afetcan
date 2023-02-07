@@ -17,6 +17,9 @@ export default defineConfig({
 
     // https://github.com/antfu/unplugin-vue-components
     Components({
+      dirs: [
+        './src/components',
+      ],
       directoryAsNamespace: true,
       dts: 'src/components.d.ts',
       resolvers: [
@@ -24,6 +27,7 @@ export default defineConfig({
         NaiveUiResolver(),
         IonicResolver(),
       ],
+      deep: true,
     }),
     // https://github.com/hannoeru/vite-plugin-pages
     Pages(),
