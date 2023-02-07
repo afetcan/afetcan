@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@huntersofbook/plausible-vue": "^1.0.0",
     "@vueuse/core": "^9.12.0",
     "@vueuse/head": "^1.0.24",
     "pinia": "^2.0.30",

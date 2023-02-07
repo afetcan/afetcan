@@ -23,6 +23,7 @@ importers:
 
   apps/website:
     specifiers:
+      '@huntersofbook/plausible-vue': ^1.0.0
       '@types/node': ^18.13.0
       '@vitejs/plugin-vue': ^4.0.0
       '@vueuse/core': ^9.12.0
@@ -43,6 +44,7 @@ importers:
       vue-router: ^4.1.6
       vue-tsc: ^1.0.24
     dependencies:
+      '@huntersofbook/plausible-vue': 1.0.0_vue@3.2.47
       '@vueuse/core': 9.12.0_vue@3.2.47
       '@vueuse/head': 1.0.24_vue@3.2.47
       pinia: 2.0.30_hmuptsblhheur2tugfgucj7gc4
@@ -632,6 +634,16 @@ packages:
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
+
+  /@huntersofbook/plausible-vue/1.0.0_vue@3.2.47:
+    resolution: {integrity: sha512-oLtbOWkidKVQWa5kfmfTD2m3xulvZucUOg6uLqZU5LNMn3GvP06bKkevOQbIlGVYuCp1KZ04T9zrDcNRbe1yrg==}
+    peerDependencies:
+      vue: ^3.2.45
+    dependencies:
+      defu: 6.1.2
+      plausible-tracker: 0.3.8
+      vue: 3.2.47
+    dev: false
 
   /@jridgewell/gen-mapping/0.1.1:
     resolution: {integrity: sha512-sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w==}
@@ -1592,7 +1604,6 @@ packages:
 
   /defu/6.1.2:
     resolution: {integrity: sha512-+uO4+qr7msjNNWKYPHqN/3+Dx3NFkmIzayk2L1MyZQlvgZb/J1A0fo410dpKrN2SnqFjt8n4JL8fDJE0wIgjFQ==}
-    dev: true
 
   /destr/1.2.2:
     resolution: {integrity: sha512-lrbCJwD9saUQrqUfXvl6qoM+QN3W7tLV5pAOs+OqOmopCCz/JkE05MHedJR1xfk4IAnZuJXPVuN5+7jNA2ZCiA==}
@@ -3388,6 +3399,11 @@ packages:
       mlly: 1.1.0
       pathe: 1.1.0
     dev: true
+
+  /plausible-tracker/0.3.8:
+    resolution: {integrity: sha512-lmOWYQ7s9KOUJ1R+YTOR3HrjdbxIS2Z4de0P/Jx2dQPteznJl2eX3tXxKClpvbfyGP59B5bbhW8ftN59HbbFSg==}
+    engines: {node: '>=10'}
+    dev: false
 
   /pluralize/8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
