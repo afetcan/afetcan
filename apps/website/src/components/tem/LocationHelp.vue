@@ -120,7 +120,7 @@ function send() {
                 <span class="cursor-pointer text-blue-600 visited:text-blue-300" @click="openHelpModal('android')">Android</span>,
                 <span class="cursor-pointer	text-blue-600 visited:text-blue-300" @click="openHelpModal('iPhone')">iPhone</span>
               </div>
-              <div @click="retryGetLocation()">
+              <div class="cursor-pointer text-blue-600 visited:text-blue-300" @click="retryGetLocation()">
                 Tekrar Dene
               </div>
             </div>
