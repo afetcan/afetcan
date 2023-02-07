@@ -15,38 +15,41 @@ const data = ref({
 const handleLocation = () => {
   router.push('/location')
 }
+
+useHead({
+  title: 'Acil Deprem',
+  meta: [
+    {
+      hid: 'description',
+      name: 'description',
+      content: 'Acil deprem deprem bilgilerini toplayıp anlandırıp yetkilelerle paylaşan bir site.',
+    },
+  ],
+})
 </script>
 
 <template>
   <div class="flex justify-center items-center h-screen w-screen">
     <div class="w-full max-w-xl grid grid-cols-1 gap-6">
       <div class="text-lg">
-        Seninle birlikteyiz <span class="text-2xl">🤲</span>
-        İnşallah bu sürecini birlikte atlatacağız. Sana sürekli dua ediyoruz.
+        Bu site yakında aktif olacak. Şimdilik aşağıdaki hesapları takip edebilirsiniz. Ayrıca sadece bir özellik olmayacak. Depremle ilgili harika fikiirlerimiz var. Sizlerle paylaşmak için sabırsızlanıyoruz.
+
+        <br>
+        <br>
+
+        Biz şuanda yazılımda ana isketli oluşturuyoruz.
+        <br>
+        <br>
+        İnşallah yakında aktif olacağız.
       </div>
-      <NButton size="large" type="error" block @click="handleLocation()">
-        Konum gönder (yakında)
+      <NButton size="large" type="success" block tag="a" href="https://twitter.com/acildepremcom" target="_blank">
+        Twitter
       </NButton>
-      <NButton size="large" type="error" block disabled>
-        Yemek yardımı bölgeleri (yakında)
+      <NButton size="large" type="success" block tag="a" href="https://github.com/acildeprem" target="_blank">
+        Github Tüm Açık Kaynak Kodlar Burada
       </NButton>
-      <NButton size="large" type="error" block disabled>
-        İhtiyaç sahipleri (yakında)
-      </NButton>
-      <NButton size="large" type="error" block disabled>
-        Dernek ve sivil toplum kuruluşları (yakında)
-      </NButton>
-      <NButton size="large" type="error" block disabled>
-        Devlet kurumları ve yardım kuruluşları eft (yakında)
-      </NButton>
-      <NButton size="large" type="error" block disabled>
-        İhtiyaç listesi (yakında)
-      </NButton>
-      <NButton size="large" type="error" block disabled>
-        Tüm illerde yardım noktaları (yakında)
-      </NButton>
-      <NButton size="large" type="error" block disabled>
-        Barınma yerleri (yakında)
+      <NButton size="large" type="success" block tag="a" href="https://discord.acildeprem.com" target="_blank">
+        Discord
       </NButton>
     </div>
   </div>
