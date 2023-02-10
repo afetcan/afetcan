@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@huntersofbook/i18n/nuxt',
     '@huntersofbook/plausible-nuxt',
     '@nuxtjs/partytown',
+    '@nuxt/content',
   ],
   tailwindcss: {
     configPath: './tailwind.config.js',

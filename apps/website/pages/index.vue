@@ -14,6 +14,9 @@ useHead({
 <template>
   <div class="flex justify-center items-center h-screen w-screen">
     <div class="w-full max-w-xl grid grid-cols-1 gap-6 p-4">
+      <AtomACButton block tag="nuxt-link" to="/charity" target="_blank">
+        Yardim kuruluslari
+      </AtomACButton>
       <div class="text-lg">
         Acil yardım gerektiren insanların yanında olmak ve onlara destek olmak, hepimizin ortak amaçlarından
         biridir. Deprem

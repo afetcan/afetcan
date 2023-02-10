@@ -1,0 +1,28 @@
+{
+    "name": "Kizilay",
+    "slug": "kizilay",
+    "shortDescription": "AFAD",
+    "description": "AFAD",
+    "sms": {
+        "desc": "Cumhurbaşkanlığımız tarafından vatandaşlarımızın yapacağı yardımların AFAD Başkanlığınca koordine edilmesi uygun görülmüş olup, yardımlarınızı banka hesap numaralarının yanı sıra çevrimiçi olarak buradan yapabilirsiniz.",
+        "url": "https://www.afad.gov.tr/depremkampanyasi2",
+        "send": "DEPREM YAZ 1866 SMS Gönder"
+    },
+    "bank": [
+        {
+            "id": "1",
+            "name": "T.C. ZİRAAT BANKASI A.Ş. ANKARA KAMU KURUMSAL ŞUBESİ",
+            "swift": "TCZBTR2A",
+            "TL": "TR 73 0001 0017 4555 5555 5552 04",
+            "USD": "TR 46 0001 0017 4555 5555 5552 05",
+            "EURO": "TR 19 0001 0017 4555 5555 5552 06",
+            "GBP": "TR 43 0001 0017 4555 5555 5553 56"
+        },
+        {
+            "id": "2",
+            "name": "T.C. ZİRAAT BANK INTERNATIONAL AG FRANKFURT ŞUBESİ",
+            "swift": "TCZBDEFF",
+            "EURO": "DE 50 5122 0700 2000 4524 54"
+        }
+    ]
+}

@@ -5,8 +5,16 @@ defineProps({
     default: false,
   },
   tag: {
-    type: String,
+    type: String as PropType<'button' | 'a' | 'nuxt-link'>,
     default: 'button',
+  },
+  href: {
+    type: String,
+    default: undefined,
+  },
+  to: {
+    type: String,
+    default: undefined,
   },
 })
 </script>
@@ -23,12 +31,22 @@ defineProps({
       <slot />
     </button>
   </template>
+  <template v-if="tag === 'nuxt-link'">
+    <NuxtLink
+      class="px-4 py-2 rounded-md text-white bg-gray-500 hover:bg-gray-600" :class="{
+        'w-full': block,
+      }"
+      :to="to"
+    >
+      <slot />
+    </NuxtLink>
+  </template>
   <template v-else>
     <a
       class="px-4 py-2 rounded-md text-white bg-gray-500 hover:bg-gray-600" :class="{
         'w-full': block,
       }"
-      :href="tag === 'button' ? undefined : '#'"
+      :href="href"
       :target="tag === 'button' ? undefined : '_blank'"
     >
       <slot />
