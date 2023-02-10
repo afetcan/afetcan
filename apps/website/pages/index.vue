@@ -12,12 +12,19 @@ useHead({
 </script>
 
 <template>
-  <div class="flex justify-center items-center h-screen w-screen">
+  <div class="flex justify-center items-center">
     <div class="w-full max-w-xl grid grid-cols-1 gap-6 p-4">
-      <AtomACButton block tag="nuxt-link" to="/charity" target="_blank">
-        Yardim kuruluslari
-      </AtomACButton>
-      <div class="text-lg">
+      <NuxtLink class="h-20 flex items-center bg-green-600 text-white rounded text-2xl" to="/charity">
+        <span class="p-4">
+          Yardim kurulusları
+        </span>
+      </NuxtLink>
+      <NuxtLink class="h-20 flex items-center bg-gray-200 text-white rounded text-2xl" to="#">
+        <span class="p-4">
+          ... soon new features
+        </span>
+      </NuxtLink>
+      <div class="text-base mt-40">
         Acil yardım gerektiren insanların yanında olmak ve onlara destek olmak, hepimizin ortak amaçlarından
         biridir. Deprem
         gibi afet durumları, insanların hayatlarını ve evlerini kökten değiştirebilir. Bu nedenle, depremin
@@ -37,7 +44,13 @@ useHead({
         yardımına koşmasına katkı sağlayacağız.
         <br>
         <br>
-        İnşallah yakında aktif olacağız.
+        Acil Destek Takımı
+
+        <p class="mt-8">
+          Acil Destek open source bir proje olduğu için, herkesin katkıda bulunmasını ve geliştirmesini istiyoruz. Bu proje
+          sadece
+          Türkiye'de değil, dünyanın her yerinde depremzedeler için yardım toplayan herkes için kullanılabilir.
+        </p>
       </div>
       <AtomACButton block tag="a" href="https://twitter.com/acildepremcom" target="_blank">
         Twitter

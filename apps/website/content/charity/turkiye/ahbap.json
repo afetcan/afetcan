@@ -1,8 +1,8 @@
 {
     "name": "AHBAP",
     "slug": "ahbap",
-    "shortDescription": "AFAD",
-    "description": "AFAD",
+    "shortDescription": "Ahbap Derneği, müzisyen ve hayırsever Haluk Levent tarafından kurulan, dayanışmaya ve yardımlaşmaya dayalı bir sivil toplum kuruluşudur.",
+    "description": "Ahbap Derneği, müzisyen ve hayırsever Haluk Levent tarafından kurulan, dayanışmaya ve yardımlaşmaya dayalı bir sivil toplum kuruluşudur. Dernek; sosyal yardım, hayvan hakları, insani yardımlar, doğal afet koordinasyon ve yardımları gibi alanlarda çalışmalar sürdürmektedir.",
     "sms": {
         "desc": "Cumhurbaşkanlığımız tarafından vatandaşlarımızın yapacağı yardımların AFAD Başkanlığınca koordine edilmesi uygun görülmüş olup, yardımlarınızı banka hesap numaralarının yanı sıra çevrimiçi olarak buradan yapabilirsiniz.",
         "url": "https://www.afad.gov.tr/depremkampanyasi2",

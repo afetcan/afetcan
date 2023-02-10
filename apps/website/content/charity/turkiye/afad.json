@@ -1,8 +1,8 @@
 {
     "name": "AFAD",
     "slug": "afad",
-    "shortDescription": "AFAD",
-    "description": "AFAD",
+    "shortDescription": "Kurum, Türkiye Cumhuriyeti İçişleri Bakanlığına bağlı olarak çalışmaktadır.",
+    "description": "Kurum, Türkiye Cumhuriyeti İçişleri Bakanlığına bağlı olarak çalışmaktadır.",
     "sms": {
         "desc": "Cumhurbaşkanlığımız tarafından vatandaşlarımızın yapacağı yardımların AFAD Başkanlığınca koordine edilmesi uygun görülmüş olup, yardımlarınızı banka hesap numaralarının yanı sıra çevrimiçi olarak buradan yapabilirsiniz.",
         "url": "https://www.afad.gov.tr/depremkampanyasi2",
