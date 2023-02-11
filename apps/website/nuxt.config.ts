@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@vueuse/nuxt',
     '@pinia/nuxt',
+    '@huntersofbook/chatwoot-nuxt',
   ],
   imports: {
     dirs: [
@@ -51,5 +52,17 @@ export default defineNuxtConfig({
     ],
     defaultLocale: 'tr',
     langDir: 'language/',
+  },
+  chatwoot: {
+    init: {
+      websiteToken: 'AwB8e43XtTQNnXKrwzeGcrJR',
+      baseUrl: 'https://chat.acildeprem.com',
+    },
+    settings: {
+      locale: 'tr',
+      position: 'right',
+      launcherTitle: 'Yardım',
+    },
+    partytown: true,
   },
 })

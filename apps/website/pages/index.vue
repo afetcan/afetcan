@@ -1,4 +1,15 @@
 <script setup lang="ts">
+const {
+  isModalVisible,
+  toggle,
+  toggleBubbleVisibility,
+  popoutChatWindow,
+
+} = useChatWoot()
+
+onMounted(() => {
+  toggleBubbleVisibility('hide')
+})
 useHead({
   title: 'Acil Deprem',
   meta: [
@@ -18,11 +29,17 @@ useHead({
         <MolLogo class="h-14 w-44" />
       </div>
       <div class="grid grid-cols-1 gap-10">
+        <button class="h-20 flex items-center bg-red-600 hover:bg-red-800 text-white rounded text-2xl" to="/charity" @click="toggle('open')">
+          <span class="p-4">
+            Acil Yardım Edin
+          </span>
+        </button>
         <NuxtLink class="h-20 flex items-center bg-green-600 hover:bg-green-800 text-white rounded text-2xl" to="/charity">
           <span class="p-4">
             Yardım kuruluşları
           </span>
         </NuxtLink>
+
         <NuxtLink class="h-20 flex items-center bg-gray-200 text-gray-700 rounded text-2xl" to="#">
           <span class="p-4">
             ... soon new features

@@ -23,6 +23,7 @@ importers:
 
   apps/website:
     specifiers:
+      '@huntersofbook/chatwoot-nuxt': ^1.0.1
       '@huntersofbook/i18n': ^0.5.1
       '@huntersofbook/plausible-nuxt': ^1.0.1
       '@iconify-json/ph': ^1.1.3
@@ -40,6 +41,7 @@ importers:
       pinia: ^2.0.30
       uuid: ^9.0.0
     dependencies:
+      '@huntersofbook/chatwoot-nuxt': 1.0.1
       '@huntersofbook/plausible-nuxt': 1.0.1
       '@iconify-json/ph': 1.1.3
       '@iconify/tailwind': 0.1.1
@@ -969,6 +971,26 @@ packages:
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
+
+  /@huntersofbook/chatwoot-nuxt/1.0.1:
+    resolution: {integrity: sha512-Fqtg2lGXqLN1Eh/g+jmqBCtIlti6hRYXhS+QTyS/9QN9GyblW/NaHjVSTYTkf3d1c++E7R0dJInJSoRSdlYUiA==}
+    dependencies:
+      '@huntersofbook/chatwoot-vue': 1.0.0
+      '@nuxt/kit': 3.2.0
+      defu: 6.1.2
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+      - vue
+    dev: false
+
+  /@huntersofbook/chatwoot-vue/1.0.0:
+    resolution: {integrity: sha512-tlKwlbZCYjvUiEbx+I3+giOJJzn1JFimiIUjkBX+X4Qf+uICb9Ba+qkP3zNCyvOqveVjOnUcwZjlqMJW9VLchg==}
+    peerDependencies:
+      vue: ^3.2.45
+    dependencies:
+      defu: 6.1.2
+    dev: false
 
   /@huntersofbook/i18n/0.5.1:
     resolution: {integrity: sha512-VnUiSngAN/RxjqyL3PSj1r0TYg8d+TPrGsOgNx+plJoI0ubmOl17072IwQyMAy8syoND1JlSI7Xre8tYezYIKA==}
