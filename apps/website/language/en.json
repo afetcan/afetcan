@@ -1,16 +1,23 @@
 {
   "charity": {
     "allCharities": "All Charities",
+    "allCountries": "All Countries",
     "charities": "Charities",
     "description": "The data on this page is obtained from institutions and help sites. Irrespectively, we list all fundraisers supervised by the state. If a roster data is missing, incorrect or should not be added, please contact us. If we are contacted and changes are requested, the requirements will be fulfilled automatically.",
     "donate": "Donate"
   },
+  "country": {
+    "add": "Add Country"
+  },
   "global": {
     "back": "Back",
     "copy": "Copy",
+    "error": "Error",
     "home": "Home",
     "save": "Save",
-    "share": "Share"
+    "share": "Share",
+    "success": "Success",
+    "successCopy": "Copied to clipboard"
   },
   "home": {
     "charities": "Charities",

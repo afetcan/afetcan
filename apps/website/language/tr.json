@@ -1,16 +1,23 @@
 {
   "charity": {
     "allCharities": "Tüm Hayır Kurumları",
+    "allCountries": "Tüm Ülkeler",
     "charities": "Hayır Kurumları",
     "description": "Bu sayfadaki veriler kurumlardan ve yardım sitelerinden elde edilmektedir. Devlet tarafından denetlenen tüm bağış toplama etkinliklerini ayrı ayrı listeleriz. Liste verisi eksikse, yanlışsa veya eklenmemesi gerekiyorsa, lütfen bizimle iletişime geçin. Bizimle iletişime geçilmesi ve değişiklik talep edilmesi durumunda gereklilikler otomatik olarak yerine getirilecektir.",
     "donate": "Bağış Yap"
   },
+  "country": {
+    "add": "Ülke Ekle"
+  },
   "global": {
     "back": "Geri",
     "copy": "Kopyala",
+    "error": "Hata",
     "home": "Anasayfa",
     "save": "Kaydet",
-    "share": "Paylaş"
+    "share": "Paylaş",
+    "success":  "Başarılı",
+    "successCopy": "Başarıyla kopyalandı"
   },
   "home": {
     "charities": "Hayır Kurumları",

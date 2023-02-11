@@ -14,7 +14,7 @@ const { t } = useI18n()
       <MolLogo class="h-20 w-44" />
     </NuxtLink>
     <div class="space-x-4">
-      <NuxtLink class="bg-gray-200 h-10 px-4 rounded flex items-center max-w-min" to="/">
+      <NuxtLink class="bg-gray-200 h-10 px-4 rounded flex items-center max-w-min hover:bg-gray-400" to="/">
         <div class="icon-[ph--house-simple-duotone] w-5 h-5 mr-1" />
         {{ t('global.home') }}
       </NuxtLink>
