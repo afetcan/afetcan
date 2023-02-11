@@ -1,0 +1,12 @@
+{
+    "country": [
+        {
+            "name": "Türkiye",
+            "slug": "turkiye",
+            "icon": "icon-[twemoji--flag-turkey]",
+            "descriptionTR": "10 ili etkileyen Kahramanmaraş depremi sonrasında acı haberler peş peşe geldi. Toplamda 12 bin 141 fazla bina çöktü. Binlerce ölü ve yaralı var. Yardım göndermek için tıklayın.",
+            "descriptionEN": "After the earthquake in Kahramanmaraş, which affected 10 provinces, bad news came one after another. A total of 12,141 more buildings collapsed. There are thousands of dead and injured. Click to send help.",
+            "level": 3
+        }
+    ]
+}
