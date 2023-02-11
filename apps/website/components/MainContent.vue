@@ -20,7 +20,7 @@ const wideLayout = computed(() => route.meta.wideLayout ?? false)
   <div>
     <div
       :class="isHydrated && wideLayout ? 'xl:w-full sm:max-w-[600px]' : 'sm:max-w-[600px] md:shrink-0'"
-      class="sticky top-0 z-10 backdrop-blur backdrop-filter env(safe-area-inset-top,0) m-auto"
+      class="sticky top-0 z-10 backdrop-blur backdrop-filter env(safe-area-inset-top,0) m-auto border-b-2 border-gray-300"
     >
       <div class="flex justify-between px-4 py-2 bg-gray-200">
         <div flex gap-3 items-center :overflow-hidden="!noOverflowHidden ? '' : false" py2 w-full>
