@@ -3,24 +3,15 @@ const {
   toggleBubbleVisibility,
 } = useChatWoot()
 onMounted(() => {
-  toggleBubbleVisibility('show')
+  toggleBubbleVisibility('hide')
 })
 const { t } = useI18n()
 </script>
 
 <template>
-  <div class="max-w-xl mx-auto py-4 px-4 md:px-0">
-    <NuxtLink to="/" class="flex items-center justify-center mb-4">
-      <MolLogo class="h-20 w-44" />
-    </NuxtLink>
-    <div class="space-x-4">
-      <NuxtLink class="bg-gray-200 h-10 px-4 rounded flex items-center max-w-min hover:bg-gray-400" to="/">
-        <div class="icon-[ph--house-simple-duotone] w-5 h-5 mr-1" />
-        {{ t('global.home') }}
-      </NuxtLink>
-    </div>
-    <slot />
+  <slot />
 
+  <div class="flex justify-center items-center w-full max-w-xl mx-auto px-4">
     <div class="mt-20 text-sm text-gray-600">
       <p class="text-sm mb-10">
         {{ t('charity.description') }}

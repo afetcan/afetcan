@@ -15,6 +15,7 @@
     "back": "Back",
     "copy": "Copy",
     "error": "Error",
+    "help": "Help",
     "home": "Home",
     "save": "Save",
     "share": "Share",
@@ -27,5 +28,8 @@
     "description2": "Since Emergency Support is an open source project, we want everyone to contribute and improve. This project can be used by anyone who collects aid for earthquake victims not only in Türkiye but all over the world.",
     "emergencyHelp": "Emergency Help",
     "soonFeatures": "New Services Coming Soon"
+  },
+  "settings": {
+    "selectLanguage": "Select Language"
   }
 }

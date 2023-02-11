@@ -15,6 +15,7 @@
     "back": "Geri",
     "copy": "Kopyala",
     "error": "Hata",
+    "help": "Help",
     "home": "Anasayfa",
     "save": "Kaydet",
     "share": "Paylaş",
@@ -27,5 +28,8 @@
     "description2": "Acil Durum Desteği açık kaynaklı bir proje olduğu için herkesin katkıda bulunmasını ve geliştirmesini istiyoruz. Sadece Türkiye'de değil, tüm dünyada depremzedeler için yardım toplayan herkes bu projeden faydalanabilir.",
     "emergencyHelp": "Acil Yardım",
     "soonFeatures": "Yeni Hizmetler Çok Yakında"
+  },
+  "settings": {
+    "selectLanguage": "Select Language"
   }
 }

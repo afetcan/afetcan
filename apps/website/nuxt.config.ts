@@ -17,8 +17,10 @@ export default defineNuxtConfig({
   ],
   imports: {
     dirs: [
-      'stores',
+      './stores',
+      './composables/settings',
     ],
+    injectAtEnd: true,
   },
   pinia: {
     autoImports: [

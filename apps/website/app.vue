@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <!-- Markup shared across all pages, ex: NavBar -->
+  <NuxtLoadingIndicator color="#4444" />
+
+  <NuxtLayout>
     <NuxtPage />
-  </div>
+  </NuxtLayout>
 </template>
