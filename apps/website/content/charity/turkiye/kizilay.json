@@ -1,57 +1,52 @@
 {
     "name": "Kızılay",
     "slug": "kizilay",
-    "shortDescription": "AFAD",
-    "description": "AFAD",
+    "website_url": "https://www.kizilay.org.tr",
+    "donation_url": "https://www.kizilay.org.tr/bagis-yontemleri/banka-yolu-ile-bagis/21",
+    "shortDescription": "KIZILAY",
+    "description": "KIZILAY",
     "sms": {
-        "desc": "Cumhurbaşkanlığımız tarafından vatandaşlarımızın yapacağı yardımların AFAD Başkanlığınca koordine edilmesi uygun görülmüş olup, yardımlarınızı banka hesap numaralarının yanı sıra çevrimiçi olarak buradan yapabilirsiniz.",
-        "url": "https://www.afad.gov.tr/depremkampanyasi2",
-        "send": "DEPREM YAZ 1866 SMS Gönder"
+        "desc": "",
+        "url": "https://www.kizilay.org.tr/Bagis/BagisYap/404/pazarcik-depremi-bagisi",
+        "send": "DEPREM YAZ 2868 SMS Gönder (1 SMS 15TL)",
+        "i18n": [
+            "turkiye"
+        ]
     },
     "bank": [
         {
             "id": "1",
-            "name": "T.C. ZİRAAT BANKASI A.Ş. ANKARA KAMU KURUMSAL ŞUBESİ",
+            "name": "T.C. ZİRAAT BANKASI A.Ş. ANKARA ÇUKURAMBAR ŞUBESİ",
             "swift": "TCZBTR2A",
             "eft": [
                 {
                     "currency": "TL",
-                    "account": "TR 73 0001 0017 4555 5555 5552 04"
+                    "account": "TR 48 0001 0021 1000 0028 6852 54"
                 },
                 {
                     "currency": "USD",
-                    "account": "TR 46 0001 0017 4555 5555 5552 05"
+                    "account": "TR 21 0001 0021 1000 0028 6852 55"
                 },
                 {
                     "currency": "EURO",
-                    "account": "TR 19 0001 0017 4555 5555 5552 06"
+                    "account": "TR 91 0001 0021 1000 0028 6852 56"
                 },
                 {
                     "currency": "GBP",
-                    "account": "TR 43 0001 0017 4555 5555 5553 56"
+                    "account": "TR 25 0001 0021 1039 0090 2631 40"
                 }
             ]
         },
         {
             "id": "2",
-            "name": "T.C. ZİRAAT BANK INTERNATIONAL AG FRANKFURT ŞUBESİ",
+            "name": "ZİRAAT BANK INTERNATIONAL AG",
+            "address": "Filiale Frankfurt Am Hauptbahnhof 16 60329 Frankfurt",
             "swift": "TCZBDEFF",
+            "konto_no": "1080000001",
             "eft": [
                 {
-                    "currency": "TL",
-                    "account": "TR 73 0001 0017 4555 5555 5552 04"
-                },
-                {
-                    "currency": "USD",
-                    "account": "TR 46 0001 0017 4555 5555 5552 05"
-                },
-                {
                     "currency": "EURO",
-                    "account": "TR 19 0001 0017 4555 5555 5552 06"
-                },
-                {
-                    "currency": "GBP",
-                    "account": "TR 43 0001 0017 4555 5555 5553 56"
+                    "account": "DE 26 5122 0700 1080 0000 01"
                 }
             ]
         }

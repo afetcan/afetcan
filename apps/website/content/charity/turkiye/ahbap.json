@@ -1,57 +1,40 @@
 {
     "name": "AHBAP",
     "slug": "ahbap",
+    "website_url": "https://ahbap.org",
+    "donation_url": "https://ahbap.org/bagisci-ol",
     "shortDescription": "Ahbap Derneği, müzisyen ve hayırsever Haluk Levent tarafından kurulan, dayanışmaya ve yardımlaşmaya dayalı bir sivil toplum kuruluşudur.",
     "description": "Ahbap Derneği, müzisyen ve hayırsever Haluk Levent tarafından kurulan, dayanışmaya ve yardımlaşmaya dayalı bir sivil toplum kuruluşudur. Dernek; sosyal yardım, hayvan hakları, insani yardımlar, doğal afet koordinasyon ve yardımları gibi alanlarda çalışmalar sürdürmektedir.",
-    "sms": {
-        "desc": "Cumhurbaşkanlığımız tarafından vatandaşlarımızın yapacağı yardımların AFAD Başkanlığınca koordine edilmesi uygun görülmüş olup, yardımlarınızı banka hesap numaralarının yanı sıra çevrimiçi olarak buradan yapabilirsiniz.",
-        "url": "https://www.afad.gov.tr/depremkampanyasi2",
-        "send": "DEPREM YAZ 1866 SMS Gönder"
-    },
+    "sms": {},
     "bank": [
         {
             "id": "1",
-            "name": "T.C. ZİRAAT BANKASI A.Ş. ANKARA KAMU KURUMSAL ŞUBESİ",
-            "swift": "TCZBTR2A",
+            "name": "TÜRKİYE İŞ BANKASI A.Ş.",
+            "swift": "ISBKTRIS",
             "eft": [
                 {
                     "currency": "TL",
-                    "account": "TR 73 0001 0017 4555 5555 5552 04"
+                    "account": "TR 12 0006 4000 0011 0211 3800 59"
                 },
                 {
                     "currency": "USD",
-                    "account": "TR 46 0001 0017 4555 5555 5552 05"
+                    "account": "TR 32 0006 4000 0021 0212 1502 62"
                 },
                 {
                     "currency": "EURO",
-                    "account": "TR 19 0001 0017 4555 5555 5552 06"
+                    "account": "TR 15 0006 4000 0021 0212 1502 77"
                 },
                 {
                     "currency": "GBP",
-                    "account": "TR 43 0001 0017 4555 5555 5553 56"
-                }
-            ]
-        },
-        {
-            "id": "2",
-            "name": "T.C. ZİRAAT BANK INTERNATIONAL AG FRANKFURT ŞUBESİ",
-            "swift": "TCZBDEFF",
-            "eft": [
-                {
-                    "currency": "TL",
-                    "account": "TR 73 0001 0017 4555 5555 5552 04"
+                    "account": "TR 37 0006 4000 0021 0212 2608 49"
                 },
                 {
-                    "currency": "USD",
-                    "account": "TR 46 0001 0017 4555 5555 5552 05"
+                    "currency": "AUD",
+                    "account": "TR 23 0006 4000 0021 0212 29 00 07"
                 },
                 {
-                    "currency": "EURO",
-                    "account": "TR 19 0001 0017 4555 5555 5552 06"
-                },
-                {
-                    "currency": "GBP",
-                    "account": "TR 43 0001 0017 4555 5555 5553 56"
+                    "currency": "JPY",
+                    "account": "TR 09 0006 4000 0021 0212 2899 68"
                 }
             ]
         }
