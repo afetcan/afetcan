@@ -16,6 +16,10 @@ defineProps({
     type: String,
     default: undefined,
   },
+  target: {
+    type: String,
+    default: undefined,
+  },
 })
 </script>
 
@@ -47,7 +51,7 @@ defineProps({
         'w-full': block,
       }"
       :href="href"
-      :target="tag === 'button' ? undefined : '_blank'"
+      :target="target ? target : '_blank'"
     >
       <slot />
     </a>

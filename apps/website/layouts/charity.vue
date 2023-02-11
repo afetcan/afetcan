@@ -1,7 +1,11 @@
 <template>
   <div class="max-w-xl mx-auto py-4 px-4 md:px-0">
-    <div class="space-x-4 m-5">
-      <NuxtLink class="bg-gray-200 p-4 rounded" to="/">
+    <NuxtLink to="/" class="flex items-center justify-center mb-4">
+      <MolLogo class="h-20 w-44" />
+    </NuxtLink>
+    <div class="space-x-4">
+      <NuxtLink class="bg-gray-200 h-10 px-4 rounded flex items-center max-w-min" to="/">
+        <div class="icon-[ph--house-simple-duotone] w-5 h-5 mr-1" />
         Anasayfa
       </NuxtLink>
     </div>
@@ -20,7 +24,7 @@
         Acil Destek open source bir proje olduğu için, herkesin katkıda bulunmasını ve geliştirmesini istiyoruz. Bu proje sadece
         Türkiye'de değil, dünyanın her yerinde depremzedeler için yardım toplayan herkes için kullanılabilir.
       </p>
-      <div class="mt-8 grid grid-cols-3 gap-6">
+      <div class="mt-8 grid grid-cols-3 gap-6 mb-20">
         <a href="https://twitter.com/acildepremcom" class="bg-gray-200 rounded p-2" target="_blank">
           Github
         </a>

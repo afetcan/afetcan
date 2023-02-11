@@ -8,7 +8,19 @@ export default defineNuxtConfig({
     '@huntersofbook/plausible-nuxt',
     '@nuxtjs/partytown',
     '@nuxt/content',
+    '@vueuse/nuxt',
+    '@pinia/nuxt',
   ],
+  imports: {
+    dirs: [
+      'stores',
+    ],
+  },
+  pinia: {
+    autoImports: [
+      'defineStore',
+    ],
+  },
   tailwindcss: {
     configPath: './tailwind.config.js',
   },

@@ -13,16 +13,47 @@
             "id": "1",
             "name": "T.C. ZİRAAT BANKASI A.Ş. ANKARA KAMU KURUMSAL ŞUBESİ",
             "swift": "TCZBTR2A",
-            "TL": "TR 73 0001 0017 4555 5555 5552 04",
-            "USD": "TR 46 0001 0017 4555 5555 5552 05",
-            "EURO": "TR 19 0001 0017 4555 5555 5552 06",
-            "GBP": "TR 43 0001 0017 4555 5555 5553 56"
+            "eft": [
+                {
+                    "currency": "TL",
+                    "account": "TR 73 0001 0017 4555 5555 5552 04"
+                },
+                {
+                    "currency": "USD",
+                    "account": "TR 46 0001 0017 4555 5555 5552 05"
+                },
+                {
+                    "currency": "EURO",
+                    "account": "TR 19 0001 0017 4555 5555 5552 06"
+                },
+                {
+                    "currency": "GBP",
+                    "account": "TR 43 0001 0017 4555 5555 5553 56"
+                }
+            ]
         },
         {
             "id": "2",
             "name": "T.C. ZİRAAT BANK INTERNATIONAL AG FRANKFURT ŞUBESİ",
             "swift": "TCZBDEFF",
-            "EURO": "DE 50 5122 0700 2000 4524 54"
+            "eft": [
+                {
+                    "currency": "TL",
+                    "account": "TR 73 0001 0017 4555 5555 5552 04"
+                },
+                {
+                    "currency": "USD",
+                    "account": "TR 46 0001 0017 4555 5555 5552 05"
+                },
+                {
+                    "currency": "EURO",
+                    "account": "TR 19 0001 0017 4555 5555 5552 06"
+                },
+                {
+                    "currency": "GBP",
+                    "account": "TR 43 0001 0017 4555 5555 5553 56"
+                }
+            ]
         }
     ]
 }
