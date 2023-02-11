@@ -1,6 +1,5 @@
 <script setup lang="ts">
 // only one icon can be lit up at the same time
-const moreMenuVisible = ref(false)
 const { t } = useI18n()
 const {
   toggle,

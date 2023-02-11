@@ -2,8 +2,8 @@ import type { Directions } from 'vue-i18n-routing'
 import type { LocaleObject } from '#i18n'
 
 export function setupPageHeader() {
-  const { locale, locales, t } = useI18n()
-  const colorMode = useColorMode()
+  const { locale, locales } = useI18n()
+  // const colorMode = useColorMode()
 
   const localeMap = (locales.value as LocaleObject[]).reduce((acc, l) => {
     acc[l.code!] = l.dir ?? 'auto'
