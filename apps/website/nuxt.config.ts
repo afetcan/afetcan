@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@pinia/nuxt',
     '@huntersofbook/chatwoot-nuxt',
+    '@vue-macros/nuxt',
   ],
   imports: {
     dirs: [
