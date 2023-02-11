@@ -41,7 +41,7 @@ onMounted(() => {
                       {{ item.name }}
                     </h3>
                     <p class="text-sm opacity-75">
-                      {{ item.descriptionTR }}
+                      {{ locale === 'en' ? item.descriptionEN : item.descriptionTR }}
                     </p>
                   </div>
                   <div class="icon-[ph--caret-right-bold] w-8 h-8 mb-2 flex flex-none text-red-600" />

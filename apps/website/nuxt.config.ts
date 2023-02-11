@@ -45,7 +45,7 @@ export default defineNuxtConfig({
   i18n,
   chatwoot: {
     init: {
-      websiteToken: 'AwB8e43XtTQNnXKrwzeGcrJR',
+      websiteToken: 'ib83pxJACnfjmBGnm8unHCo2',
       baseUrl: 'https://chat.acildeprem.com',
     },
     settings: {
@@ -81,7 +81,7 @@ export default defineNuxtConfig({
         { property: 'og:title', content: 'acildeprem' },
         { property: 'og:description', content: 'It is an open source project that provides uninterrupted service in the event of an emergency earthquake.' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:image', content: 'https://acildeprem/acildeprem-og.png' },
+        { property: 'og:image', content: 'https://acildeprem/acildeprem-og-en.png' },
         { property: 'og:image:width', content: '3800' },
         { property: 'og:image:height', content: '1900' },
         { property: 'og:site_name', content: 'acildeprem' },

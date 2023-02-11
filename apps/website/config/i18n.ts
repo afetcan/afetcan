@@ -10,14 +10,14 @@ export interface ILocales {
 
 export const availableLocales: ILocales = {
   en: {
-    name: 'EN',
+    name: 'English',
     iso: 'en',
-    flag: 'i-twemoji-flag-us-outlying-islands',
+    flag: 'icon-[twemoji--flag-turkey]',
   },
   tr: {
-    name: 'TR',
+    name: 'Türkçe',
     iso: 'tr',
-    flag: 'i-twemoji-flag-turkey',
+    flag: 'icon-[twemoji--flag-united-states]',
   },
 }
 

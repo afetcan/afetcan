@@ -10,6 +10,9 @@
     "error": "Error",
     "help": "Help"
   },
+  "app": {
+    "description": "Earthquakes are everywhere. We are ready, for the whole world. All our resources are open and accessible."
+  },
   "home": {
     "emergencyHelp": "Emergency Help",
     "charities": "Charities",
@@ -24,7 +27,8 @@
     "donation": "Donation Resource",
     "allCharities": "All Charities",
     "allCountries": "All Countries",
-    "description": "The data on this page is obtained from institutions and help sites. Irrespectively, we list all fundraisers supervised by the state. If a roster data is missing, incorrect or should not be added, please contact us. If we are contacted and changes are requested, the requirements will be fulfilled automatically."
+    "description": "The data on this page is obtained from institutions and help sites. Irrespectively, we list all fundraisers supervised by the state. If a roster data is missing, incorrect or should not be added, please contact us. If we are contacted and changes are requested, the requirements will be fulfilled automatically.",
+    "addCharity": "Add Charity"
   },
   "country": {
     "add": "Add Country"

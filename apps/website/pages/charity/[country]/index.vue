@@ -6,6 +6,10 @@ const getSlug = computed(() => {
 const { data } = await useAsyncData(() => queryContent<any>(`charity/${getSlug.value}`).find())
 
 const { t } = useI18n()
+
+const {
+  toggle,
+} = useChatWoot()
 </script>
 
 <template>
@@ -43,6 +47,9 @@ const { t } = useI18n()
             </NuxtLink>
           </div>
         </ContentRenderer>
+        <div class="bg-gray-200 p-4 rounded flex hover:bg-gray-400 opacity-75 mt-10" @click="toggle('open')">
+          {{ t('charity.addCharity') }}
+        </div>
       </div>
     </MainContent>
   </NuxtLayout>

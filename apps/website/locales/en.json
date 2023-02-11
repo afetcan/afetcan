@@ -1,5 +1,9 @@
 {
+  "app": {
+    "description": "Earthquakes are everywhere. We are ready, for the whole world. All our resources are open and accessible."
+  },
   "charity": {
+    "addCharity": "Add Charity",
     "allCharities": "All Charities",
     "allCountries": "All Countries",
     "charities": "Charities",

@@ -1,4 +1,4 @@
-import en from './language/en.json'
+import en from './locales/en.json'
 
 type MessageSchema = typeof en
 

@@ -19,12 +19,15 @@ const { t } = useI18n()
       <p>
         {{ t('home.description2') }}
       </p>
-      <div class="mt-8 grid grid-cols-3 gap-6 mb-20">
+      <div class="mt-8 grid sm:grid-cols-3 gap-6 mb-20">
         <a href="https://twitter.com/acildepremcom" class="bg-gray-200 rounded p-2" target="_blank">
           Github
         </a>
         <a href="https://twitter.com/acildepremcom" class="bg-gray-200 rounded p-2" target="_blank">
           Twitter
+        </a>
+        <a class="bg-gray-200 rounded p-2" href="https://discord.acildeprem.com" target="_blank">
+          Discord
         </a>
       </div>
     </div>

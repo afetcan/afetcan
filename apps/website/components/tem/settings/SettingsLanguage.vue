@@ -15,12 +15,21 @@ watch(selectLang, (newV, oldV) => {
     setLocale(selectLang.value)
   }
 })
+const getFlag = computed(() => {
+  return availableLocales[locale.value].flag
+})
 </script>
 
 <template>
-  <select v-model="selectLang" class="w-32 sm:w-40 h-10 px-4 bg-gray-300 rounded-lg">
-    <option v-for="item in availableLocales" :key="item.iso" class="bg-gray-200" :value="item.iso" :selected="selectLang === item.iso">
-      {{ item.name }}
-    </option>
-  </select>
+  <div class="flex items-center">
+    <div v-if="selectLang" :class="getFlag" class="w-8 h-8 mr-2" />
+    <select v-model="selectLang" class="w-32 sm:w-40 h-10 px-4 bg-gray-400 rounded-lg">
+      <option
+        v-for="item in availableLocales" :key="item.iso" class="bg-gray-200" :value="item.iso"
+        :selected="selectLang === item.iso"
+      >
+        {{ item.name }}
+      </option>
+    </select>
+  </div>
 </template>
