@@ -10,11 +10,10 @@ defineProps<{
 
 const route = useRoute()
 const wideLayout = computed(() => route.meta.wideLayout ?? false)
-const { t } = useI18n()
 
-useHeadFixed({
-  title: () => `${t('settings.language.label')} | ${t('nav.settings')}`,
-})
+// useHeadFixed({
+//   title: () => `${t('settings.language.label')} | ${t('nav.settings')}`,
+// })
 </script>
 
 <template>
@@ -27,7 +26,7 @@ useHeadFixed({
         <div flex gap-3 items-center :overflow-hidden="!noOverflowHidden ? '' : false" py2 w-full>
           <NuxtLink
             v-if="backOnSmallScreen || back" flex="~ gap1" class="items-center btn-text p-0 xl:hidden"
-            :aria-label="$t('nav.back')"
+            :aria-label="$t('global.back')"
             @click="$router.go(-1)"
           >
             <div i-ri:arrow-left-line class="rtl-flip" />

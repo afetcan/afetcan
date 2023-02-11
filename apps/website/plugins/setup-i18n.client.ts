@@ -4,15 +4,15 @@ import type { LocaleObject } from 'vue-i18n-routing'
 export default defineNuxtPlugin(async (nuxt) => {
   const i18n = nuxt.vueApp.config.globalProperties.$i18n as VueI18n
   const { setLocale, locales } = i18n
-  const userSettings = useUserSettings()
-  const lang = $computed(() => userSettings.value.language)
+  const userSettings = useCookie('language')
+  const lang = $computed(() => userSettings.value || 'tr')
 
   const supportLanguages = (locales as LocaleObject[]).map(locale => locale.code)
   if (!supportLanguages.includes(lang))
-    userSettings.value.language = getDefaultLanguage(supportLanguages)
+    userSettings.value = 'tr'
 
-  watch([$$(lang), isHydrated], () => {
+  watch([$$(lang)], () => {
     if (isHydrated.value && lang !== i18n.locale)
-      setLocale(lang)
+      setLocale('lang')
   }, { immediate: true })
 })

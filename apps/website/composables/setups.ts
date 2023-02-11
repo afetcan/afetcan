@@ -4,13 +4,12 @@ import type { LocaleObject } from '#i18n'
 export function setupPageHeader() {
   const { locale, locales, t } = useI18n()
   const colorMode = useColorMode()
-  const enablePinchToZoom = usePreferences('enablePinchToZoom')
 
   const localeMap = (locales.value as LocaleObject[]).reduce((acc, l) => {
     acc[l.code!] = l.dir ?? 'auto'
     return acc
   }, {} as Record<string, Directions>)
-
+  const enablePinchToZoom = computed(() => false)
   useHeadFixed({
     htmlAttrs: {
       lang: () => locale.value,

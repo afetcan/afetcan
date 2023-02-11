@@ -12,6 +12,9 @@
         "src/assets",
         "**.yaml",
         "turbo.json",
-        "renovate.json"
+        "renovate.json",
+        "**content",
+        "**locales",
+        "**.vscode"
     ]
 }
