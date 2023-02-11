@@ -37,7 +37,7 @@ export default defineNuxtConfig({
   },
   plausible: {
     init: {
-      domain: 'acildeprem.cim',
+      domain: 'acildeprem.com',
       apiHost: 'https://rapor.acildeprem.com',
     },
     partytown: true,
