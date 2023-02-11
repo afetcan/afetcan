@@ -1,8 +1,8 @@
 {
     "name": "AFAD",
     "slug": "afad",
-    "website_url": "https://www.afad.gov.tr",
-    "donation_url": "https://www.afad.gov.tr/deprem-bagislari",
+    "websiteUrl": "https://www.afad.gov.tr",
+    "donationUrl": "https://www.afad.gov.tr/deprem-bagislari",
     "shortDescription": "Kurum, Türkiye Cumhuriyeti İçişleri Bakanlığına bağlı olarak çalışmaktadır.",
     "description": "Kurum, Türkiye Cumhuriyeti İçişleri Bakanlığına bağlı olarak çalışmaktadır.",
     "sms": {

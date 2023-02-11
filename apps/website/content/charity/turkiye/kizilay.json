@@ -1,8 +1,8 @@
 {
     "name": "Kızılay",
     "slug": "kizilay",
-    "website_url": "https://www.kizilay.org.tr",
-    "donation_url": "https://www.kizilay.org.tr/bagis-yontemleri/banka-yolu-ile-bagis/21",
+    "websiteUrl": "https://www.kizilay.org.tr",
+    "donationUrl": "https://www.kizilay.org.tr/bagis-yontemleri/banka-yolu-ile-bagis/21",
     "shortDescription": "KIZILAY",
     "description": "KIZILAY",
     "sms": {

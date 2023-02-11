@@ -1,8 +1,8 @@
 {
     "name": "İnsan Hak ve Hürriyetleri ve İnsani Yardım Vakfı",
     "slug": "ihh",
-    "website_url": "https://ihh.org.tr",
-    "donation_url": "https://ihh.org.tr/hesap-numaralari",
+    "websiteUrl": "https://ihh.org.tr",
+    "donationUrl": "https://ihh.org.tr/hesap-numaralari",
     "shortDescription": "İHH",
     "description": "İHH",
     "sms": {
