@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { isDevelopment } from 'std-env'
+import { i18n } from './config/i18n'
 
 export default defineNuxtConfig({
   modules: [
@@ -31,7 +32,8 @@ export default defineNuxtConfig({
     configPath: './tailwind.config.js',
   },
   huntersofbookI18n: {
-    languages: ['tr', 'en'],
+    languages: ['tr-TR', 'en-US'],
+    exportDir: 'locales',
   },
   plausible: {
     init: {
@@ -40,24 +42,7 @@ export default defineNuxtConfig({
     },
     partytown: true,
   },
-  i18n: {
-    locales: [
-      {
-        code: 'tr',
-        iso: 'tr-TR',
-        name: 'Türkçe',
-        file: 'tr.json',
-      },
-      {
-        code: 'en',
-        iso: 'en-US',
-        name: 'English',
-        file: 'en.json',
-      },
-    ],
-    defaultLocale: 'tr',
-    langDir: 'language/',
-  },
+  i18n,
   chatwoot: {
     init: {
       websiteToken: 'AwB8e43XtTQNnXKrwzeGcrJR',

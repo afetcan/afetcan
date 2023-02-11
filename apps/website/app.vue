@@ -1,7 +1,10 @@
-<template>
-  <NuxtLoadingIndicator color="#4444" />
+<script setup lang="ts">
+setupPageHeader()
+</script>
 
+<template>
   <NuxtLayout>
+    <NuxtLoadingIndicator />
     <NuxtPage />
   </NuxtLayout>
 </template>

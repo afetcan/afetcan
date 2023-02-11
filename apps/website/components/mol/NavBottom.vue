@@ -12,16 +12,16 @@ const open = () => {
 
 <template>
   <nav
-    class="after:content-none after:h-[calc(100%+0.5px)] bg-gray-200 text-black overflow-y-hidden overscroll-none h-14 grid grid-cols-3"
+    class="after:content-none after:h-[calc(100%+0.5px)] bg-gray-200 text-black overflow-y-hidden overscroll-none h-14 grid grid-cols-2"
   >
     <NuxtLink
-      to="/" class="flex flex-row items-center place-content-center h-full flex-1" @click="$scrollToTop"
+      to="/" class="flex text-sm flex-col items-center place-content-center h-full flex-1" @click="$scrollToTop"
     >
-      <div i-ri:hashtag />
+      <div class="icon-[ph--house-simple-fill] w-6 h-6" />
       {{ t('global.home') }}
     </NuxtLink>
-    <button class="flex flex-col col-span-2 flex-row items-center place-content-center h-full flex-1" @click="open()">
-      <div i-ri:group-2-line />
+    <button class="flex text-sm flex-col items-center place-content-center h-full flex-1" @click="open()">
+      <div class="icon-[ph--shield-plus-fill] w-6 h-6" />
       {{ t('global.help') }}
     </button>
   </nav>
