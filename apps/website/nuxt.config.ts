@@ -65,4 +65,11 @@ export default defineNuxtConfig({
     },
     partytown: true,
   },
+  typescript: {
+    tsConfig: {
+      include: [
+        './shims-vue.d.ts',
+      ],
+    },
+  },
 })

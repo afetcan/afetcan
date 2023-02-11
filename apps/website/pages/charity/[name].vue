@@ -7,7 +7,8 @@ const { text, copy, copied, isSupported } = useClipboard({ source })
 const route = useRoute()
 const appStore = useAppStore()
 
-const addNotification = (notification: Notification) => {
+const copyAccount = (data: any, notification?: Notification) => {
+  copy(data)
   appStore.dispatchNotification({ title: 'Success!', content: 'Your action was successfully submitted', type: 'success' })
 }
 
@@ -19,15 +20,6 @@ const { data } = await useAsyncData(() => queryContent<any>('charity/turkiye').w
 </script>
 
 <template>
-  <Teleport to="body">
-    <OrgNotificationProvider>
-      <div class="m-4">
-        <button @click="addNotification()">
-          bildirim
-        </button>
-      </div>
-    </OrgNotificationProvider>
-  </Teleport>
   <NuxtLayout name="charity">
     <div class="pt-4">
       <NuxtLink to="/charity" class="bg-gray-200 h-10 px-4 rounded flex items-center w-full">
@@ -48,7 +40,7 @@ const { data } = await useAsyncData(() => queryContent<any>('charity/turkiye').w
             <h3 class="mb-4 text-base font-semibold">
               {{ bankItem.name }}
             </h3>
-            <div v-for="eft in bankItem.eft" :key="eft.currency" class="bg-gray-200 p-2 rounded">
+            <div v-for="eft in bankItem.eft" :key="eft.currency" class="divide divide-y-2 p-2 rounded">
               <div class="flex items-center font-medium">
                 <div class="icon-[ph--bank-thin] w-5 h-5 mr-1 " />
                 {{ eft.currency }}
@@ -56,11 +48,13 @@ const { data } = await useAsyncData(() => queryContent<any>('charity/turkiye').w
               {{ eft.account }}
               <div class="grid grid-cols-2 gap-2 mt-4">
                 <button>
-                  paylas
+                  Paylaş
                 </button>
-                <button @click="copy(eft.account)">
-                  kopyala
-                </button>
+                <OrgNotificationProvider>
+                  <button class="bg-gray-200 h-10" @click="copyAccount(eft.account)">
+                    Kopyala
+                  </button>
+                </OrgNotificationProvider>
               </div>
             </div>
           </div>
