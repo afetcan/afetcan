@@ -33,6 +33,7 @@ export const i18n: NuxtI18nOptions = {
       file: 'en.json',
     },
     { code: 'tr', file: 'tr.json' },
+    { code: 'de', file: 'de.json' },
   ],
   defaultLocale: 'tr',
   lazy: true,
