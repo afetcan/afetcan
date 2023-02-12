@@ -1,0 +1,39 @@
+{
+  "app": {
+    "description": "Erdbeben sind überall. Wir sind bereit für die ganze Welt. Alle unsere Ressourcen sind offen und zugänglich."
+  },
+  "charity": {
+    "addCharity": "Charity hinzufügen",
+    "allCharities": "Alle Wohltätigkeitsorganisationen",
+    "allCountries": "Alle Länder",
+    "charities": "Wohltätigkeitsorganisationen",
+    "description": "Die Daten auf dieser Seite werden von Institutionen und Hilfeseiten erhalten. Unabhängig davon listen wir alle von der Regierung überwachten Spendenaufrufe auf. Wenn Verzeichnisdaten fehlen, falsch sind oder nicht hinzugefügt werden sollten, kontaktieren Sie uns bitte. Wenn wir kontaktiert werden und Änderungen angefordert werden, werden die Anforderungen automatisch erfüllt.",
+    "donate": "Spenden",
+    "donation": "Spendenressource",
+    "website": "Website"
+  },
+  "country": {
+    "add": "Land hinzufügen"
+  },
+  "global": {
+    "back": "Zurück",
+    "copy": "Kopieren",
+    "error": "Fehler",
+    "help": "Hilfe",
+    "home": "Zuhause",
+    "save": "Speichern",
+    "share": "Teilen",
+    "success": "Erfolg",
+    "successCopy": "In die Zwischenablage kopiert"
+  },
+  "home": {
+    "charities": "Wohltätigkeitsorganisationen",
+    "description": "Es ist eines unserer gemeinsamen Ziele, bei und zu unterstützen Menschen, die dringende Hilfe benötigen. Katastrophensituationen wie Erdbeben können das Leben und die Häuser von Menschen radikal verändern. Daher ist es wichtig, Menschen in der Erdbebenregion zu helfen, ihr Leben sowohl heute als auch in der Zukunft zu erleichtern. </br> </br> Es kann als Plattform zur Hilfe für Menschen genutzt werden. Während es jetzt möglich ist, Ihre sozialen Medien, Github und Discord-Konten zu verfolgen, wird die bald zu öffnende Website es Ihnen ermöglichen, noch mehr Menschen zu erreichen und Hilfe-Fragen in größerem Detail zu besprechen. </br> </br> Menschen wie Sie, Organisationen, die mehr als Erdbebenopfer helfen wollen, sind wichtig für die Zukunft der Gesellschaft. Wir werden dazu beitragen, dass viele Menschen und Organisationen zusammenkommen und sich für diesen Zweck engagieren und Erdbebenopfern zu Hilfe eilen.",
+    "description2": "Da Emergency Support ein Open-Source-Projekt ist, wollen wir, dass jeder beiträgt und verbessert. Dieses Projekt kann von jedem genutzt werden, der Hilfe für Erdbebenopfer sammelt, nicht nur in Türkei, sondern auf der ganzen Welt.",
+    "emergencyHelp": "Notfallhilfe",
+    "soonFeatures": "Neue Dienste bald verfügbar"
+  },
+  "settings": {
+    "selectLanguage": "Sprache auswählen"
+  }
+}
