@@ -19,6 +19,11 @@ export const availableLocales: ILocales = {
     iso: 'tr',
     flag: 'icon-[twemoji--flag-turkey]',
   },
+  de: {
+    name: 'Deutsch',
+    iso: 'de',
+    flag: 'icon-[twemoji--flag-germany]',
+  },
 }
 
 export const i18n: NuxtI18nOptions = {
