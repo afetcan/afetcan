@@ -19,6 +19,11 @@ export const availableLocales: ILocales = {
     iso: 'tr',
     flag: 'icon-[twemoji--flag-turkey]',
   },
+  ja: {
+    name: '日本語',
+    iso: 'ja',
+    flag: 'icon-[twemoji--flag-japan]',
+  },
 }
 
 export const i18n: NuxtI18nOptions = {
@@ -28,6 +33,7 @@ export const i18n: NuxtI18nOptions = {
       file: 'en.json',
     },
     { code: 'tr', file: 'tr.json' },
+    { code: 'ja', file: 'ja.json' },
   ],
   defaultLocale: 'tr',
   lazy: true,
