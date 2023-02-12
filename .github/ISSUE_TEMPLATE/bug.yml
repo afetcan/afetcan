@@ -1,0 +1,82 @@
+name: Bug Report
+description: Report a bug regarding the use of acildeprem.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A well-written publication makes our team's job easier. Please open a topic by following the steps below.
+  - type: input
+    id: summary
+    attributes:
+      label: Short summary
+      description: Please enter a brief summary of your issue.
+      placeholder: ex. "help list not visible."
+    validations:
+      required: false
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem description
+      description:  Please explain what your issue is. Be overly descriptive.
+      placeholder: ex. "When I send a request to the help list, an empty list is returned. When I send the same request with Postman, it returns data."
+    validations:
+      required: true
+
+  - type: input
+    id: satir
+    attributes:
+      label: Number of lines
+      description: Enter the number of lines with the problem.
+      placeholder: ex. "12"
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What was supposed to happen?
+      description: "Please explain what your issue should be."
+      placeholder: ex. "When I make a request to the help list, it should return data."
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Please choose which platform your issue is on.
+      options:
+        - Website (Default)
+        - i18n
+        - API
+        - Components
+        - UX
+        - UI
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      multiple: true
+      options:
+        - Low
+        - Medium
+        - High
+  - type: textarea
+    id: logs
+    attributes:
+      label:  Loglar
+      description: Please paste the logs of your issue here.
+      render: Shell
+  - type: checkboxes
+    id: check
+    attributes:
+      label: Did you follow the steps above?
+      description:  Please make sure your issue is following the steps above.
+      options:
+        - label: "Yes, I am sure."
+          required: true
+          

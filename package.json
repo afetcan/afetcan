@@ -6,7 +6,12 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx .",
+    "lint:fix": "eslint --ext .ts,.tsx,.js,.jsx . --fix",
+    "release": "bumpp --commit --push --tag && pnpm publish"
   },
   "packageManager": "pnpm@7.26.3",
   "engines": {
@@ -24,7 +29,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.1",
-    "eslint": "^8.33.0",
     "@huntersofbook/i18n": "^0.5.1",
     "@nuxt/content": "^2.4.3",
     "@nuxt/devtools": "^0.1.2",
@@ -35,6 +39,8 @@
     "@vue-macros/nuxt": "^1.0.3",
     "@vueuse/core": "^9.12.0",
     "@vueuse/nuxt": "^9.12.0",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.33.0",
     "nuxt": "^3.2.0"
   },
   "resolutions": {
