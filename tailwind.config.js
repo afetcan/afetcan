@@ -6,6 +6,7 @@ module.exports = {
   safelist: [
     'icon-[twemoji--flag-turkey]',
     'icon-[twemoji--flag-united-states]',
+    'icon-[twemoji--flag-germany]',
   ],
   theme: {
     extend: {},
