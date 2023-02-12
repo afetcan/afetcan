@@ -7,6 +7,7 @@ module.exports = {
     'icon-[twemoji--flag-turkey]',
     'icon-[twemoji--flag-united-states]',
     'icon-[twemoji--flag-germany]',
+    'icon-[twemoji--flag-japan]',
   ],
   theme: {
     extend: {},
