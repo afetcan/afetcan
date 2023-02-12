@@ -41,7 +41,8 @@
     "@vueuse/nuxt": "^9.12.0",
     "bumpp": "^8.2.1",
     "eslint": "^8.33.0",
-    "nuxt": "^3.2.0"
+    "nuxt": "^3.2.0",
+    "typescript": "^4.9.5"
   },
   "resolutions": {
     "vue": "3.2.47",
