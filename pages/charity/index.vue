@@ -13,6 +13,11 @@ onMounted(() => {
     language: locale.value,
   })
 })
+
+const getJSONI18n = (data: any[]) => {
+  const i18n = data.find(item => item.locale === locale.value)
+  return i18n || ''
+}
 </script>
 
 <template>
@@ -41,7 +46,7 @@ onMounted(() => {
                       {{ item.name }}
                     </h3>
                     <p class="text-sm opacity-75">
-                      {{ locale === 'en' ? item.descriptionEN : item.descriptionTR }}
+                      {{ getJSONI18n(item.i18n).description }}
                     </p>
                   </div>
                   <div class="icon-[ph--caret-right-bold] w-8 h-8 mb-2 flex flex-none text-red-600" />

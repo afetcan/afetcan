@@ -4,9 +4,29 @@
             "name": "Türkiye",
             "slug": "turkiye",
             "icon": "icon-[twemoji--flag-turkey]",
-            "descriptionTR": "10 ili etkileyen Kahramanmaraş depremi sonrasında acı haberler peş peşe geldi. Toplamda 12 bin 141 fazla bina çöktü. Binlerce ölü ve yaralı var. Yardım göndermek için tıklayın.",
-            "descriptionEN": "After the earthquake in Kahramanmaraş, which affected 10 provinces, bad news came one after another. A total of 12,141 more buildings collapsed. There are thousands of dead and injured. Click to send help.",
-            "level": 3
+            "level": 3,
+            "i18n": [
+                {
+                    "locale": "tr",
+                    "name": "Türkiye",
+                    "description": "Türkiye art arda depremlerle sarsıldı. 10.000 bina yıkıldı ve 50.000 kişi enkaz altında kaldı. 13 milyon insan yardıma muhtaç."
+                },
+                {
+                    "locale": "en",
+                    "name": "Türkiye",
+                    "description": "Türkiye has been hit hard by a series of earthquakes. 10,000 buildings have been destroyed and 50,000 people are trapped beneath the rubble. 13 million people are in need of assistance."
+                },
+                {
+                    "locale": "de",
+                    "name": "Türkiye",
+                    "description": "Türkiye wurde von einer Reihe von Erdbeben hart getroffen. 10.000 Gebäude wurden zerstört und 50.000 Menschen sind unter den Trümmern eingeschlossen. 13 Millionen Menschen brauchen Hilfe."
+                },
+                {
+                    "locale": "ja",
+                    "name": "Türkiye",
+                    "description": "Türkiyeは連続した地震によって大きな被害を受けました。 10,000の建物が破壊され、50,000人が廃墟の下に閉じ込められています。 13,000,000人が援助を必要としています。."
+                }
+            ]
         }
     ]
 }
