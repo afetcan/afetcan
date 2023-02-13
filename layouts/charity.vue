@@ -29,6 +29,9 @@ const { t } = useI18n()
         <a class="bg-gray-200 rounded p-2" href="https://discord.acildeprem.com" target="_blank">
           Discord
         </a>
+        <a class="bg-gray-200 rounded p-2" href="https://www.instagram.com/acildepremcom/" target="_blank">
+          Instagram
+        </a>
       </div>
     </div>
   </div>
