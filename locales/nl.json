@@ -1,0 +1,39 @@
+{
+  "app": {
+    "description": "Aardbevingen zijn overal. We zijn klaar, voor de hele wereld. Al onze middelen zijn open en toegankelijk."
+  },
+  "charity": {
+    "addCharity": "Goede doel toevoegen",
+    "allCharities": "Alle goede doelen",
+    "allCountries": "Alle landen",
+    "charities": "Goede doelen",
+    "description": "De gegevens op deze pagina zijn afkomstig van instellingen en hulpsites. Los daarvan vermelden wij alle fondsenwervers die onder toezicht van de staat staan. Als er gegevens ontbreken, onjuist zijn of niet mogen worden toegevoegd, neem dan contact met ons op. Als wij worden gecontacteerd en wijzigingen worden gevraagd, wordt automatisch aan de eisen voldaan.",
+    "donate": "Dineer",
+    "donation": "Donatiebron",
+    "website": "Website"
+  },
+  "country": {
+    "add": "Land toevoegen"
+  },
+  "global": {
+    "back": "Terug",
+    "copy": "Kopieren",
+    "error": "Error",
+    "help": "Help",
+    "home": "Home",
+    "save": "Opslaan",
+    "share": "Delen",
+    "success": "Success",
+    "successCopy": "Gekopieerd naar klembord"
+  },
+  "home": {
+    "charities": "Goede doelen",
+    "description": "It is een van onze gemeenschappelijke doelstellingen om mensen die noodhulp nodig hebben bij te staan en te ondersteunen. Rampensituaties zoals aardbevingen kunnen het leven en de huizen van mensen ingrijpend veranderen. Daarom is het belangrijk mensen in het aardbevingsgebied te helpen om hun leven nu en in de toekomst gemakkelijker te maken. <br /><br />Het kan worden gebruikt als een platform om mensen te helpen. Terwijl het voor nu mogelijk is om uw sociale media, Github en Discord accounts te volgen, zal de website die we binnenkort zullen openen u in staat stellen om nog meer mensen te bereiken en hulpvragen in meer detail te bespreken. <br /><br />Mensen zoals jullie, organisaties die meer willen helpen dan alleen aardbevingsslachtoffers zijn belangrijk voor de toekomst van de samenleving. Wij zullen bijdragen aan het samenkomen van vele mensen en organisaties die zich hiervoor inzetten en de slachtoffers van de aardbeving te hulp snellen.",
+    "description2": "Since Emergency Support is an open source project, we want everyone to contribute and improve. This project can be used by anyone who collects aid for earthquake victims not only in Türkiye but all over the world.",
+    "emergencyHelp": "Noodhulp",
+    "soonFeatures": "Nieuwe diensten binnenkort beschikbaar"
+  },
+  "settings": {
+    "selectLanguage": "Selecteer taal"
+  }
+}
