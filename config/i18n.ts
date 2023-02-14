@@ -54,6 +54,5 @@ export const i18n: NuxtI18nOptions = {
     legacy: false,
     locale: 'tr',
     fallbackLocale: 'tr',
-    availableLocales: ['en', 'tr'],
   },
 }

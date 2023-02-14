@@ -66,6 +66,9 @@ const { t } = useI18n()
           <AtomACButton block tag="a" href="https://discord.acildeprem.com" target="_blank">
             Discord
           </AtomACButton>
+          <AtomACButton block tag="a" href="https://www.instagram.com/acildepremcom/" target="_blank">
+            Instagram
+          </AtomACButton>
         </div>
       </div>
     </div>
