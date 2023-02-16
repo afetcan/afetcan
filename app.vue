@@ -8,11 +8,18 @@ useHead({
     { property: 'og:description', content: t('app.description') },
   ],
 })
+const app = ref(false)
+onMounted(() => {
+  const { isApp } = useWhatPlatform()
+  app.value = isApp
+})
 </script>
 
 <template>
-  <NuxtLayout>
-    <NuxtLoadingIndicator />
+  <IonApp v-if="app">
+    <IonRouterOutlet />
+  </IonApp>
+  <NuxtLayout v-else>
     <NuxtPage />
   </NuxtLayout>
 </template>

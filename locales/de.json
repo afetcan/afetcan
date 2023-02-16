@@ -13,15 +13,20 @@
     "website": "Website"
   },
   "country": {
-    "add": "Land hinzufügen"
+    "404": "Country not found",
+    "add": "Land hinzufügen",
+    "search": "Search Country"
   },
   "global": {
     "back": "Zurück",
+    "cancel": "Cancel",
     "copy": "Kopieren",
     "error": "Fehler",
     "help": "Hilfe",
     "home": "Zuhause",
     "save": "Speichern",
+    "search": "Search",
+    "settings": "Settings",
     "share": "Teilen",
     "success": "Erfolg",
     "successCopy": "In die Zwischenablage kopiert"

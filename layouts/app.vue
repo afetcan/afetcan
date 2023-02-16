@@ -5,11 +5,10 @@ const {
 onMounted(() => {
   toggleBubbleVisibility('hide')
 })
+const { t } = useI18n()
 </script>
 
 <template>
+  a
   <slot />
-  <div class="sticky left-0 right-0 bottom-0 w-full z-10 bg-base" :style="{ paddingBottom: `env(safe-area-inset-bottom)` }">
-    <MolNavBottom class="sm:hidden" />
-  </div>
 </template>

@@ -12,7 +12,7 @@ const state = useAppStore()
         leave-active-class="transition ease-in duration-100" leave-from-class="opacity-100"
         leave-to-class="opacity-0" move-class="transition ease-in-out duration-500"
       >
-        <MolNotification
+        <MonoMolNotification
           v-for="(notification, idx) in state.getNotifications" :key="notification.id" :notification="notification"
           :class="idx > 0 ? 'mt-4' : ''"
         />

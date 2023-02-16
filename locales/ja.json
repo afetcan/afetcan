@@ -13,15 +13,20 @@
     "website": "Webサイト"
   },
   "country": {
-    "add": "国を追加する"
+    "404": "Country not found",
+    "add": "国を追加する",
+    "search": "Search Country"
   },
   "global": {
     "back": "戻る",
+    "cancel": "Cancel",
     "copy": "コピー",
     "error": "エラー",
     "help": "ヘルプ",
     "home": "ホーム",
     "save": "保存する",
+    "search": "Search",
+    "settings": "Settings",
     "share": "共有する",
     "success": "成功",
     "successCopy": "クリップボードにコピーしました"

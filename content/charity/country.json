@@ -1,10 +1,2047 @@
 {
-    "country": [
+    "data": [
+        {
+            "name": "Albania",
+            "slug": "albania",
+            "icon": "icon-[twemoji--flag-albania]",
+            "code": "AL",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Åland Islands",
+            "slug": "aland-islands",
+            "icon": "icon-[twemoji--flag-aland-islands]",
+            "code": "AX",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Algeria",
+            "slug": "algeria",
+            "icon": "icon-[twemoji--flag-algeria]",
+            "code": "DZ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "American Samoa",
+            "slug": "american-samoa",
+            "icon": "icon-[twemoji--flag-american-samoa]",
+            "code": "AS",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Andorra",
+            "slug": "andorra",
+            "icon": "icon-[twemoji--flag-andorra]",
+            "code": "AD",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Angola",
+            "slug": "angola",
+            "icon": "icon-[twemoji--flag-angola]",
+            "code": "AO",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Anguilla",
+            "slug": "anguilla",
+            "icon": "icon-[twemoji--flag-anguilla]",
+            "code": "AI",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Antarctica",
+            "slug": "antarctica",
+            "icon": "icon-[twemoji--flag-antarctica]",
+            "code": "AQ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Antigua and Barbuda",
+            "slug": "antigua-and-barbuda",
+            "icon": "icon-[twemoji--flag-antigua-and-barbuda]",
+            "code": "AG",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Argentina",
+            "slug": "argentina",
+            "icon": "icon-[twemoji--flag-argentina]",
+            "code": "AR",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Armenia",
+            "slug": "armenia",
+            "icon": "icon-[twemoji--flag-armenia]",
+            "code": "AM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Aruba",
+            "slug": "aruba",
+            "icon": "icon-[twemoji--flag-aruba]",
+            "code": "AW",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Australia",
+            "slug": "australia",
+            "icon": "icon-[twemoji--flag-australia]",
+            "code": "AU",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Austria",
+            "slug": "austria",
+            "icon": "icon-[twemoji--flag-austria]",
+            "code": "AT",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Azerbaijan",
+            "slug": "azerbaijan",
+            "icon": "icon-[twemoji--flag-azerbaijan]",
+            "code": "AZ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Bahamas (the)",
+            "slug": "bahamas-the",
+            "icon": "icon-[twemoji--flag-bahamas]",
+            "code": "BS",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Bahrain",
+            "slug": "bahrain",
+            "icon": "icon-[twemoji--flag-bahrain]",
+            "code": "BH",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Bangladesh",
+            "slug": "bangladesh",
+            "icon": "icon-[twemoji--flag-bangladesh]",
+            "code": "BD",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Barbados",
+            "slug": "barbados",
+            "icon": "icon-[twemoji--flag-barbados]",
+            "code": "BB",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Belarus",
+            "slug": "belarus",
+            "icon": "icon-[twemoji--flag-belarus]",
+            "code": "BY",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Belgium",
+            "slug": "belgium",
+            "icon": "icon-[twemoji--flag-belgium]",
+            "code": "BE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Belize",
+            "slug": "belize",
+            "icon": "icon-[twemoji--flag-belize]",
+            "code": "BZ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Benin",
+            "slug": "benin",
+            "icon": "icon-[twemoji--flag-benin]",
+            "code": "BJ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Bermuda",
+            "slug": "bermuda",
+            "icon": "icon-[twemoji--flag-bermuda]",
+            "code": "BM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Bhutan",
+            "slug": "bhutan",
+            "icon": "icon-[twemoji--flag-bhutan]",
+            "code": "BT",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Bolivia (Plurinational State of)",
+            "slug": "bolivia-plurinational-state-of",
+            "icon": "icon-[twemoji--flag-bolivia]",
+            "code": "BO",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Caribbean Netherlands",
+            "slug": "caribbean-netherlands",
+            "icon": "icon-[twemoji--flag-caribbean-netherlands]",
+            "code": "BQ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Bosnia and Herzegovina",
+            "slug": "bosnia-and-herzegovina",
+            "icon": "icon-[twemoji--flag-bosnia-and-herzegovina]",
+            "code": "BA",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Botswana",
+            "slug": "botswana",
+            "icon": "icon-[twemoji--flag-botswana]",
+            "code": "BW",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Bouvet Island",
+            "slug": "bouvet-island",
+            "icon": "icon-[twemoji--flag-bouvet-island]",
+            "code": "BV",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Brazil",
+            "slug": "brazil",
+            "icon": "icon-[twemoji--flag-brazil]",
+            "code": "BR",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "British Indian Ocean Territory (the)",
+            "slug": "british-indian-ocean-territory-the",
+            "icon": "icon-[twemoji--flag-british-indian-ocean-territory]",
+            "code": "IO",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Brunei Darussalam",
+            "slug": "brunei-darussalam",
+            "icon": "icon-[twemoji--flag-brunei]",
+            "code": "BN",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Bulgaria",
+            "slug": "bulgaria",
+            "icon": "icon-[twemoji--flag-bulgaria]",
+            "code": "BG",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Burkina Faso",
+            "slug": "burkina-faso",
+            "icon": "icon-[twemoji--flag-burkina-faso]",
+            "code": "BF",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Burundi",
+            "slug": "burundi",
+            "icon": "icon-[twemoji--flag-burundi]",
+            "code": "BI",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Cape Verde",
+            "slug": "cape-verde",
+            "icon": "icon-[twemoji--flag-cape-verde]",
+            "code": "CV",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Cambodia",
+            "slug": "cambodia",
+            "icon": "icon-[twemoji--flag-cambodia]",
+            "code": "KH",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Cameroon",
+            "slug": "cameroon",
+            "icon": "icon-[twemoji--flag-cameroon]",
+            "code": "CM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Canada",
+            "slug": "canada",
+            "icon": "icon-[twemoji--flag-canada]",
+            "code": "CA",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Cayman Islands (the)",
+            "slug": "cayman-islands-the",
+            "icon": "icon-[twemoji--flag-cayman-islands]",
+            "code": "KY",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Central African Republic (the)",
+            "slug": "central-african-republic-the",
+            "icon": "icon-[twemoji--flag-central-african-republic]",
+            "code": "CF",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Chad",
+            "slug": "chad",
+            "icon": "icon-[twemoji--flag-chad]",
+            "code": "TD",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Chile",
+            "slug": "chile",
+            "icon": "icon-[twemoji--flag-chile]",
+            "code": "CL",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "China",
+            "slug": "china",
+            "icon": "icon-[twemoji--flag-china]",
+            "code": "CN",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Christmas Island",
+            "slug": "christmas-island",
+            "icon": "icon-[twemoji--flag-christmas-island]",
+            "code": "CX",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Cocos (Keeling) Islands (the)",
+            "slug": "cocos-keeling-islands-the",
+            "icon": "icon-[twemoji--flag-cocos-keeling-islands]",
+            "code": "CC",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Colombia",
+            "slug": "colombia",
+            "icon": "icon-[twemoji--flag-colombia]",
+            "code": "CO",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Comoros (the)",
+            "slug": "comoros-the",
+            "icon": "icon-[twemoji--flag-comoros]",
+            "code": "KM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Congo (the Democratic Republic of the)",
+            "slug": "congo-the-democratic-republic-of-the",
+            "icon": "icon-[twemoji--flag-congo-kinshasa]",
+            "code": "CD",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Congo (the)",
+            "slug": "congo-the",
+            "icon": "icon-[twemoji--flag-congo-brazzaville]",
+            "code": "CG",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Cook Islands (the)",
+            "slug": "cook-islands-the",
+            "icon": "icon-[twemoji--flag-cook-islands]",
+            "code": "CK",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Costa Rica",
+            "slug": "costa-rica",
+            "icon": "icon-[twemoji--flag-costa-rica]",
+            "code": "CR",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Croatia",
+            "slug": "croatia",
+            "icon": "icon-[twemoji--flag-croatia]",
+            "code": "HR",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Cuba",
+            "slug": "cuba",
+            "icon": "icon-[twemoji--flag-cuba]",
+            "code": "CU",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Curaçao",
+            "slug": "curacao",
+            "icon": "icon-[twemoji--flag-curacao]",
+            "code": "CW",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Cyprus",
+            "slug": "cyprus",
+            "icon": "icon-[twemoji--flag-cyprus]",
+            "code": "CY",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Czechia",
+            "slug": "czechia",
+            "icon": "icon-[twemoji--flag-czechia]",
+            "code": "CZ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Côte d'Ivoire",
+            "slug": "cote-divoire",
+            "icon": "icon-[twemoji--flag-cote-divoire]",
+            "code": "CI",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Denmark",
+            "slug": "denmark",
+            "icon": "icon-[twemoji--flag-denmark]",
+            "code": "DK",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Djibouti",
+            "slug": "djibouti",
+            "icon": "icon-[twemoji--flag-djibouti]",
+            "code": "DJ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Dominica",
+            "slug": "dominica",
+            "icon": "icon-[twemoji--flag-dominica]",
+            "code": "DM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Dominican Republic (the)",
+            "slug": "dominican-republic-the",
+            "icon": "icon-[twemoji--flag-dominican-republic]",
+            "code": "DO",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Ecuador",
+            "slug": "ecuador",
+            "icon": "icon-[twemoji--flag-ecuador]",
+            "code": "EC",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Egypt",
+            "slug": "egypt",
+            "icon": "icon-[twemoji--flag-egypt]",
+            "code": "EG",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "El Salvador",
+            "slug": "el-salvador",
+            "icon": "icon-[twemoji--flag-el-salvador]",
+            "code": "SV",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Equatorial Guinea",
+            "slug": "equatorial-guinea",
+            "icon": "icon-[twemoji--flag-equatorial-guinea]",
+            "code": "GQ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Eritrea",
+            "slug": "eritrea",
+            "icon": "icon-[twemoji--flag-eritrea]",
+            "code": "ER",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Estonia",
+            "slug": "estonia",
+            "icon": "icon-[twemoji--flag-estonia]",
+            "code": "EE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Eswatini",
+            "slug": "eswatini",
+            "icon": "icon-[twemoji--flag-eswatini]",
+            "code": "SZ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Ethiopia",
+            "slug": "ethiopia",
+            "icon": "icon-[twemoji--flag-ethiopia]",
+            "code": "ET",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Falkland Islands (the) [Malvinas]",
+            "slug": "falkland-islands-the-malvinas",
+            "icon": "icon-[twemoji--flag-falkland-islands]",
+            "code": "FK",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Faroe Islands (the)",
+            "slug": "faroe-islands-the",
+            "icon": "icon-[twemoji--flag-faroe-islands]",
+            "code": "FO",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Fiji",
+            "slug": "fiji",
+            "icon": "icon-[twemoji--flag-fiji]",
+            "code": "FJ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Finland",
+            "slug": "finland",
+            "icon": "icon-[twemoji--flag-finland]",
+            "code": "FI",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "France",
+            "slug": "france",
+            "icon": "icon-[twemoji--flag-france]",
+            "code": "FR",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "French Guiana",
+            "slug": "french-guiana",
+            "icon": "icon-[twemoji--flag-french-guiana]",
+            "code": "GF",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "French Polynesia",
+            "slug": "french-polynesia",
+            "icon": "icon-[twemoji--flag-french-polynesia]",
+            "code": "PF",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "French Southern Territories (the)",
+            "slug": "french-southern-territories-the",
+            "icon": "icon-[twemoji--flag-french-southern-territories]",
+            "code": "TF",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Gabon",
+            "slug": "gabon",
+            "icon": "icon-[twemoji--flag-gabon]",
+            "code": "GA",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Gambia (the)",
+            "slug": "gambia-the",
+            "icon": "icon-[twemoji--flag-gambia]",
+            "code": "GM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Georgia",
+            "slug": "georgia",
+            "icon": "icon-[twemoji--flag-georgia]",
+            "code": "GE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Germany",
+            "slug": "germany",
+            "icon": "icon-[twemoji--flag-germany]",
+            "code": "DE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Ghana",
+            "slug": "ghana",
+            "icon": "icon-[twemoji--flag-ghana]",
+            "code": "GH",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Gibraltar",
+            "slug": "gibraltar",
+            "icon": "icon-[twemoji--flag-gibraltar]",
+            "code": "GI",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Greece",
+            "slug": "greece",
+            "icon": "icon-[twemoji--flag-greece]",
+            "code": "GR",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Greenland",
+            "slug": "greenland",
+            "icon": "icon-[twemoji--flag-greenland]",
+            "code": "GL",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Grenada",
+            "slug": "grenada",
+            "icon": "icon-[twemoji--flag-grenada]",
+            "code": "GD",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Guadeloupe",
+            "slug": "guadeloupe",
+            "icon": "icon-[twemoji--flag-guadeloupe]",
+            "code": "GP",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Guam",
+            "slug": "guam",
+            "icon": "icon-[twemoji--flag-guam]",
+            "code": "GU",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Guatemala",
+            "slug": "guatemala",
+            "icon": "icon-[twemoji--flag-guatemala]",
+            "code": "GT",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Guernsey",
+            "slug": "guernsey",
+            "icon": "icon-[twemoji--flag-guernsey]",
+            "code": "GG",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Guinea",
+            "slug": "guinea",
+            "icon": "icon-[twemoji--flag-guinea]",
+            "code": "GN",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Guinea-Bissau",
+            "slug": "guinea-bissau",
+            "icon": "icon-[twemoji--flag-guinea-bissau]",
+            "code": "GW",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Guyana",
+            "slug": "guyana",
+            "icon": "icon-[twemoji--flag-guyana]",
+            "code": "GY",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Haiti",
+            "slug": "haiti",
+            "icon": "icon-[twemoji--flag-haiti]",
+            "code": "HT",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Heard Island and McDonald Islands",
+            "slug": "heard-island-and-mcdonald-islands",
+            "icon": "icon-[twemoji--flag-heard-and-mcdonald-islands]",
+            "code": "HM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Holy See (the)",
+            "slug": "holy-see-the",
+            "icon": "icon-[twemoji--flag-french-polynesia]",
+            "code": "VA",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Honduras",
+            "slug": "honduras",
+            "icon": "icon-[twemoji--flag-honduras]",
+            "code": "HN",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Hong Kong",
+            "slug": "hong-kong",
+            "icon": "icon-[twemoji--flag-hong-kong-sar-china]",
+            "code": "HK",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Hungary",
+            "slug": "hungary",
+            "icon": "icon-[twemoji--flag-hungary]",
+            "code": "HU",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Iceland",
+            "slug": "iceland",
+            "icon": "icon-[twemoji--flag-iceland]",
+            "code": "IS",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "India",
+            "slug": "india",
+            "icon": "icon-[twemoji--flag-india]",
+            "code": "IN",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Indonesia",
+            "slug": "indonesia",
+            "icon": "icon-[twemoji--flag-indonesia]",
+            "code": "ID",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Iran (Islamic Republic of)",
+            "slug": "iran-islamic-republic-of",
+            "icon": "icon-[twemoji--flag-iran]",
+            "code": "IR",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Iraq",
+            "slug": "iraq",
+            "icon": "icon-[twemoji--flag-iraq]",
+            "code": "IQ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Ireland",
+            "slug": "ireland",
+            "icon": "icon-[twemoji--flag-ireland]",
+            "code": "IE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Isle of Man",
+            "slug": "isle-of-man",
+            "icon": "icon-[twemoji--flag-isle-of-man]",
+            "code": "IM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Israel",
+            "slug": "israel",
+            "icon": "icon-[twemoji--flag-israel]",
+            "code": "IL",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Italy",
+            "slug": "italy",
+            "icon": "icon-[twemoji--flag-italy]",
+            "code": "IT",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Jamaica",
+            "slug": "jamaica",
+            "icon": "icon-[twemoji--flag-jamaica]",
+            "code": "JM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Japan",
+            "slug": "japan",
+            "icon": "icon-[twemoji--flag-japan]",
+            "code": "JP",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Jersey",
+            "slug": "jersey",
+            "icon": "icon-[twemoji--flag-jersey]",
+            "code": "JE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Jordan",
+            "slug": "jordan",
+            "icon": "icon-[twemoji--flag-jordan]",
+            "code": "JO",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Kazakhstan",
+            "slug": "kazakhstan",
+            "icon": "icon-[twemoji--flag-kazakhstan]",
+            "code": "KZ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Kenya",
+            "slug": "kenya",
+            "icon": "icon-[twemoji--flag-kenya]",
+            "code": "KE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Kiribati",
+            "slug": "kiribati",
+            "icon": "icon-[twemoji--flag-kiribati]",
+            "code": "KI",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Korea (the Democratic People's Republic of)",
+            "slug": "korea-the-democratic-peoples-republic-of",
+            "icon": "icon-[twemoji--flag-north-korea]",
+            "code": "KP",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Korea (the Republic of)",
+            "slug": "korea-the-republic-of",
+            "icon": "icon-[twemoji--flag-south-korea]",
+            "code": "KR",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Kuwait",
+            "slug": "kuwait",
+            "icon": "icon-[twemoji--flag-kuwait]",
+            "code": "KW",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Kyrgyzstan",
+            "slug": "kyrgyzstan",
+            "icon": "icon-[twemoji--flag-kyrgyzstan]",
+            "code": "KG",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Lao People's Democratic Republic (the)",
+            "slug": "lao-peoples-democratic-republic-the",
+            "icon": "icon-[twemoji--flag-laos]",
+            "code": "LA",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Latvia",
+            "slug": "latvia",
+            "icon": "icon-[twemoji--flag-latvia]",
+            "code": "LV",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Lebanon",
+            "slug": "lebanon",
+            "icon": "icon-[twemoji--flag-lebanon]",
+            "code": "LB",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Lesotho",
+            "slug": "lesotho",
+            "icon": "icon-[twemoji--flag-lesotho]",
+            "code": "LS",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Liberia",
+            "slug": "liberia",
+            "icon": "icon-[twemoji--flag-liberia]",
+            "code": "LR",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Libya",
+            "slug": "libya",
+            "icon": "icon-[twemoji--flag-libya]",
+            "code": "LY",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Liechtenstein",
+            "slug": "liechtenstein",
+            "icon": "icon-[twemoji--flag-liechtenstein]",
+            "code": "LI",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Lithuania",
+            "slug": "lithuania",
+            "icon": "icon-[twemoji--flag-lithuania]",
+            "code": "LT",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Luxembourg",
+            "slug": "luxembourg",
+            "icon": "icon-[twemoji--flag-luxembourg]",
+            "code": "LU",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Macao",
+            "slug": "macao",
+            "icon": "icon-[twemoji--flag-macao-sar-china]",
+            "code": "MO",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Madagascar",
+            "slug": "madagascar",
+            "icon": "icon-[twemoji--flag-madagascar]",
+            "code": "MG",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Malawi",
+            "slug": "malawi",
+            "icon": "icon-[twemoji--flag-malawi]",
+            "code": "MW",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Malaysia",
+            "slug": "malaysia",
+            "icon": "icon-[twemoji--flag-malaysia]",
+            "code": "MY",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Maldives",
+            "slug": "maldives",
+            "icon": "icon-[twemoji--flag-maldives]",
+            "code": "MV",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Mali",
+            "slug": "mali",
+            "icon": "icon-[twemoji--flag-mali]",
+            "code": "ML",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Malta",
+            "slug": "malta",
+            "icon": "icon-[twemoji--flag-malta]",
+            "code": "MT",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Marshall Islands (the)",
+            "slug": "marshall-islands-the",
+            "icon": "icon-[twemoji--flag-marshall-islands]",
+            "code": "MH",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Martinique",
+            "slug": "martinique",
+            "icon": "icon-[twemoji--flag-martinique]",
+            "code": "MQ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Mauritania",
+            "slug": "mauritania",
+            "icon": "icon-[twemoji--flag-mauritania]",
+            "code": "MR",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Mauritius",
+            "slug": "mauritius",
+            "icon": "icon-[twemoji--flag-mauritius]",
+            "code": "MU",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Mayotte",
+            "slug": "mayotte",
+            "icon": "icon-[twemoji--flag-mayotte]",
+            "code": "YT",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Mexico",
+            "slug": "mexico",
+            "icon": "icon-[twemoji--flag-mexico]",
+            "code": "MX",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Micronesia (Federated States of)",
+            "slug": "micronesia-federated-states-of",
+            "icon": "icon-[twemoji--flag-micronesia]",
+            "code": "FM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Moldova (the Republic of)",
+            "slug": "moldova-the-republic-of",
+            "icon": "icon-[twemoji--flag-moldova]",
+            "code": "MD",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Monaco",
+            "slug": "monaco",
+            "icon": "icon-[twemoji--flag-monaco]",
+            "code": "MC",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Mongolia",
+            "slug": "mongolia",
+            "icon": "icon-[twemoji--flag-mongolia]",
+            "code": "MN",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Montenegro",
+            "slug": "montenegro",
+            "icon": "icon-[twemoji--flag-montenegro]",
+            "code": "ME",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Montserrat",
+            "slug": "montserrat",
+            "icon": "icon-[twemoji--flag-montserrat]",
+            "code": "MS",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Morocco",
+            "slug": "morocco",
+            "icon": "icon-[twemoji--flag-morocco]",
+            "code": "MA",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Mozambique",
+            "slug": "mozambique",
+            "icon": "icon-[twemoji--flag-mozambique]",
+            "code": "MZ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Myanmar",
+            "slug": "myanmar",
+            "icon": "icon-[twemoji--flag-myanmar-burma]",
+            "code": "MM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Namibia",
+            "slug": "namibia",
+            "icon": "icon-[twemoji--flag-namibia]",
+            "code": "NA",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Nauru",
+            "slug": "nauru",
+            "icon": "icon-[twemoji--flag-nauru]",
+            "code": "NR",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Nepal",
+            "slug": "nepal",
+            "icon": "icon-[twemoji--flag-nepal]",
+            "code": "NP",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Netherlands (the)",
+            "slug": "netherlands-the",
+            "icon": "icon-[twemoji--flag-netherlands]",
+            "code": "NL",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "New Caledonia",
+            "slug": "new-caledonia",
+            "icon": "icon-[twemoji--flag-new-caledonia]",
+            "code": "NC",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "New Zealand",
+            "slug": "new-zealand",
+            "icon": "icon-[twemoji--flag-new-zealand]",
+            "code": "NZ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Nicaragua",
+            "slug": "nicaragua",
+            "icon": "icon-[twemoji--flag-nicaragua]",
+            "code": "NI",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Niger (the)",
+            "slug": "niger-the",
+            "icon": "icon-[twemoji--flag-niger]",
+            "code": "NE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Nigeria",
+            "slug": "nigeria",
+            "icon": "icon-[twemoji--flag-nigeria]",
+            "code": "NG",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Niue",
+            "slug": "niue",
+            "icon": "icon-[twemoji--flag-niue]",
+            "code": "NU",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Norfolk Island",
+            "slug": "norfolk-island",
+            "icon": "icon-[twemoji--flag-norfolk-island]",
+            "code": "NF",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Northern Mariana Islands (the)",
+            "slug": "northern-mariana-islands-the",
+            "icon": "icon-[twemoji--flag-northern-mariana-islands]",
+            "code": "MP",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Norway",
+            "slug": "norway",
+            "icon": "icon-[twemoji--flag-norway]",
+            "code": "NO",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Oman",
+            "slug": "oman",
+            "icon": "icon-[twemoji--flag-oman]",
+            "code": "OM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Pakistan",
+            "slug": "pakistan",
+            "icon": "icon-[twemoji--flag-pakistan]",
+            "code": "PK",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Palau",
+            "slug": "palau",
+            "icon": "icon-[twemoji--flag-palau]",
+            "code": "PW",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Palestine, State of",
+            "slug": "palestine-state-of",
+            "icon": "icon-[twemoji--flag-palestinian-territories]",
+            "code": "PS",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Panama",
+            "slug": "panama",
+            "icon": "icon-[twemoji--flag-panama]",
+            "code": "PA",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Papua New Guinea",
+            "slug": "papua-new-guinea",
+            "icon": "icon-[twemoji--flag-papua-new-guinea]",
+            "code": "PG",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Paraguay",
+            "slug": "paraguay",
+            "icon": "icon-[twemoji--flag-paraguay]",
+            "code": "PY",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Peru",
+            "slug": "peru",
+            "icon": "icon-[twemoji--flag-peru]",
+            "code": "PE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Philippines (the)",
+            "slug": "philippines-the",
+            "icon": "icon-[twemoji--flag-philippines]",
+            "code": "PH",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Pitcairn",
+            "slug": "pitcairn",
+            "icon": "icon-[twemoji--flag-pitcairn-islands]",
+            "code": "PN",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Poland",
+            "slug": "poland",
+            "icon": "icon-[twemoji--flag-poland]",
+            "code": "PL",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Portugal",
+            "slug": "portugal",
+            "icon": "icon-[twemoji--flag-portugal]",
+            "code": "PT",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Puerto Rico",
+            "slug": "puerto-rico",
+            "icon": "icon-[twemoji--flag-puerto-rico]",
+            "code": "PR",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Qatar",
+            "slug": "qatar",
+            "icon": "icon-[twemoji--flag-qatar]",
+            "code": "QA",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Republic of North Macedonia",
+            "slug": "republic-of-north-macedonia",
+            "icon": "icon-[twemoji--flag-north-macedonia]",
+            "code": "MK",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Romania",
+            "slug": "romania",
+            "icon": "icon-[twemoji--flag-romania]",
+            "code": "RO",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Russian Federation (the)",
+            "slug": "russian-federation-the",
+            "icon": "icon-[twemoji--flag-russia]",
+            "code": "RU",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Rwanda",
+            "slug": "rwanda",
+            "icon": "icon-[twemoji--flag-rwanda]",
+            "code": "RW",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Réunion",
+            "slug": "réunion",
+            "icon": "icon-[twemoji--flag-reunion]",
+            "code": "RE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Saint Barthélemy",
+            "slug": "saint-barthélemy",
+            "icon": "icon-[twemoji--flag-st-barthelemy]",
+            "code": "BL",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Saint Helena, Ascension and Tristan da Cunha",
+            "slug": "saint-helena-ascension-and-tristan-da-cunha",
+            "icon": "icon-[twemoji--flag-st-helena]",
+            "code": "SH",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Saint Kitts and Nevis",
+            "slug": "saint-kitts-and-nevis",
+            "icon": "icon-[twemoji--flag-st-kitts-and-nevis]",
+            "code": "KN",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Saint Lucia",
+            "slug": "saint-lucia",
+            "icon": "icon-[twemoji--flag-st-lucia]",
+            "code": "LC",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Saint Martin (French part)",
+            "slug": "saint-martin-french-part",
+            "icon": "icon-[twemoji--flag-st-martin]",
+            "code": "MF",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Saint Pierre and Miquelon",
+            "slug": "saint-pierre-and-miquelon",
+            "icon": "icon-[twemoji--flag-st-pierre-and-miquelon]",
+            "code": "PM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Saint Vincent and the Grenadines",
+            "slug": "saint-vincent-and-the-grenadines",
+            "icon": "icon-[twemoji--flag-st-vincent-and-grenadines]",
+            "code": "VC",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Samoa",
+            "slug": "samoa",
+            "icon": "icon-[twemoji--flag-samoa]",
+            "code": "WS",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "San Marino",
+            "slug": "san-marino",
+            "icon": "icon-[twemoji--flag-san-marino]",
+            "code": "SM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Sao Tome and Principe",
+            "slug": "sao-tome-and-principe",
+            "icon": "icon-[twemoji--flag-sao-tome-and-principe]",
+            "code": "ST",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Saudi Arabia",
+            "slug": "saudi-arabia",
+            "icon": "icon-[twemoji--flag-saudi-arabia]",
+            "code": "SA",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Senegal",
+            "slug": "senegal",
+            "icon": "icon-[twemoji--flag-senegal]",
+            "code": "SN",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Serbia",
+            "slug": "serbia",
+            "icon": "icon-[twemoji--flag-serbia]",
+            "code": "RS",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Seychelles",
+            "slug": "seychelles",
+            "icon": "icon-[twemoji--flag-seychelles]",
+            "code": "SC",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Sierra Leone",
+            "slug": "sierra-leone",
+            "icon": "icon-[twemoji--flag-sierra-leone]",
+            "code": "SL",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Singapore",
+            "slug": "singapore",
+            "icon": "icon-[twemoji--flag-singapore]",
+            "code": "SG",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Sint Maarten (Dutch part)",
+            "slug": "sint-maarten-dutch-part",
+            "icon": "icon-[twemoji--flag-sint-maarten]",
+            "code": "SX",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Slovakia",
+            "slug": "slovakia",
+            "icon": "icon-[twemoji--flag-slovakia]",
+            "code": "SK",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Slovenia",
+            "slug": "slovenia",
+            "icon": "icon-[twemoji--flag-slovenia]",
+            "code": "SI",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Solomon Islands",
+            "slug": "solomon-islands",
+            "icon": "icon-[twemoji--flag-solomon-islands]",
+            "code": "SB",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Somalia",
+            "slug": "somalia",
+            "icon": "icon-[twemoji--flag-somalia]",
+            "code": "SO",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "South Africa",
+            "slug": "south-africa",
+            "icon": "icon-[twemoji--flag-south-africa]",
+            "code": "ZA",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "South Georgia and the South Sandwich Islands",
+            "slug": "south-georgia-and-the-south-sandwich-islands",
+            "icon": "icon-[twemoji--flag-south-georgia-and-south-sandwich-islands]",
+            "code": "GS",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "South Sudan",
+            "slug": "south-sudan",
+            "icon": "icon-[twemoji--flag-south-sudan]",
+            "code": "SS",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Spain",
+            "slug": "spain",
+            "icon": "icon-[twemoji--flag-spain]",
+            "code": "ES",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Sri Lanka",
+            "slug": "sri-lanka",
+            "icon": "icon-[twemoji--flag-sri-lanka]",
+            "code": "LK",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Sudan (the)",
+            "slug": "sudan-the",
+            "icon": "icon-[twemoji--flag-sudan]",
+            "code": "SD",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Suriname",
+            "slug": "suriname",
+            "icon": "icon-[twemoji--flag-suriname]",
+            "code": "SR",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Svalbard and Jan Mayen",
+            "slug": "svalbard-and-jan-mayen",
+            "icon": "icon-[twemoji--flag-svalbard-and-jan-mayen]",
+            "code": "SJ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Sweden",
+            "slug": "sweden",
+            "icon": "icon-[twemoji--flag-sweden]",
+            "code": "SE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Switzerland",
+            "slug": "switzerland",
+            "icon": "icon-[twemoji--flag-switzerland]",
+            "code": "CH",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Syrian Arab Republic",
+            "slug": "syrian-arab-republic",
+            "icon": "icon-[twemoji--flag-syria]",
+            "code": "SY",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Taiwan (Province of China)",
+            "slug": "taiwan-province-of-china",
+            "icon": "icon-[twemoji--flag-taiwan]",
+            "code": "TW",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Tajikistan",
+            "slug": "tajikistan",
+            "icon": "icon-[twemoji--flag-tajikistan]",
+            "code": "TJ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Tanzania, United Republic of",
+            "slug": "tanzania-united-republic-of",
+            "icon": "icon-[twemoji--flag-tanzania]",
+            "code": "TZ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Thailand",
+            "slug": "thailand",
+            "icon": "icon-[twemoji--flag-thailand]",
+            "code": "TH",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Timor-Leste",
+            "slug": "timor-leste",
+            "icon": "icon-[twemoji--flag-timor-leste]",
+            "code": "TL",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Togo",
+            "slug": "togo",
+            "icon": "icon-[twemoji--flag-togo]",
+            "code": "TG",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Tokelau",
+            "slug": "tokelau",
+            "icon": "icon-[twemoji--flag-tokelau]",
+            "code": "TK",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Tonga",
+            "slug": "tonga",
+            "icon": "icon-[twemoji--flag-tonga]",
+            "code": "TO",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "slug": "trinidad-and-tobago",
+            "icon": "icon-[twemoji--flag-trinidad-and-tobago]",
+            "code": "TT",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Tunisia",
+            "slug": "tunisia",
+            "icon": "icon-[twemoji--flag-tunisia]",
+            "code": "TN",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
         {
             "name": "Türkiye",
+            "code": "TR",
+            "level": 3,
             "slug": "turkiye",
             "icon": "icon-[twemoji--flag-turkey]",
-            "level": 3,
+            "status": true,
+            "totalCharity": 4, 
             "i18n": [
                 {
                     "locale": "tr",
@@ -27,6 +2064,195 @@
                     "description": "Türkiyeは連続した地震によって大きな被害を受けました。 10,000の建物が破壊され、50,000人が廃墟の下に閉じ込められています。 13,000,000人が援助を必要としています。."
                 }
             ]
+        },
+        {
+            "name": "Turkmenistan",
+            "slug": "turkmenistan",
+            "icon": "icon-[twemoji--flag-turkmenistan]",
+            "code": "TM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Turks and Caicos Islands (the)",
+            "slug": "turks-and-caicos-islands-the",
+            "icon": "icon-[twemoji--flag-turks-and-caicos-islands]",
+            "code": "TC",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Tuvalu",
+            "slug": "tuvalu",
+            "icon": "icon-[twemoji--flag-tuvalu]",
+            "code": "TV",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Uganda",
+            "slug": "uganda",
+            "icon": "icon-[twemoji--flag-uganda]",
+            "code": "UG",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Ukraine",
+            "slug": "ukraine",
+            "icon": "icon-[twemoji--flag-ukraine]",
+            "code": "UA",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "United Arab Emirates (the)",
+            "slug": "united-arab-emirates-the",
+            "icon": "icon-[twemoji--flag-united-arab-emirates]",
+            "code": "AE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "slug": "united-kingdom-of-great-britain-and-northern-ireland-the",
+            "icon": "icon-[twemoji--flag-united-kingdom]",
+            "code": "GB",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "United States Minor Outlying Islands (the)",
+            "slug": "united-states-minor-outlying-islands-the",
+            "icon": "icon-[twemoji--flag-united-states]",
+            "code": "UM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "United States of America (the)",
+            "slug": "united-states-of-america-the",
+            "icon": "icon-[twemoji--flag-united-states]",
+            "code": "US",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Uruguay",
+            "slug": "uruguay",
+            "icon": "icon-[twemoji--flag-uruguay]",
+            "code": "UY",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Uzbekistan",
+            "slug": "uzbekistan",
+            "icon": "icon-[twemoji--flag-uzbekistan]",
+            "code": "UZ",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Vanuatu",
+            "slug": "vanuatu",
+            "icon": "icon-[twemoji--flag-vanuatu]",
+            "code": "VU",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Venezuela (Bolivarian Republic of)",
+            "slug": "venezuela-bolivarian-republic-of",
+            "icon": "icon-[twemoji--flag-venezuela]",
+            "code": "VE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Viet Nam",
+            "slug": "viet-nam",
+            "icon": "icon-[twemoji--flag-vietnam]",
+            "code": "VN",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Virgin Islands (British)",
+            "slug": "virgin-islands-british",
+            "icon": "icon-[twemoji--flag-british-virgin-islands]",
+            "code": "VG",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Virgin Islands (U.S.)",
+            "slug": "virgin-islands-us",
+            "icon": "icon-[twemoji--flag-us-virgin-islands]",
+            "code": "VI",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Wallis and Futuna",
+            "slug": "wallis-and-futuna",
+            "icon": "icon-[twemoji--flag-wallis-and-futuna]",
+            "code": "WF",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Western Sahara",
+            "slug": "western-sahara",
+            "icon": "icon-[twemoji--flag-western-sahara]",
+            "code": "EH",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Yemen",
+            "slug": "yemen",
+            "icon": "icon-[twemoji--flag-yemen]",
+            "code": "YE",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Zambia",
+            "slug": "zambia",
+            "icon": "icon-[twemoji--flag-zambia]",
+            "code": "ZM",
+            "level": 0,
+            "i18n": [],
+            "status": true
+        },
+        {
+            "name": "Zimbabwe",
+            "slug": "zimbabwe",
+            "icon": "icon-[twemoji--flag-zimbabwe]",
+            "code": "ZW",
+            "level": 0,
+            "i18n": [],
+            "status": true
         }
     ]
 }

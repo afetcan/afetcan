@@ -13,15 +13,20 @@
     "website": "Website"
   },
   "country": {
-    "add": "Ülke Ekle"
+    "404": "Country not found",
+    "add": "Ülke Ekle",
+    "search": "Search Country"
   },
   "global": {
     "back": "Geri",
+    "cancel": "Cancel",
     "copy": "Kopyala",
     "error": "Hata",
     "help": "Yardım Edin (SOS)",
     "home": "Anasayfa",
     "save": "Kaydet",
+    "search": "Search",
+    "settings": "Settings",
     "share": "Paylaş",
     "success": "Başarılı",
     "successCopy": "Başarıyla kopyalandı"

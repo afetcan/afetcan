@@ -1,8 +1,31 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { isDevelopment } from 'std-env'
+import dotenv from 'dotenv'
+
 import { i18n } from './config/i18n'
+const env = () => {
+  const env = process.env.STATUS
+  if (env === 'staging')
+    return 'staging'
+  if (env === 'production')
+    return 'production'
+  if (env === 'development')
+    return 'dev'
+  return 'dev'
+}
+dotenv.config({
+  path: `.env.${env()}`,
+})
+
+const isMobile = process.env.WHERE === 'app'
 
 export default defineNuxtConfig({
+  ssr: process.env.WHERE === 'web',
+  runtimeConfig: {
+    public: {
+      mobile: process.env.WHERE === 'app',
+    },
+  },
   modules: [
     '@nuxt/devtools',
     '@nuxtjs/tailwindcss',
@@ -15,6 +38,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@huntersofbook/chatwoot-nuxt',
     '@vue-macros/nuxt',
+    '@nuxtjs/ionic',
   ],
   imports: {
     dirs: [
@@ -23,9 +47,17 @@ export default defineNuxtConfig({
     ],
     injectAtEnd: true,
   },
+  ionic: {
+    css: {
+      basic: isMobile,
+      core: isMobile,
+      utilities: isMobile,
+    },
+  },
   pinia: {
     autoImports: [
       'defineStore',
+      'storeToRefs',
     ],
   },
   tailwindcss: {
@@ -58,7 +90,7 @@ export default defineNuxtConfig({
   typescript: {
     tsConfig: {
       include: [
-        './shims-vue.d.ts',
+        '../shims-vue.d.ts',
       ],
     },
   },

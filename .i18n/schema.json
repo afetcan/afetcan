@@ -8,7 +8,10 @@
     "successCopy": "Copied to clipboard",
     "success": "Success",
     "error": "Error",
-    "help": "Help"
+    "help": "Help",
+    "settings": "Settings",
+    "search": "Search",
+    "cancel": "Cancel"
   },
   "app": {
     "description": "Earthquakes are everywhere. We are ready, for the whole world. All our resources are open and accessible."
@@ -31,7 +34,9 @@
     "addCharity": "Add Charity"
   },
   "country": {
-    "add": "Add Country"
+    "add": "Add Country",
+    "search": "Search Country",
+    "404": "Country not found"
   },
   "settings": {
     "selectLanguage": "Select Language"

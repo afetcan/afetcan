@@ -34,7 +34,7 @@ const wideLayout = computed(() => route.meta.wideLayout ?? false)
           <div class="flex w-full items-center justify-center">
             <!-- <slot name="title" /> -->
             <NuxtLink to="/" class="flex items-center justify-center" @click="$scrollToTop">
-              <MolLogo class="h-10 w-32" />
+              <MonoMolLogo class="h-10 w-32" />
             </NuxtLink>
           </div>
           <div sm:hidden h-7 w-1px />
@@ -43,7 +43,7 @@ const wideLayout = computed(() => route.meta.wideLayout ?? false)
           <slot name="actions" />
           <div class="pr-2">
             <label space-y-2>
-              <TemSettingsLanguage select-settings />
+              <WebTemSettingsLanguage select-settings />
             </label>
           </div>
         </div>

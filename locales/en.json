@@ -13,15 +13,20 @@
     "website": "Website"
   },
   "country": {
-    "add": "Add Country"
+    "404": "Country not found",
+    "add": "Add Country",
+    "search": "Search Country"
   },
   "global": {
     "back": "Back",
+    "cancel": "Cancel",
     "copy": "Copy",
     "error": "Error",
     "help": "Help",
     "home": "Home",
     "save": "Save",
+    "search": "Search",
+    "settings": "Settings",
     "share": "Share",
     "success": "Success",
     "successCopy": "Copied to clipboard"

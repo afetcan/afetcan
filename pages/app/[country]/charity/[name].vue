@@ -11,6 +11,7 @@ const appStore = useAppStore()
 const getCountry = computed(() => {
   return route.params.country
 })
+
 const copyAccount = (data: any) => {
   copy(data)
   appStore.dispatchNotification({ title: t('global.success'), content: t('global.successCopy'), type: 'success' })
@@ -27,21 +28,21 @@ const { data } = await useAsyncData(() => queryContent<any>('charity/turkiye').w
   <!-- <Teleport to="body">
     <OrgNotificationProvider />
   </Teleport> -->
-  <NuxtLayout name="charity">
-    <div class="pt-4">
-      <NuxtLink
-        :to="`/charity/${getCountry}`"
-        class="bg-gray-200 hover:bg-gray-400 h-10 px-4 rounded flex items-center w-full"
-      >
-        <div class="icon-[ph--caret-left-bold] w-5 h-5 mr-1" />
-        {{ t('charity.allCharities') }}
-        <div class="icon-[ph--heart-duotone] w-5 h-5 ml-auto" />
-      </NuxtLink>
-    </div>
-    <WebMainContent>
+  <IonPage>
+    <IonHeader>
+      <IonToolbar>
+        <IonButtons slot="start">
+          <IonBackButton default-href="/app/" :text="t('global.back')" />
+        </IonButtons>
+        <IonTitle>
+          {{ t('charity.allCountries') }}
+        </IonTitle>
+      </IonToolbar>
+    </IonHeader>
+    <IonContent>
       <div class="flex flex-col w-full max-w-xl mx-auto px-4 sm:px-0">
         <WebTemCharityCountrySlug :data="data" />
       </div>
-    </WebMainContent>
-  </NuxtLayout>
+    </IonContent>
+  </IonPage>
 </template>
