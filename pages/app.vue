@@ -15,16 +15,11 @@ definePageMeta({
 const { t } = useI18n()
 const route = useRoute()
 
-const { getCountry } = useAppStore()
+const { getSelectedCountry } = useAppStore()
 const { selectedCountry } = storeToRefs(useAppStore())
-const countrySlug = computed(() => {
-  if (route.name === 'app-country')
-    return route.fullPath.split('/')[2]
-  return ''
-})
 
 onMounted(async () => {
-  await getCountry(countrySlug.value)
+  await getSelectedCountry()
 })
 </script>
 

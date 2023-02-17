@@ -17,4 +17,6 @@ export interface Country {
   level: number
   i18n: I18nItem[]
   status: boolean
+  latitude: number
+  longitude: number
 }

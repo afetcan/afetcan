@@ -70,13 +70,21 @@ export const useAppStore = defineStore({
       const { data } = await useAsyncData(() => queryContent<any>('charity/country').findOne())
       return data
     },
-    async getCountry(slug: string) {
+    async changeCountry(slug: string) {
       let data = {} as Country
       await this.getCountries().then((countries) => {
         this.selectedCountry = countries.value.data.find((country: Country) => country.slug === slug)
         data = this.selectedCountry as Country
       })
+      localStorage.setItem('selectedCountry', JSON.stringify(data))
       return data
+    },
+    async getSelectedCountry() {
+      const selectedCountry = localStorage.getItem('selectedCountry')
+      if (selectedCountry)
+        this.selectedCountry = JSON.parse(selectedCountry)
+
+      return this.selectedCountry
     },
   },
 })

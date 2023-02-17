@@ -5,7 +5,7 @@ import type { Country } from '~~/types'
 const emit = defineEmits(['select'])
 const router = useRouter()
 const country = ref()
-const { getCountry } = useAppStore()
+const { changeCountry } = useAppStore()
 
 const { data } = await useAsyncData(() => queryContent<any>('charity/country').findOne())
 
@@ -16,7 +16,7 @@ const ionInfinite = async (ev: InfiniteScrollCustomEvent) => {
 
 const select = async (ev: Country) => {
   router.replace(`/app/${ev.slug}`)
-  await getCountry(ev.slug)
+  await changeCountry(ev.slug)
   emit('select', ev)
 }
 </script>
