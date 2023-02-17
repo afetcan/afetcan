@@ -13,29 +13,19 @@ definePageMeta({
   middleware: ['app'],
 })
 const { t } = useI18n()
-const router = useRouter()
 const route = useRoute()
 
 const { getCountry } = useAppStore()
-
+const { selectedCountry } = storeToRefs(useAppStore())
 const countrySlug = computed(() => {
   if (route.name === 'app-country')
     return route.fullPath.split('/')[2]
   return ''
 })
 
-const selectCountry = ref()
-
 onMounted(async () => {
-  const data = await getCountry(countrySlug.value)
-  selectCountry.value = data
+  await getCountry(countrySlug.value)
 })
-// onMounted(() => {
-//   setTimeout(() => {
-//     if (route.name === 'app')
-//       router.replace('/app/home')
-//   }, 300)
-// })
 </script>
 
 <template>
@@ -45,11 +35,16 @@ onMounted(async () => {
         <MonoOrgNotificationProvider />
       </Teleport>
       <IonRouterOutlet />
+
       <IonTabBar slot="bottom">
-        <IonTabButton v-if="selectCountry" tab="home" :href="`/app/${selectCountry.slug}`">
-          <div :class="selectCountry.icon" class=" w-6 h-6" />
+        <IonTabButton tab="app" href="/app/home">
+          <div class="icon-[ph--gear-duotone] w-6 h-6" />
+          <IonLabel>{{ t('global.home') }}</IonLabel>
+        </IonTabButton>
+        <IonTabButton v-if="selectedCountry" :tab="selectedCountry.slug" :href="`/app/${selectedCountry.slug}`">
+          <div :class="selectedCountry.icon" class=" w-6 h-6" />
           <IonLabel>
-            {{ selectCountry.name }}
+            {{ selectedCountry.name }}
           </IonLabel>
         </IonTabButton>
 

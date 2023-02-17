@@ -1,5 +1,17 @@
 <script setup lang="ts">
 import type { OverlayEventDetail } from '@ionic/core/components'
+import type { Country } from '~/types'
+
+const { data } = await useFetch('https://www.seismicportal.eu/fdsnws/event/1/query', {
+  params: {
+    format: 'json',
+    start: '2023-01-01T00:00:00Z',
+    end: '2023-03-01T23:59:59Z',
+    offset: 0,
+    limit: 10,
+  },
+})
+
 definePageMeta({
   layout: 'app',
 })
@@ -12,7 +24,7 @@ const modal = ref<{
 function cancel() {
   modal.value?.$el.dismiss(null, 'cancel')
 }
-function confirm() {
+function confirm(_ev: Country) {
   modal.value?.$el.dismiss(name, 'confirm')
 }
 function onWillDismiss(ev: CustomEvent<OverlayEventDetail>) {
@@ -31,30 +43,30 @@ function onWillDismiss(ev: CustomEvent<OverlayEventDetail>) {
       </IonToolbar>
     </IonHeader>
     <IonContent>
-      OnBoarding
-      <ion-button id="open-modal" expand="block">
+      {{ data }}
+      <IonButton id="open-modal" expand="block">
         Open
-      </ion-button>
+      </IonButton>
 
       <IonModal ref="modal" trigger="open-modal" @will-dismiss="onWillDismiss">
-        <ion-header>
-          <ion-toolbar>
-            <ion-buttons slot="start">
-              <ion-button @click="cancel()">
+        <IonHeader>
+          <IonToolbar>
+            <IonButtons slot="start">
+              <IonButton @click="cancel()">
                 {{ t('global.cancel') }}
-              </ion-button>
-            </ion-buttons>
+              </IonButton>
+            </IonButtons>
             <ion-title>Welcome</ion-title>
-            <ion-buttons slot="end">
-              <ion-button :strong="true" @click="confirm()">
+            <IonButtons slot="end">
+              <IonButton :strong="true" @click="confirm()">
                 Confirm
-              </ion-button>
-            </ion-buttons>
-          </ion-toolbar>
-        </ion-header>
-        <ion-content class="ion-padding">
-          <AppTemCountryList />
-        </ion-content>
+              </IonButton>
+            </IonButtons>
+          </IonToolbar>
+        </IonHeader>
+        <IonContent class="ion-padding">
+          <AppTemCountryList @select="confirm($event)" />
+        </IonContent>
       </IonModal>
     </IonContent>
   </IonPage>

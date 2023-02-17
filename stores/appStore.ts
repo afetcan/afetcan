@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 import { v4 as uuidv4 } from 'uuid'
+import type { Country } from '~~/types'
 
 export type NotificationType = 'success' | 'info' | 'warning' | 'error'
 
@@ -16,17 +17,6 @@ export interface NotificationConfig {
   duration?: number
   autoClose?: boolean
   type?: NotificationType
-}
-
-interface Country {
-  id: number
-  name: string
-  icon: string
-  slug: string
-  code: string
-  level: number
-  i18n: string
-  status: boolean
 }
 
 export interface NotificationsState {

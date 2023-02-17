@@ -22,6 +22,8 @@ const props = defineProps({
   },
 })
 
+const emit = defineEmits(['select'])
+
 interface Search {
   text: string
 }
@@ -118,6 +120,11 @@ defineExpose({
 const loadmoreNumber = computed(() => {
   return initData.value.length - searchData.value.length
 })
+
+const select = (item: CountryItem) => {
+  if (item.status)
+    emit('select', item)
+}
 </script>
 
 <template>
@@ -138,7 +145,7 @@ const loadmoreNumber = computed(() => {
 
     <ContentRenderer :value="data">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-y">
-        <MonoOrgCountryList :data="searchData" :app="app" />
+        <MonoOrgCountryList :data="searchData" :app="app" @select="select($event)" />
       </div>
     </ContentRenderer>
 

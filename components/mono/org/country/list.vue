@@ -1,21 +1,10 @@
 <script setup lang="ts">
-export interface I18nItem {
-  locale: string
-  title: string
-  description: string
-}
+import type { Country } from '~~/types'
 
-export interface CountryItem {
-  name: string
-  slug: string
-  icon: string
-  level: number
-  i18n: I18nItem[]
-  status: boolean
-}
+const emit = defineEmits(['select'])
 
 const { data, app } = $defineProps<{
-  data: CountryItem[]
+  data: Country[]
   app: boolean
 }>()
 
@@ -44,6 +33,11 @@ const getLevel = (level: number) => {
       return 'bg-gray-100 text-gray-900'
   }
 }
+
+const select = (item: Country) => {
+  if (item.status)
+    emit('select', item)
+}
 </script>
 
 <template>
@@ -52,12 +46,11 @@ const getLevel = (level: number) => {
     v-bind="$attrs" :key="item.slug"
     :class="[item.level >= 3 ? 'col-span-full' : 'col-span-2', item.status ? 'bg-white border hover:bg-gray-200' : 'opacity-50']"
     class="border rounded mb-4"
+    @click="select(item)"
   >
-    <NuxtLink
+    <div
       :key="item.name"
       :class="!item.status ? 'cursor-not-allowed' : ''"
-      :to="item.status ? !app ? `/?country=${item.slug}` : `/app/home?c=${item.slug}`
-        : '#'"
       class="py-2 px-4 flex items-center relative justify-between"
     >
       <span
@@ -65,13 +58,15 @@ const getLevel = (level: number) => {
         class="animate-ping absolute top-5 right-5 inline-flex h-5 w-5 rounded-full bg-red-500"
       />
       <div class="flex flex-col w-full">
-        <div class="flex items-top">
-          <div v-if="item.icon" class="w-10 h-10 border rounded flex-none flex items-center justify-center">
+        <div class="flex items-end h-12 w-full">
+          <div v-if="item.icon" class="border rounded flex-none flex items-center justify-center">
             <div :class="item.icon" class="w-8 h-8" />
           </div>
-          <h3 class="ml-2 text-sm font-semibold  text-gray-900 mb-1">
-            {{ item.name }}
-          </h3>
+          <div class="text-gray-900 ml-2">
+            <h3 class="text-sm font-semibold">
+              {{ item.name }}
+            </h3>
+          </div>
         </div>
         <div class="flex flex-col my-2 w-full">
           <div class="grid grid-cols-4 gap-2 w-full">
@@ -93,6 +88,6 @@ const getLevel = (level: number) => {
       </div>
 
       <div v-if="item.status" class="icon-[ph--caret-right-bold] w-6 h-6 flex flex-none text-red-600" />
-    </NuxtLink>
+    </div>
   </div>
 </template>
