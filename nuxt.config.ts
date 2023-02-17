@@ -37,8 +37,8 @@ export default defineNuxtConfig({
   },
   plausible: {
     init: {
-      domain: 'acildeprem.com',
-      apiHost: 'https://rapor.acildeprem.com',
+      domain: 'afetcan.com',
+      apiHost: 'https://rapor.afetcan.com',
     },
     partytown: true,
   },
@@ -46,7 +46,7 @@ export default defineNuxtConfig({
   chatwoot: {
     init: {
       websiteToken: 'ib83pxJACnfjmBGnm8unHCo2',
-      baseUrl: 'https://chat.acildeprem.com',
+      baseUrl: 'https://chat.afetcan.com',
     },
     settings: {
       locale: 'tr',
@@ -78,14 +78,14 @@ export default defineNuxtConfig({
       meta: [
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
         // open graph social image
-        { property: 'og:title', content: 'acildeprem' },
+        { property: 'og:title', content: 'afetcan' },
         { property: 'og:description', content: 'It is an open source project that provides uninterrupted service in the event of an emergency earthquake.' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:image', content: 'https://acildeprem/acildeprem-og-en.png' },
+        { property: 'og:image', content: 'https://afetcan.com/afetcan-og-en.png' },
         { property: 'og:image:width', content: '3800' },
         { property: 'og:image:height', content: '1900' },
-        { property: 'og:site_name', content: 'acildeprem' },
-        { property: 'twitter:site', content: '@acildepremcom' },
+        { property: 'og:site_name', content: 'afetcan' },
+        { property: 'twitter:site', content: '@afetcanapp' },
         { property: 'twitter:card', content: 'summary_large_image' },
       ],
     },

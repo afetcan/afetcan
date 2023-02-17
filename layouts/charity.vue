@@ -20,16 +20,16 @@ const { t } = useI18n()
         {{ t('home.description2') }}
       </p>
       <div class="mt-8 grid sm:grid-cols-3 gap-6 mb-20">
-        <a href="https://twitter.com/acildepremcom" class="bg-gray-200 rounded p-2" target="_blank">
+        <a href="https://twitter.com/afetcanapp" class="bg-gray-200 rounded p-2" target="_blank">
           Github
         </a>
-        <a href="https://twitter.com/acildepremcom" class="bg-gray-200 rounded p-2" target="_blank">
+        <a href="https://twitter.com/afetcanapp" class="bg-gray-200 rounded p-2" target="_blank">
           Twitter
         </a>
-        <a class="bg-gray-200 rounded p-2" href="https://discord.acildeprem.com" target="_blank">
+        <a class="bg-gray-200 rounded p-2" href="https://discord.afetcan.com" target="_blank">
           Discord
         </a>
-        <a class="bg-gray-200 rounded p-2" href="https://www.instagram.com/acildepremcom/" target="_blank">
+        <a class="bg-gray-200 rounded p-2" href="https://www.instagram.com/afetcanapp/" target="_blank">
           Instagram
         </a>
       </div>

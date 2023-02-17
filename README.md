@@ -1,4 +1,4 @@
-# acildeprem TR
+# afetcan TR
 Bu proje Türkiyedeki depremin yaralarını sarabilmek amacıyla üretildi.
 Ama her depremde olduğu gibi bu deprem de bize bir şeyler öğretti.
 Bir depremde en önemli şey, birbirimizi desteklemek ve yardıma koşmak.
@@ -6,7 +6,7 @@ Dünyadan birçok ekip ve insan bize yardımcı oldu. Biz de bu projeyi açık k
 
 Deprem her an her yerde. Biz hazırız, tüm dünya için. Tüm kaynaklarımız açık kaynak ve erişilebilir.
 
-# acildeprem EN
+# afetcan EN
 This project is produced in order to heal the wounds of the earthquake in Turkey.
 But as in every earthquake, this earthquake offers us something.
 The most important thing in an earthquake is to support and force the force.

@@ -57,16 +57,16 @@ const { t } = useI18n()
               {{ t('home.description2') }}
             </p>
           </div>
-          <AtomACButton block tag="a" href="https://twitter.com/acildepremcom" target="_blank">
+          <AtomACButton block tag="a" href="https://twitter.com/afetcanapp" target="_blank">
             Twitter
           </AtomACButton>
-          <AtomACButton block tag="a" href="https://github.com/acildeprem" target="_blank">
+          <AtomACButton block tag="a" href="https://github.com/afetcan" target="_blank">
             Github
           </AtomACButton>
-          <AtomACButton block tag="a" href="https://discord.acildeprem.com" target="_blank">
+          <AtomACButton block tag="a" href="https://discord.afetcan.com" target="_blank">
             Discord
           </AtomACButton>
-          <AtomACButton block tag="a" href="https://www.instagram.com/acildepremcom/" target="_blank">
+          <AtomACButton block tag="a" href="https://www.instagram.com/afetcanapp/" target="_blank">
             Instagram
           </AtomACButton>
         </div>
