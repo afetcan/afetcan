@@ -39,8 +39,14 @@ export const useAppStore = defineStore({
     getNotificationsCount(state): number {
       return state.notifications.length
     },
+    getCountry(state) {
+      return state.selectedCountry
+    },
   },
   actions: {
+    onInit() {
+      this.getSelectedCountry()
+    },
     removeNotification(id: string) {
       this.$state.notifications = this.$state.notifications.filter(notification => notification.id !== id)
     },
