@@ -267,6 +267,9 @@ module.exports = {
     'bg-red-100',
     'bg-red-500',
     'text-red-900',
+    'bg-zinc-100',
+    'bg-zinc-500',
+    'text-zinc-900',
   ],
   theme: {
     extend: {},

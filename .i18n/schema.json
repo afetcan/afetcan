@@ -11,7 +11,8 @@
     "help": "Help",
     "settings": "Settings",
     "search": "Search",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "change": "Change"
   },
   "app": {
     "description": "Earthquakes are everywhere. We are ready, for the whole world. All our resources are open and accessible."
@@ -21,7 +22,9 @@
     "charities": "Charities",
     "soonFeatures": "New Services Coming Soon",
     "description": "It is one of our common goals to be with and support people in need of emergency assistance. Disaster situations such as earthquakes can radically change people's lives and homes. Therefore, it is important to help people in the earthquake area to make their lives easier both today and in the future. </br> </br> It can be used as a platform for helping people. While it is possible to follow your social media, Github and Discord accounts for now, the website we will open soon will allow you to reach even more people and discuss help issues in more detail. </br> </br> People like you, organizations that aim to help more than earthquake victims are important for the future of society. We will contribute to the coming together of many people and organizations acting for this purpose and rushing to the aid of earthquake victims.",
-    "description2": "Since Emergency Support is an open source project, we want everyone to contribute and improve. This project can be used by anyone who collects aid for earthquake victims not only in Türkiye but all over the world."
+    "description2": "Since Emergency Support is an open source project, we want everyone to contribute and improve. This project can be used by anyone who collects aid for earthquake victims not only in Türkiye but all over the world.",
+    "selectedCountry": "Selected Country",
+    "earthquakeList": "Earthquake List"
   },
   "charity": {
     "charities": "Charities",

@@ -21,10 +21,10 @@ const {
 </script>
 
 <template>
-  <div class="flex flex-col w-full max-w-xl mx-auto px-4 sm:px-0">
+  <div>
     <div v-if="!app" class="pt-4">
       <NuxtLink
-        to="/charity"
+        :to="`/${getSlug}`"
         class="bg-gray-200 hover:bg-gray-400 h-10 px-4 rounded flex items-center w-full"
       >
         <div class="icon-[ph--caret-left-bold] w-5 h-5 mr-1" />
@@ -39,7 +39,7 @@ const {
     <ContentRenderer :value="data">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 py-10">
         <NuxtLink
-          v-for="item in data" :key="item" :to="`/charity/${getSlug}/${item.slug}`"
+          v-for="item in data" :key="item" :to="`/${getSlug}/charity/${item.slug}`"
           class="bg-gray-200 p-4 rounded flex hover:bg-gray-400"
         >
           <div class="flex flex-col flex-1">

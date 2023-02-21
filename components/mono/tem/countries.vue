@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import lodash from 'lodash'
 import { search } from 'fast-fuzzy'
-import type { CountryItem } from '../org/country/list.vue'
 import { getJSONI18n } from '~/utils/mini'
-import type { AnyConvert } from '~~/types'
+import type { AnyConvert, Country } from '~~/types'
 
 const props = defineProps({
   app: {
@@ -17,7 +16,7 @@ const props = defineProps({
     default: () => {},
   },
   data: {
-    type: Array as PropType<CountryItem[]>,
+    type: Array as PropType<Country[]>,
     required: true,
   },
 })
@@ -37,8 +36,8 @@ const limit = 20
 let offsetStart = 0
 let offsetEnd = 20
 
-const searchData = ref<CountryItem[]>([])
-const initData = ref<CountryItem[]>([])
+const searchData = ref<Country[]>([])
+const initData = ref<Country[]>([])
 
 const validationSchema
   = toFormValidator(zod.object<AnyConvert<Search>>({
@@ -53,8 +52,8 @@ const { handleSubmit, values } = useForm<Search>({
   },
 })
 
-const sortData = async (searchText?: string): Promise<CountryItem[]> => {
-  let countryData: CountryItem[] = []
+const sortData = async (searchText?: string): Promise<Country[]> => {
+  let countryData: Country[] = []
 
   if (searchText) {
     if (searchText !== oldSearctText.value) {
@@ -66,8 +65,8 @@ const sortData = async (searchText?: string): Promise<CountryItem[]> => {
       offsetEnd += limit - 1
     }
     countryData = search(searchText, initData.value, {
-      keySelector: (item: CountryItem) => item.name,
-    }) as CountryItem[]
+      keySelector: (item: Country) => item.name,
+    }) as Country[]
     console.log(`${countryData.length} ${searchText}`)
   }
   else {
@@ -75,8 +74,8 @@ const sortData = async (searchText?: string): Promise<CountryItem[]> => {
   }
 
   // filters
-  countryData = lodash.orderBy(countryData, ['level'], 'desc') as CountryItem[]
-  countryData = lodash.slice(countryData, offsetStart, offsetEnd) as CountryItem[]
+  countryData = lodash.orderBy(countryData, ['level'], 'desc') as Country[]
+  countryData = lodash.slice(countryData, offsetStart, offsetEnd) as Country[]
 
   return countryData
 }
@@ -108,7 +107,7 @@ onMounted(async () => {
       ...item,
       i18n: [getJSONI18n(item.i18n, locale.value)],
     }
-  }) as CountryItem[]
+  }) as Country[]
   const xx = await sortData()
   searchData.value = xx
 })
@@ -121,7 +120,7 @@ const loadmoreNumber = computed(() => {
   return initData.value.length - searchData.value.length
 })
 
-const select = (item: CountryItem) => {
+const select = (item: Country) => {
   if (item.status)
     emit('select', item)
 }

@@ -21,11 +21,7 @@ definePageMeta({
 </script>
 
 <template>
-  <NuxtLayout name="charity">
-    <WebMainContent>
-      <div class="flex justify-center items-center w-full max-w-xl mx-auto">
-        <WebTemCountryList />
-      </div>
-    </WebMainContent>
-  </NuxtLayout>
+  <div class="flex justify-center items-center w-full max-w-xl mx-auto">
+    <WebTemCountryList />
+  </div>
 </template>

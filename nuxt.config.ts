@@ -39,6 +39,7 @@ export default defineNuxtConfig({
     '@huntersofbook/chatwoot-nuxt',
     '@vue-macros/nuxt',
     '@nuxtjs/ionic',
+    'nuxt-time',
   ],
   imports: {
     dirs: [

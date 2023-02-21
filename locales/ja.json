@@ -20,6 +20,7 @@
   "global": {
     "back": "戻る",
     "cancel": "Cancel",
+    "change": "Change",
     "copy": "コピー",
     "error": "エラー",
     "help": "ヘルプ",
@@ -35,7 +36,9 @@
     "charities": "チャリティ",
     "description": "緊急支援を必要とする人々に寄り添い、支援することは、私たちの共通の目標の一つです。地震などの災害は、人々の生活や住まいを根底から変えてしまう可能性があります。そのため、被災地の方々が現在も、そして将来も快適に暮らせるような支援をすることが重要です。",
     "description2": "緊急支援はオープンソースのプロジェクトであるため、私たちはみなさんに貢献と改善してもらいたいと思っています。このプロジェクトは、トルコだけでなく、世界中の地震被災者のために援助を集める人なら誰でも使うことができます。",
+    "earthquakeList": "Earthquake List",
     "emergencyHelp": "緊急支援",
+    "selectedCountry": "Selected Country",
     "soonFeatures": "新サービス開始予定"
   },
   "settings": {

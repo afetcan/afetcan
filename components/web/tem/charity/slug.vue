@@ -26,6 +26,7 @@ const getSlug = computed(() => {
 </script>
 
 <template>
+  <slot name="header" />
   <ContentRenderer :value="data">
     <div v-for="item in data" :key="item">
       <div>

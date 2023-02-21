@@ -16,7 +16,7 @@ const {
   <NuxtLayout name="charity">
     <WebMainContent>
       <div class="flex flex-col w-full max-w-xl mx-auto px-4 sm:px-0">
-        <WebTemCharityHome :data="data" />
+        <WebTemCharityCountry />
       </div>
     </WebMainContent>
   </NuxtLayout>

@@ -45,7 +45,7 @@ const select = (item: Country) => {
     v-for="item in data"
     v-bind="$attrs" :key="item.slug"
     :class="[item.level >= 3 ? 'col-span-full' : 'col-span-2', item.status ? 'bg-white border hover:bg-gray-200' : 'opacity-50']"
-    class="border rounded mb-4"
+    class="border rounded mb-4 cursor-pointer"
     @click="select(item)"
   >
     <div

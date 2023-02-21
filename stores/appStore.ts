@@ -22,7 +22,7 @@ export interface NotificationConfig {
 export interface NotificationsState {
   notifications: Notification[]
   countries: Country[]
-  selectedCountry: Country
+  selectedCountry: Country | undefined
 }
 
 export const useAppStore = defineStore({
@@ -30,7 +30,7 @@ export const useAppStore = defineStore({
   state: (): NotificationsState => ({
     notifications: [],
     countries: [],
-    selectedCountry: {} as Country,
+    selectedCountry: undefined,
   }),
   getters: {
     getNotifications(state) {
@@ -85,6 +85,10 @@ export const useAppStore = defineStore({
         this.selectedCountry = JSON.parse(selectedCountry)
 
       return this.selectedCountry
+    },
+    resetSelectedCountry() {
+      this.selectedCountry = undefined
+      localStorage.removeItem('selectedCountry')
     },
   },
 })
