@@ -15,6 +15,7 @@
   "country": {
     "404": "Country not found",
     "add": "国を追加する",
+    "change": "Change Country",
     "search": "Search Country"
   },
   "global": {
@@ -29,6 +30,7 @@
     "search": "Search",
     "settings": "Settings",
     "share": "共有する",
+    "soon": "Soon",
     "success": "成功",
     "successCopy": "クリップボードにコピーしました"
   },
@@ -38,6 +40,7 @@
     "description2": "緊急支援はオープンソースのプロジェクトであるため、私たちはみなさんに貢献と改善してもらいたいと思っています。このプロジェクトは、トルコだけでなく、世界中の地震被災者のために援助を集める人なら誰でも使うことができます。",
     "earthquakeList": "Earthquake List",
     "emergencyHelp": "緊急支援",
+    "feed": "Feed",
     "selectedCountry": "Selected Country",
     "soonFeatures": "新サービス開始予定"
   },

@@ -15,7 +15,6 @@ export const useWhatPlatform = () => {
   const runtimeConfig = useRuntimeConfig()
 
   const envApp = runtimeConfig.public.mobile
-  console.log('envApp', envApp)
 
   const isApp = capacitor || cordova || electron || hybrid || envApp
   return {

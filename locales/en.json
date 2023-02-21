@@ -15,6 +15,7 @@
   "country": {
     "404": "Country not found",
     "add": "Add Country",
+    "change": "Change Country",
     "search": "Search Country"
   },
   "global": {
@@ -29,6 +30,7 @@
     "search": "Search",
     "settings": "Settings",
     "share": "Share",
+    "soon": "Soon",
     "success": "Success",
     "successCopy": "Copied to clipboard"
   },
@@ -38,6 +40,7 @@
     "description2": "Since Emergency Support is an open source project, we want everyone to contribute and improve. This project can be used by anyone who collects aid for earthquake victims not only in Türkiye but all over the world.",
     "earthquakeList": "Earthquake List",
     "emergencyHelp": "Emergency Help",
+    "feed": "Feed",
     "selectedCountry": "Selected Country",
     "soonFeatures": "New Services Coming Soon"
   },

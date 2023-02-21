@@ -15,6 +15,7 @@
   "country": {
     "404": "Ülke bulunamadı",
     "add": "Ülke Ekle",
+    "change": "Change Country",
     "search": "Ülke Ara"
   },
   "global": {
@@ -29,6 +30,7 @@
     "search": "Ara",
     "settings": "Ayarlar",
     "share": "Paylaş",
+    "soon": "Soon",
     "success": "Başarılı",
     "successCopy": "Başarıyla kopyalandı"
   },
@@ -38,6 +40,7 @@
     "description2": "Acil Durum Desteği açık kaynaklı bir proje olduğu için herkesin katkıda bulunmasını ve geliştirmesini istiyoruz. Sadece Türkiye'de değil, tüm dünyada depremzedeler için yardım toplayan herkes bu projeden faydalanabilir.",
     "earthquakeList": "Earthquake List",
     "emergencyHelp": "Yardım Edin (SOS)",
+    "feed": "Feed",
     "selectedCountry": "Selected Country",
     "soonFeatures": "Yeni Hizmetler yakında"
   },

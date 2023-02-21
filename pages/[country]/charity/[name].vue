@@ -18,9 +18,9 @@ const { data } = await useAsyncData(() => queryContent<any>('charity/turkiye').w
   <Teleport to="body">
     <OrgNotificationProvider />
   </Teleport>
-  <NuxtLayout name="charity">
+  <NuxtLayout name="web">
     <WebMainContent>
-      <div class="flex flex-col w-full max-w-xl mx-auto px-4 sm:px-0">
+      <div>
         <WebTemCharitySlug :data="data">
           <template #header>
             <div class="pt-4">

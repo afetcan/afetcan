@@ -14,10 +14,6 @@ const getSlug = computed(() => {
 const { data } = await useAsyncData(() => queryContent<any>(`charity/${getSlug.value}`).find())
 
 const { t } = useI18n()
-
-const {
-  toggle,
-} = useChatWoot()
 </script>
 
 <template>
@@ -37,18 +33,15 @@ const {
       {{ t('charity.allCharities') }}
     </h1>
     <ContentRenderer :value="data">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 py-10">
+      <div class="grid grid-cols-1 gap-x divide-y-2 bg-gray-100 rounded overflow-hidden">
         <NuxtLink
           v-for="item in data" :key="item" :to="`/${getSlug}/charity/${item.slug}`"
-          class="bg-gray-200 p-4 rounded flex hover:bg-gray-400"
+          class="bg-gray-100 p-4 flex hover:bg-gray-400"
         >
           <div class="flex flex-col flex-1">
-            <div>
+            <h3 class="text-lg font-medium">
               {{ item.name }}
-            </div>
-            <div class="text-sm opacity-60">
-              {{ item.shortDescription }}
-            </div>
+            </h3>
           </div>
           <div class="w-8 flex flex-col items-center justify-center">
             <div class="icon-[ph--caret-right-bold] w-8 h-8 ml-auto flex flex-none text-black" />
@@ -56,8 +49,8 @@ const {
         </NuxtLink>
       </div>
     </ContentRenderer>
-    <div class="bg-gray-200 p-4 rounded flex hover:bg-gray-400 opacity-75 mt-10" @click="toggle('open')">
+    <NuxtLink :to="`/${getSlug}/charity/new`" class="bg-gray-200 p-4 rounded flex hover:bg-gray-400 opacity-75 mt-10">
       {{ t('charity.addCharity') }}
-    </div>
+    </NuxtLink>
   </div>
 </template>

@@ -2,7 +2,6 @@
 const country = ref()
 const { data } = await useAsyncData(() => queryContent<any>('charity/country').findOne())
 const appStore = useAppStore()
-const router = useRouter()
 useInfiniteScroll(
   window,
   async () => {
@@ -13,7 +12,6 @@ useInfiniteScroll(
 )
 
 const select = (item: any) => {
-  router.push(item.slug)
   appStore.changeCountry(item.slug)
 }
 </script>
