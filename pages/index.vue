@@ -43,7 +43,7 @@ useHead({
       </template>
 
       <div class="grid grid-cols-1 gap-4 lg:col-span-2">
-        <WebTemHome v-if="!selectedCountry" />
+        <WebTemSelectCountry v-if="!selectedCountry" />
 
         <!-- Actions panel -->
         <section v-if="selectedCountry" aria-labelledby="quick-links-title">

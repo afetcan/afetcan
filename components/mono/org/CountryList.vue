@@ -48,46 +48,10 @@ const select = (item: Country) => {
     class="border rounded mb-4 cursor-pointer"
     @click="select(item)"
   >
-    <div
-      :key="item.name"
-      :class="!item.status ? 'cursor-not-allowed' : ''"
-      class="py-2 px-4 flex items-center relative justify-between"
-    >
-      <span
-        v-if="item.level >= 3"
-        class="animate-ping absolute top-5 right-5 inline-flex h-5 w-5 rounded-full bg-red-500"
-      />
-      <div class="flex flex-col w-full">
-        <div class="flex items-end h-12 w-full">
-          <div v-if="item.icon" class="border rounded flex-none flex items-center justify-center">
-            <div :class="item.icon" class="w-8 h-8" />
-          </div>
-          <div class="text-gray-900 ml-2">
-            <h3 class="text-sm font-semibold">
-              {{ item.name }}
-            </h3>
-          </div>
-        </div>
-        <div class="flex flex-col my-2 w-full">
-          <div class="grid grid-cols-4 gap-2 w-full">
-            <span class="rounded bg-gray-100 w-full flex items-center justify-center py-1">
-              {{ shortLevel(item.level) }}
-            </span>
-            <div
-              :class="getLevel(item.level)"
-              class="rounded w-full flex items-center justify-center py-1 text-sm text-gray-900"
-            >
-              <div class="icon-[ph--activity] mr-1 w-5 h-5" />
-              {{ item.level }}
-            </div>
-          </div>
-        </div>
-        <p v-if="item.i18n.length > 0" class="text-sm text-gray-900 opacity-75">
-          {{ item.i18n[0].description }}
-        </p>
-      </div>
-
-      <div v-if="item.status" class="icon-[ph--caret-right-bold] w-6 h-6 flex flex-none text-red-600" />
-    </div>
+    <MonoMolListItem
+      :title="item.name"
+      :icon="item.icon"
+      :subtitle="item.i18n[0].description"
+    />
   </div>
 </template>
