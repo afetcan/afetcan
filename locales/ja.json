@@ -1,0 +1,85 @@
+{
+  "app": {
+    "description": "地震はどこにでもあります。私たちは全世界のために準備しています。私たちのすべてのリソースは、オープンでアクセス可能です。"
+  },
+  "charity": {
+    "addCharity": "チャリティーに加入",
+    "allCharities": "すべてのチャリティー",
+    "allCountries": "すべての国",
+    "charities": "チャリティー",
+    "donate": "寄付",
+    "donation": "寄付リソース",
+    "newForm": {
+      "country": "Country",
+      "description": "Description",
+      "donationUrl": "Donation Url",
+      "name": "Name",
+      "newCharity": "New Charity",
+      "shortDescription": "Short Description",
+      "websiteUrl": "Website Url"
+    },
+    "noCharity": "No charity found",
+    "website": "Webサイト",
+    "whySupport": "Disasters are natural events that deeply affect lives with their devastating consequences. After disasters, people may have difficulty meeting their shelter, food, water and other basic needs. That's why disaster charities help those in need, helping them get their lives back in order."
+  },
+  "country": {
+    "404": "Country not found",
+    "add": "国を追加する",
+    "change": "Change Country",
+    "search": "Search Country"
+  },
+  "form": {
+    "error": {
+      "add": "An error occurred while adding",
+      "maxLength": "This field must be at most {0} characters",
+      "minLength": "This field must be at least {0} characters",
+      "required": "This field is required",
+      "url": "This field must be a valid url"
+    },
+    "placeholder": {
+      "country": "Please enter a country",
+      "description": "Please enter a description",
+      "donationUrl": "Please enter a donation url",
+      "name": "Please enter a name",
+      "shortDescription": "Please enter a short description",
+      "websiteUrl": "Please enter a website url"
+    },
+    "success": {
+      "add": "Added successfully",
+      "delete": "Deleted successfully",
+      "update": "Updated successfully"
+    }
+  },
+  "global": {
+    "back": "戻る",
+    "cancel": "Cancel",
+    "change": "Change",
+    "copy": "コピー",
+    "error": "エラー",
+    "help": "ヘルプ",
+    "home": "ホーム",
+    "save": "保存する",
+    "search": "Search",
+    "settings": "Settings",
+    "share": "共有する",
+    "soon": "Soon",
+    "success": "成功",
+    "successCopy": "クリップボードにコピーしました"
+  },
+  "home": {
+    "charities": "チャリティ",
+    "description": "緊急支援を必要とする人々に寄り添い、支援することは、私たちの共通の目標の一つです。地震などの災害は、人々の生活や住まいを根底から変えてしまう可能性があります。そのため、被災地の方々が現在も、そして将来も快適に暮らせるような支援をすることが重要です。",
+    "description2": "afetcan はオープン ソース プロジェクトであるため、すべての人に貢献して改善してもらいたいと考えています。 このプロジェクトは、トルコだけでなく、世界中の地震被災者の救援物資を集めている人なら誰でも利用できます。",
+    "earthquakeList": "Earthquake List",
+    "emergencyHelp": "緊急支援",
+    "feed": "Feed",
+    "selectedCountry": "Selected Country",
+    "soonFeatures": "新サービス開始予定"
+  },
+  "settings": {
+    "aboutUs": "About Us",
+    "aboutUsDescription": "To make open source software for disaster situations all over the world. If you want to join the team, contact us. We need many software developers.",
+    "bottomChangeLanguage": "You can change the application language below",
+    "selectLanguage": "言語を選択"
+  }
+}

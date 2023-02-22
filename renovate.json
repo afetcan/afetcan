@@ -13,29 +13,6 @@
     "rangeStrategy": "bump",
     "packageRules": [
         {
-            "matchPaths": [
-                "apps/website/**"
-            ],
-            "matchDatasources": [
-                "npm"
-            ],
-            "matchUpdateTypes": [
-                "patch",
-                "minor",
-                "major"
-            ],
-            "groupName": "website",
-            "labels": [
-                "website"
-            ],
-            "addLabels": [
-                "website"
-            ]
-        },
-        {
-            "matchPaths": [
-                "packages/**"
-            ],
             "matchDatasources": [
                 "npm"
             ],

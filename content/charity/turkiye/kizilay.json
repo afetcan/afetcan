@@ -1,0 +1,54 @@
+{
+    "name": "Kızılay",
+    "slug": "kizilay",
+    "websiteUrl": "https://www.kizilay.org.tr",
+    "donationUrl": "https://www.kizilay.org.tr/bagis-yontemleri/banka-yolu-ile-bagis/21",
+    "shortDescription": "KIZILAY",
+    "description": "KIZILAY",
+    "sms": {
+        "desc": "",
+        "url": "https://www.kizilay.org.tr/Bagis/BagisYap/404/pazarcik-depremi-bagisi",
+        "send": "DEPREM YAZ 2868 SMS Gönder (1 SMS 15TL)",
+        "i18n": [
+            "turkiye"
+        ]
+    },
+    "bank": [
+        {
+            "id": "1",
+            "name": "T.C. ZİRAAT BANKASI A.Ş. ANKARA ÇUKURAMBAR ŞUBESİ",
+            "swift": "TCZBTR2A",
+            "eft": [
+                {
+                    "currency": "TL",
+                    "account": "TR 48 0001 0021 1000 0028 6852 54"
+                },
+                {
+                    "currency": "USD",
+                    "account": "TR 21 0001 0021 1000 0028 6852 55"
+                },
+                {
+                    "currency": "EURO",
+                    "account": "TR 91 0001 0021 1000 0028 6852 56"
+                },
+                {
+                    "currency": "GBP",
+                    "account": "TR 25 0001 0021 1039 0090 2631 40"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "ZİRAAT BANK INTERNATIONAL AG",
+            "address": "Filiale Frankfurt Am Hauptbahnhof 16 60329 Frankfurt",
+            "swift": "TCZBDEFF",
+            "konto_no": "1080000001",
+            "eft": [
+                {
+                    "currency": "EURO",
+                    "account": "DE 26 5122 0700 1080 0000 01"
+                }
+            ]
+        }
+    ]
+}

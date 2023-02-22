@@ -9,9 +9,21 @@
         "node_modules",
         "dist",
         "public",
-        "src/assets",
+        "assets",
         "**.yaml",
         "turbo.json",
-        "renovate.json"
+        "renovate.json",
+        "**content",
+        "**locales",
+        "**.vscode",
+        "output",
+        "*.css",
+        "*.png",
+        "*.ico",
+        "*.toml",
+        "*.patch",
+        "*.txt",
+        "Dockerfile",
+        "public/"
     ]
 }
