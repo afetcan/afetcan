@@ -16,10 +16,14 @@ onMounted(() => {
 </script>
 
 <template>
-  <IonApp v-if="app">
-    <IonRouterOutlet />
-  </IonApp>
-  <NuxtLayout v-else>
-    <NuxtPage />
-  </NuxtLayout>
+  <Html :lang="locale" class="w-full h-full">
+    <Body class="h-full">
+      <IonApp v-if="app">
+        <IonRouterOutlet />
+      </IonApp>
+      <NuxtLayout v-else>
+        <NuxtPage />
+      </NuxtLayout>
+    </Body>
+  </Html>
 </template>

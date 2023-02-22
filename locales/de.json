@@ -10,7 +10,8 @@
     "description": "Die Daten auf dieser Seite werden von Institutionen und Hilfeseiten erhalten. Unabhängig davon listen wir alle von der Regierung überwachten Spendenaufrufe auf. Wenn Verzeichnisdaten fehlen, falsch sind oder nicht hinzugefügt werden sollten, kontaktieren Sie uns bitte. Wenn wir kontaktiert werden und Änderungen angefordert werden, werden die Anforderungen automatisch erfüllt.",
     "donate": "Spenden",
     "donation": "Spendenressource",
-    "website": "Website"
+    "website": "Website",
+    "whySupport": "Disasters are natural events that deeply affect lives with their devastating consequences. After disasters, people may have difficulty meeting their shelter, food, water and other basic needs. That's why disaster charities help those in need, helping them get their lives back in order."
   },
   "country": {
     "404": "Country not found",
@@ -45,6 +46,7 @@
     "soonFeatures": "Neue Dienste bald verfügbar"
   },
   "settings": {
+    "bottomChangeLanguage": "You can change the application language below",
     "selectLanguage": "Sprache auswählen"
   }
 }

@@ -21,9 +21,9 @@ const getFlag = computed(() => {
 </script>
 
 <template>
-  <div class="flex items-center">
+  <div class="flex items-center bg-gray-200 p-4">
     <div v-if="selectLang" :class="getFlag" class="w-8 h-8 mr-2" />
-    <select v-model="selectLang" class="w-32 sm:w-40 h-10 px-4 bg-gray-400 rounded-lg">
+    <select v-model="selectLang" class="w-full h-10 px-4 bg-gray-400 rounded-lg">
       <option
         v-for="item in availableLocales" :key="item.iso" class="bg-gray-200" :value="item.iso"
         :selected="selectLang === item.iso"

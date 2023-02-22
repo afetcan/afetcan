@@ -21,9 +21,11 @@ specifiers:
   '@huntersofbook/plausible-nuxt': ^1.0.1
   '@iconify-json/ph': ^1.1.3
   '@iconify-json/twemoji': ^1.1.10
+  '@iconify-json/wi': ^1.1.4
   '@iconify/tailwind': ^0.1.1
   '@nuxt/content': ^2.4.3
   '@nuxt/devtools': ^0.1.2
+  '@nuxtjs/color-mode': ^3.2.0
   '@nuxtjs/i18n': 8.0.0-beta.9
   '@nuxtjs/ionic': ^0.8.1
   '@nuxtjs/partytown': ^1.3.0
@@ -60,7 +62,9 @@ dependencies:
   '@huntersofbook/plausible-nuxt': 1.0.1
   '@iconify-json/ph': 1.1.3
   '@iconify-json/twemoji': 1.1.10
+  '@iconify-json/wi': 1.1.4
   '@iconify/tailwind': 0.1.1
+  '@nuxtjs/color-mode': 3.2.0
   '@pinia/nuxt': 0.4.6_typescript@4.9.5
   '@sindresorhus/slugify': 2.2.0
   '@vee-validate/zod': 4.7.3_f2btg7zmr5jfq4gp3vvwlannri
@@ -1347,6 +1351,12 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/wi/1.1.4:
+    resolution: {integrity: sha512-WLuE6rleHk6UdXYgb2c7Hj7CTlRIfjygMjq5G+96XAZMntmqXd5c9fq3bGEByjaFjPMaggYZDdEam8yuEGWdOQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: false
+
   /@iconify/tailwind/0.1.1:
     resolution: {integrity: sha512-K16lFhEIvfUNOhvZ7UC90xMWp6560nFcixDJ4m7z3N1oAG/n0Dyqem32KzgzvcCaw371znONJAwUM/LQuLBJSQ==}
     dependencies:
@@ -1983,7 +1993,6 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: true
 
   /@nuxt/kit/3.2.2_rollup@3.17.2:
     resolution: {integrity: sha512-T3UeLxGSNl7dQgKzmtBbPEkUiiBYgXI+KkemmpkYbQK/l+bWy2f9VQw/Rl0HkQLfRTE2fS8q8jhsOedFiEnHQQ==}
@@ -2090,7 +2099,6 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: true
 
   /@nuxt/schema/3.2.2_rollup@3.17.2:
     resolution: {integrity: sha512-o3O2OqLAMKqb/DlGpK8eJq4tH29NA4OMaohknSSXl35+Nw/qHB5eOLDz+cFxNE+MKHoMj1rRVMCfi/Y/PrCN6g==}
@@ -2205,6 +2213,17 @@ packages:
       - vti
       - vue-tsc
     dev: true
+
+  /@nuxtjs/color-mode/3.2.0:
+    resolution: {integrity: sha512-isDR01yfadopiHQ/VEVUpyNSPrk5PCjUHS4t1qYRZwuRGefU4s9Iaxf6H9nmr1QFzoMgTm+3T0r/54jLwtpZbA==}
+    dependencies:
+      '@nuxt/kit': 3.2.2
+      lodash.template: 4.5.0
+      pathe: 1.1.0
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: false
 
   /@nuxtjs/i18n/8.0.0-beta.9:
     resolution: {integrity: sha512-Vz90kpmr1WJIPqAhlLWD3Yov8/DWCUQiT/5Xu8Kuqw+iZ47ZI7HI2W6BzwusHSRHn+fINxg/lKgs0uWw38PfKw==}
@@ -3747,7 +3766,6 @@ packages:
       rc9: 2.0.1
     transitivePeerDependencies:
       - supports-color
-    dev: true
 
   /cac/6.7.14:
     resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
@@ -5755,7 +5773,6 @@ packages:
       tar: 6.1.13
     transitivePeerDependencies:
       - supports-color
-    dev: true
 
   /git-config-path/2.0.0:
     resolution: {integrity: sha512-qc8h1KIQbJpp+241id3GuAtkdyJ+IK+LIVtkiFTRKRrmddDzs3SI9CvP1QYmWBFvm1I/PWRwj//of8bgAc0ltA==}
@@ -6614,7 +6631,6 @@ packages:
   /jiti/1.17.1:
     resolution: {integrity: sha512-NZIITw8uZQFuzQimqjUxIrIcEdxYDFIe/0xYfIlVXTkiBjjyBEvgasj5bb0/cHtPRD/NziPbT312sFrkI5ALpw==}
     hasBin: true
-    dev: true
 
   /js-base64/3.7.5:
     resolution: {integrity: sha512-3MEt5DTINKqfScXKfJFrRbxkrnk2AxPWGBL/ycjz4dK8iqiSJ06UxD8jh8xuh6p10TX4t2+7FsBYVxxQbMg+qA==}
@@ -7666,7 +7682,6 @@ packages:
       pathe: 1.1.0
       pkg-types: 1.0.2
       ufo: 1.1.0
-    dev: true
 
   /mri/1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
@@ -7858,7 +7873,6 @@ packages:
 
   /node-fetch-native/1.0.2:
     resolution: {integrity: sha512-KIkvH1jl6b3O7es/0ShyCgWLcfXxlBrLBbP3rOr23WArC66IMcU4DeZEeYEOwnopYhawLTn7/y+YtmASe8DFVQ==}
-    dev: true
 
   /node-fetch/2.6.9:
     resolution: {integrity: sha512-DJm/CJkZkRjKKj4Zi4BsKVZh3ValV5IR5s7LVZnW+6YMh0W1BfNA8XSs6DLMGYlId5F3KnA70uu2qepcR08Qqg==}
@@ -8440,7 +8454,6 @@ packages:
       jsonc-parser: 3.2.0
       mlly: 1.1.1
       pathe: 1.1.0
-    dev: true
 
   /plausible-tracker/0.3.8:
     resolution: {integrity: sha512-lmOWYQ7s9KOUJ1R+YTOR3HrjdbxIS2Z4de0P/Jx2dQPteznJl2eX3tXxKClpvbfyGP59B5bbhW8ftN59HbbFSg==}
@@ -10337,7 +10350,6 @@ packages:
 
   /ufo/1.1.0:
     resolution: {integrity: sha512-LQc2s/ZDMaCN3QLpa+uzHUOQ7SdV0qgv3VBXOolQGXTaaZpIur6PwUclF5nN2hNkiTRcUugXd1zFOW3FLJ135Q==}
-    dev: true
 
   /unbox-primitive/1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}

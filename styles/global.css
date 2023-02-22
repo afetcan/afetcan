@@ -1,0 +1,8 @@
+html.dark {
+  color-scheme: dark;
+}
+
+
+div#__nuxt {
+  @apply h-full w-full bg-white dark:bg-gray-900;
+}

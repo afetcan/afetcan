@@ -34,19 +34,11 @@ const { t } = useI18n()
     </h1>
     <ContentRenderer :value="data">
       <div class="grid grid-cols-1 gap-x divide-y-2 bg-gray-100 rounded overflow-hidden">
-        <NuxtLink
-          v-for="item in data" :key="item" :to="`/${getSlug}/charity/${item.slug}`"
-          class="bg-gray-100 p-4 flex hover:bg-gray-400"
-        >
-          <div class="flex flex-col flex-1">
-            <h3 class="text-lg font-medium">
-              {{ item.name }}
-            </h3>
-          </div>
-          <div class="w-8 flex flex-col items-center justify-center">
-            <div class="icon-[ph--caret-right-bold] w-8 h-8 ml-auto flex flex-none text-black" />
-          </div>
-        </NuxtLink>
+        <MonoMolListItem
+          v-for="item in data" :key="item"
+          :title="item.name"
+          :href="`/${getSlug}/charity/${item.slug}`"
+        />
       </div>
     </ContentRenderer>
     <NuxtLink :to="`/${getSlug}/charity/new`" class="bg-gray-200 p-4 rounded flex hover:bg-gray-400 opacity-75 mt-10">

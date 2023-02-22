@@ -10,7 +10,8 @@
     "description": "The data on this page is obtained from institutions and help sites. Irrespectively, we list all fundraisers supervised by the state. If a roster data is missing, incorrect or should not be added, please contact us. If we are contacted and changes are requested, the requirements will be fulfilled automatically.",
     "donate": "Donate",
     "donation": "Donation Resource",
-    "website": "Website"
+    "website": "Website",
+    "whySupport": "Disasters are natural events that deeply affect lives with their devastating consequences. After disasters, people may have difficulty meeting their shelter, food, water and other basic needs. That's why disaster charities help those in need, helping them get their lives back in order."
   },
   "country": {
     "404": "Country not found",
@@ -45,6 +46,7 @@
     "soonFeatures": "New Services Coming Soon"
   },
   "settings": {
+    "bottomChangeLanguage": "You can change the application language below",
     "selectLanguage": "Select Language"
   }
 }

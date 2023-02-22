@@ -40,6 +40,7 @@ export default defineNuxtConfig({
     '@vue-macros/nuxt',
     '@nuxtjs/ionic',
     'nuxt-time',
+    '@nuxtjs/color-mode',
   ],
   imports: {
     dirs: [
@@ -55,6 +56,7 @@ export default defineNuxtConfig({
       utilities: isMobile,
     },
   },
+  colorMode: { classSuffix: '' },
   pinia: {
     autoImports: [
       'defineStore',
@@ -96,6 +98,9 @@ export default defineNuxtConfig({
     },
   },
   sourcemap: !isDevelopment,
+  css: [
+    '~/styles/global.css',
+  ],
   app: {
     keepalive: true,
     head: {

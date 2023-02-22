@@ -5,26 +5,36 @@ const {
 onMounted(() => {
   toggleBubbleVisibility('hide')
 })
+
+const colorMode = useColorMode()
+function toggleDark() {
+  colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
+}
 </script>
 
 <template>
-  <div class="flex justify-between px-4 py-2 bg-gray-200">
-    <div>
-      <NuxtLink to="/" class="flex items-center justify-center" @click="$scrollToTop">
-        <MonoMolLogo class="h-10 w-32" />
-      </NuxtLink>
+  <Teleport to="body">
+    <MonoOrgNotificationProvider />
+  </Teleport>
+  <div class="grid grid-cols-3 mx-auto gap-5 max-w-lg h-16 px-4 mt-2">
+    <NuxtLink to="/" class="bg-zinc-100 dark:bg-zinc-700 rounded-lg w-full flex items-center justify-center" @click="$scrollToTop">
+      <MonoMolLogoSqure class="h-12 w-12" />
+    </NuxtLink>
+
+    <div class="bg-zinc-100 dark:bg-zinc-700 rounded-lg w-full hover:bg-zinc-200">
+      <button class="w-full h-full" @click="toggleDark()">
+        <div class="h-8 w-8" :class="colorMode.value === 'dark' ? 'text-yellow-300 icon-[ph--moon-fill]' : 'text-gray-900 icon-[ph--sun]'" />
+      </button>
     </div>
-    <div>
-      <slot name="actions" />
-      <div class="pr-2">
-        <label space-y-2>
-          <WebTemSettingsLanguage select-settings />
-        </label>
-      </div>
-    </div>
+    <NuxtLink to="/settings" class="bg-zinc-100 dark:bg-zinc-700 rounded-lg w-full flex items-center justify-center">
+      <div class="h-8 w-8 icon-[ph--gear]" />
+    </NuxtLink>
   </div>
-  <slot />
-  <div class="sticky left-0 right-0 bottom-0 w-full z-10 bg-base" :style="{ paddingBottom: `env(safe-area-inset-bottom)` }">
+
+  <div class="h-full">
+    <slot />
+  </div>
+  <div class="sticky left-0 right-0 bottom-0 w-full z-10" :style="{ paddingBottom: `env(safe-area-inset-bottom)` }">
     <WebMolNavBottom class="sm:hidden" />
   </div>
 </template>

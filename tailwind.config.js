@@ -3,6 +3,7 @@ const { addDynamicIconSelectors } = require('@iconify/tailwind')
 
 module.exports = {
   content: [],
+  darkMode: 'class',
   safelist: [
     'icon-[twemoji--flag-albania]',
     'icon-[twemoji--flag-aland-islands]',

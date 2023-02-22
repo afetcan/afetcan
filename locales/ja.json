@@ -10,7 +10,8 @@
     "description": "このページのデータは、機関やヘルプサイトから取得されたものです。もちろん、私たちは国家によって監督されたすべての募金活動をリストアップしています。もし、ロスターデータが不足している、間違っている、または追加すべきでない場合は、ご連絡ください。連絡があり、変更が要求された場合、自動的に要件が満たされます。",
     "donate": "寄付",
     "donation": "寄付リソース",
-    "website": "Webサイト"
+    "website": "Webサイト",
+    "whySupport": "Disasters are natural events that deeply affect lives with their devastating consequences. After disasters, people may have difficulty meeting their shelter, food, water and other basic needs. That's why disaster charities help those in need, helping them get their lives back in order."
   },
   "country": {
     "404": "Country not found",
@@ -45,6 +46,7 @@
     "soonFeatures": "新サービス開始予定"
   },
   "settings": {
+    "bottomChangeLanguage": "You can change the application language below",
     "selectLanguage": "言語を選択"
   }
 }

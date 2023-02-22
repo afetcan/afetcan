@@ -1,18 +1,4 @@
 <script setup lang="ts">
-const { data } = await useAsyncData(() => queryContent<any>('charity/country').findOne())
-const {
-  setCustomAttributes,
-} = useChatWoot()
-
-const { t, locale } = useI18n()
-
-onMounted(() => {
-  setCustomAttributes({
-    add_new_country: 'true',
-    language: locale.value,
-  })
-})
-
 definePageMeta({
   where: 'web',
   middleware: ['web'],
