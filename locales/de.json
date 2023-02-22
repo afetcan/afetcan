@@ -7,22 +7,62 @@
     "allCharities": "Alle Wohltätigkeitsorganisationen",
     "allCountries": "Alle Länder",
     "charities": "Wohltätigkeitsorganisationen",
-    "description": "Die Daten auf dieser Seite werden von Institutionen und Hilfeseiten erhalten. Unabhängig davon listen wir alle von der Regierung überwachten Spendenaufrufe auf. Wenn Verzeichnisdaten fehlen, falsch sind oder nicht hinzugefügt werden sollten, kontaktieren Sie uns bitte. Wenn wir kontaktiert werden und Änderungen angefordert werden, werden die Anforderungen automatisch erfüllt.",
     "donate": "Spenden",
     "donation": "Spendenressource",
-    "website": "Website"
+    "newForm": {
+      "country": "Country",
+      "description": "Description",
+      "donationUrl": "Donation Url",
+      "name": "Name",
+      "newCharity": "New Charity",
+      "shortDescription": "Short Description",
+      "websiteUrl": "Website Url"
+    },
+    "noCharity": "No charity found",
+    "website": "Website",
+    "whySupport": "Disasters are natural events that deeply affect lives with their devastating consequences. After disasters, people may have difficulty meeting their shelter, food, water and other basic needs. That's why disaster charities help those in need, helping them get their lives back in order."
   },
   "country": {
-    "add": "Land hinzufügen"
+    "404": "Country not found",
+    "add": "Land hinzufügen",
+    "change": "Change Country",
+    "search": "Search Country"
+  },
+  "form": {
+    "error": {
+      "add": "An error occurred while adding",
+      "maxLength": "This field must be at most {0} characters",
+      "minLength": "This field must be at least {0} characters",
+      "required": "This field is required",
+      "url": "This field must be a valid url"
+    },
+    "placeholder": {
+      "country": "Please enter a country",
+      "description": "Please enter a description",
+      "donationUrl": "Please enter a donation url",
+      "name": "Please enter a name",
+      "shortDescription": "Please enter a short description",
+      "websiteUrl": "Please enter a website url"
+    },
+    "success": {
+      "add": "Added successfully",
+      "delete": "Deleted successfully",
+      "update": "Updated successfully"
+    }
   },
   "global": {
     "back": "Zurück",
+    "cancel": "Cancel",
+    "change": "Change",
     "copy": "Kopieren",
     "error": "Fehler",
     "help": "Hilfe",
     "home": "Zuhause",
     "save": "Speichern",
+    "search": "Search",
+    "settings": "Settings",
     "share": "Teilen",
+    "soon": "Soon",
     "success": "Erfolg",
     "successCopy": "In die Zwischenablage kopiert"
   },
@@ -30,10 +70,14 @@
     "charities": "Wohltätigkeitsorganisationen",
     "description": "Es ist eines unserer gemeinsamen Ziele, bei und zu unterstützen Menschen, die dringende Hilfe benötigen. Katastrophensituationen wie Erdbeben können das Leben und die Häuser von Menschen radikal verändern. Daher ist es wichtig, Menschen in der Erdbebenregion zu helfen, ihr Leben sowohl heute als auch in der Zukunft zu erleichtern. </br> </br> Es kann als Plattform zur Hilfe für Menschen genutzt werden. Während es jetzt möglich ist, Ihre sozialen Medien, Github und Discord-Konten zu verfolgen, wird die bald zu öffnende Website es Ihnen ermöglichen, noch mehr Menschen zu erreichen und Hilfe-Fragen in größerem Detail zu besprechen. </br> </br> Menschen wie Sie, Organisationen, die mehr als Erdbebenopfer helfen wollen, sind wichtig für die Zukunft der Gesellschaft. Wir werden dazu beitragen, dass viele Menschen und Organisationen zusammenkommen und sich für diesen Zweck engagieren und Erdbebenopfern zu Hilfe eilen.",
     "description2": "Da afetcan ein Open-Source-Projekt ist, wollen wir, dass jeder beiträgt und verbessert. Dieses Projekt kann von jedem genutzt werden, der Hilfe für Erdbebenopfer sammelt, nicht nur in Türkei, sondern auf der ganzen Welt.",
+    "earthquakeList": "Earthquake List",
     "emergencyHelp": "Notfallhilfe",
+    "feed": "Feed",
+    "selectedCountry": "Selected Country",
     "soonFeatures": "Neue Dienste bald verfügbar"
   },
   "settings": {
+    "bottomChangeLanguage": "You can change the application language below",
     "selectLanguage": "Sprache auswählen"
   }
 }

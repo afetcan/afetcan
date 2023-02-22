@@ -1,12 +1,32 @@
 <script setup lang="ts">
-const {
-  toggle,
-  toggleBubbleVisibility,
-} = useChatWoot()
+import type { Earthquake } from '~~/types/earthquake'
+
+const { toggle, toggleBubbleVisibility } = useChatWoot()
 
 onMounted(() => {
   toggleBubbleVisibility('hide')
 })
+
+const { t } = useI18n()
+
+const { selectedCountry } = storeToRefs(useAppStore())
+const appStore = useAppStore()
+
+const { data, refresh } = await useFetch<{
+  data: Earthquake[]
+}>(computed(() => `/api/earthquake/${selectedCountry.value?.slug}`), { method: 'GET', lazy: true, immediate: false })
+
+definePageMeta({
+  where: 'web',
+  middleware: ['web'],
+})
+
+onMounted(async () => {
+  appStore.onInit()
+  if (selectedCountry.value)
+    await refresh()
+})
+
 useHead({
   title: 'afetcan',
   meta: [
@@ -17,60 +37,60 @@ useHead({
     },
   ],
 })
-const { t } = useI18n()
 </script>
 
 <template>
-  <MainContent back-on-small-screen>
-    <template #title>
-      <div text-lg font-bold flex items-center gap-2 @click="$scrollToTop">
-        <span>{{ $t('global.home') }}</span>
-      </div>
-    </template>
-    <div class="flex justify-center items-center w-full max-w-xl mx-auto">
-      <div class="grid grid-cols-1 gap-6 p-4">
-        <div class="grid grid-cols-1 gap-10">
-          <button class="h-20 flex items-center bg-red-600 hover:bg-red-800 p-4 text-white rounded text-2xl" to="/charity" @click="toggle('open')">
-            <span>
-              {{ t('home.emergencyHelp') }}
-            </span>
-            <div class="icon-[ph--caret-right-bold] w-8 h-8 ml-auto flex flex-none text-white" />
-          </button>
-          <NuxtLink class="h-20 flex items-center bg-green-600 hover:bg-green-800 text-white rounded text-2xl p-4" to="/charity">
-            <span>
-              {{ t('home.charities') }}
-            </span>
-            <div class="icon-[ph--caret-right-bold] w-8 h-8 ml-auto flex flex-none text-white" />
-          </NuxtLink>
-
-          <NuxtLink class="h-20 cursor-not-allowed p-4 flex items-center bg-gray-200 opacity-50 text-gray-700 rounded text-2xl" to="#">
-            <span>
-              {{ t('home.soonFeatures') }}
-            </span>
-          </NuxtLink>
+  <NuxtLayout name="web">
+    <WebMainContent>
+      <template #title>
+        <div text-lg font-bold flex items-center gap-2 @click="$scrollToTop">
+          <span>{{ $t('global.home') }}</span>
         </div>
-        <div class="my-20 grid grid-cols-1 gap-6">
-          <div class="text-base ">
-            <div v-html="t('home.description')" />
+      </template>
 
-            <p class="mt-8">
-              {{ t('home.description2') }}
-            </p>
+      <div class="grid grid-cols-1 gap-4 lg:col-span-2">
+        <WebTemSelectCountry v-if="!selectedCountry" />
+
+        <!-- Actions panel -->
+        <section v-if="selectedCountry" aria-labelledby="quick-links-title">
+          <div class="grid grid-cols-1 gap-4">
+            <h2 id="quick-links-title" class="sr-only">
+              Quick links
+            </h2>
+
+            <MonoMolListItem
+              header-class="bg-green-100 text-green-600"
+              :title="selectedCountry.name"
+              :icon="selectedCountry.icon"
+              :subtitle="selectedCountry.name"
+              :href="selectedCountry.slug"
+            />
+
+            <MonoMolListItem
+              header-class="bg-red-100 text-red-600 opacity-60"
+              :title="$t('home.emergencyHelp')"
+              icon="icon-[ph--phone-disconnect-bold]"
+              :subtitle="t('global.soon')"
+            />
+
+            <MonoMolListItem
+              header-class="bg-zinc-300 text-zinc-600"
+              :title="$t('home.earthquakeList')"
+              icon="icon-[wi--earthquake]"
+              dark
+            >
+              <div v-if="data && data.data">
+                <div v-for="item in data?.data.slice(0, 3)" :key="item.id">
+                  <MonoTemEarthquakeItem :item="item" />
+                </div>
+              </div>
+              <p v-if="data?.data && data?.data.length === 0">
+                Suanda bu ulke icin veri bulunmamaktadir.
+              </p>
+            </MonoMolListItem>
           </div>
-          <AtomACButton block tag="a" href="https://twitter.com/afetcanapp" target="_blank">
-            Twitter
-          </AtomACButton>
-          <AtomACButton block tag="a" href="https://github.com/afetcan" target="_blank">
-            Github
-          </AtomACButton>
-          <AtomACButton block tag="a" href="https://discord.afetcan.com" target="_blank">
-            Discord
-          </AtomACButton>
-          <AtomACButton block tag="a" href="https://www.instagram.com/afetcanapp/" target="_blank">
-            Instagram
-          </AtomACButton>
-        </div>
+        </section>
       </div>
-    </div>
-  </MainContent>
+    </WebMainContent>
+  </NuxtLayout>
 </template>
