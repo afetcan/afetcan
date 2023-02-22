@@ -28,10 +28,8 @@ const changeCountry = async () => {
       </template>
 
       <div class="grid grid-cols-1 gap-4 lg:col-span-2">
-        <WebTemHome v-if="!selectedCountry" />
-
         <!-- Actions panel -->
-        <section v-if="selectedCountry" aria-labelledby="quick-links-title">
+        <section aria-labelledby="quick-links-title">
           <div class="grid grid-cols-1 gap-4">
             <h2 id="quick-links-title" class="sr-only">
               Quick links
@@ -47,6 +45,7 @@ const changeCountry = async () => {
             </MonoMolListItem>
 
             <MonoMolListItem
+              v-if="selectedCountry"
               class="cursor-pointer "
               header-class="hover:bg-zinc-300 bg-zinc-100 dark:bg-zinc-800 dark:hover:bg-zinc-700"
               clickable

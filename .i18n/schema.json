@@ -45,14 +45,16 @@
       "shortDescription": "Short Description",
       "description": "Description",
       "newCharity": "New Charity"
-    }
+    },
+    "noCharity": "No charity found. You can use the button below to add."
   },
   "form": {
     "error": {
       "required": "This field is required",
       "url": "This field must be a valid url",
       "minLength": "This field must be at least {0} characters",
-      "maxLength": "This field must be at most {0} characters"
+      "maxLength": "This field must be at most {0} characters",
+      "add": "An error occurred while adding"
     },
     "success": {
       "add": "Added successfully",

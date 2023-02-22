@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type { Earthquake } from '~~/types/earthquake'
+
 const { toggle, toggleBubbleVisibility } = useChatWoot()
 
 onMounted(() => {
@@ -10,16 +12,20 @@ const { t } = useI18n()
 const { selectedCountry } = storeToRefs(useAppStore())
 const appStore = useAppStore()
 
-const { data } = await useFetch('/api/earthquake', { method: 'GET' })
+const { data, refresh } = await useFetch<{
+  data: Earthquake[]
+}>(computed(() => `/api/earthquake/${selectedCountry.value?.slug}`), { method: 'GET', lazy: true, immediate: false })
 
 definePageMeta({
   where: 'web',
   middleware: ['web'],
 })
 
-onMounted(() =>
-  appStore.onInit(),
-)
+onMounted(async () => {
+  appStore.onInit()
+  if (selectedCountry.value)
+    await refresh()
+})
 
 useHead({
   title: 'afetcan',
@@ -54,7 +60,7 @@ useHead({
 
             <MonoMolListItem
               header-class="bg-green-100 text-green-600"
-              :title="$t('home.selectedCountry')"
+              :title="selectedCountry.name"
               :icon="selectedCountry.icon"
               :subtitle="selectedCountry.name"
               :href="selectedCountry.slug"
@@ -73,9 +79,14 @@ useHead({
               icon="icon-[wi--earthquake]"
               dark
             >
-              <div v-for="item in data?.data.data.slice(0, 3)" :key="item.id">
-                <MonoTemEarthquakeItem :item="item" />
+              <div v-if="data && data.data">
+                <div v-for="item in data?.data.slice(0, 3)" :key="item.id">
+                  <MonoTemEarthquakeItem :item="item" />
+                </div>
               </div>
+              <p v-if="data?.data && data?.data.length === 0">
+                Suanda bu ulke icin veri bulunmamaktadir.
+              </p>
             </MonoMolListItem>
           </div>
         </section>

@@ -18,6 +18,7 @@
       "shortDescription": "Kısa Açıklama",
       "websiteUrl": "İnternet Sitesi Url"
     },
+    "noCharity": "No charity found",
     "website": "İnternet Sitesi",
     "whySupport": "Afetler, yıkıcı sonuçlarıyla yaşamları derinden etkileyen doğa olaylarıdır. Afetlerden sonra insanlar barınma, beslenme, su ve diğer temel ihtiyaçlarını karşılamakta zorluk çekebilirler. Bu nedenle afet yardım kuruluşları, ihtiyaç sahiplerine yardım ederek hayatlarını düzene sokmalarına yardımcı olur."
   },
@@ -29,6 +30,7 @@
   },
   "form": {
     "error": {
+      "add": "An error occurred while adding",
       "maxLength": "Bu alan en fazla {0} karakter olabilir",
       "minLength": "Bu alan en az {0} karakter olabilir",
       "required": "Bu alan zorunludur",

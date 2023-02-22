@@ -7,6 +7,7 @@ export interface Charity {
   shortDescription: string
   description: string
   bank?: string
+  country: string
 }
 
 // eslint-disable-next-line @typescript-eslint/consistent-type-definitions

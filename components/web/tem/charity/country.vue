@@ -24,7 +24,7 @@ const { t } = useI18n()
         class="bg-gray-200 hover:bg-gray-400 h-10 px-4 rounded flex items-center w-full"
       >
         <div class="icon-[ph--caret-left-bold] w-5 h-5 mr-1" />
-        {{ t('charity.allCountries') }}
+        {{ t('global.back') }}
         <div class="icon-[ph--map-pin-duotone] w-5 h-5 ml-auto" />
       </NuxtLink>
     </div>
@@ -39,6 +39,9 @@ const { t } = useI18n()
           :title="item.name"
           :href="`/${getSlug}/charity/${item.slug}`"
         />
+      </div>
+      <div class="mt-4">
+        {{ data?.length === 0 && t('charity.noCharity') }}
       </div>
     </ContentRenderer>
     <NuxtLink :to="`/${getSlug}/charity/new`" class="bg-gray-200 p-4 rounded flex hover:bg-gray-400 opacity-75 mt-10">

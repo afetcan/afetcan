@@ -4,6 +4,8 @@ import type { AnyConvert } from '~~/types'
 
 const { t } = useI18n()
 const route = useRoute()
+const appStore = useAppStore()
+
 const { toFormValidator, useForm, zod } = useFormFn()
 
 const { newCharity } = useFormApi()
@@ -21,24 +23,39 @@ const validationSchema
         .min(10, t('form.error.minLength', ['10']))
         .max(100, t('form.error.maxLength', ['100'])),
       websiteUrl: zod.string().url(t('form.error.url')),
+      country: zod.string(),
     }))
 
-const { handleSubmit } = useForm<Charity>({
+const getCountry = computed(() => {
+  return route.params.country as string
+})
+
+const { handleSubmit, resetForm } = useForm<Charity>({
   validationSchema,
+  initialValues: {
+    country: getCountry.value,
+  },
+})
+
+watch(getCountry, (newVal) => {
+  validationSchema.setInitialValues({
+    ...validationSchema.initialValues,
+    country: newVal,
+  })
 })
 
 const onSubmit = handleSubmit(async (values) => {
   try {
     const data = await newCharity({
       ...values,
+      country: getCountry.value,
     })
+    appStore.dispatchNotification({ title: t('global.success'), content: t('form.success.add'), type: 'success' })
+    resetForm()
   }
   catch (error) {
+    appStore.dispatchNotification({ title: t('global.error'), content: t('form.error.add'), type: 'error' })
   }
-})
-
-const getCountry = computed(() => {
-  return route.params.country
 })
 </script>
 

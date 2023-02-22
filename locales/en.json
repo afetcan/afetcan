@@ -18,6 +18,7 @@
       "shortDescription": "Short Description",
       "websiteUrl": "Website Url"
     },
+    "noCharity": "No charity found",
     "website": "Website",
     "whySupport": "Disasters are natural events that deeply affect lives with their devastating consequences. After disasters, people may have difficulty meeting their shelter, food, water and other basic needs. That's why disaster charities help those in need, helping them get their lives back in order."
   },
@@ -29,6 +30,7 @@
   },
   "form": {
     "error": {
+      "add": "An error occurred while adding",
       "maxLength": "This field must be at most {0} characters",
       "minLength": "This field must be at least {0} characters",
       "required": "This field is required",
