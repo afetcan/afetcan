@@ -1,5 +1,5 @@
 <template>
   <div>
-    <img src="/logo.svg" alt="acil deprem">
+    <img src="/logo.svg" alt="afetcan">
   </div>
 </template>

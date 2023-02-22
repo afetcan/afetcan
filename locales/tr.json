@@ -38,8 +38,7 @@
   "home": {
     "charities": "Hayır Kurumları",
     "description": "Acil yardıma ihtiyacı olan insanların yanında olmak ve onlara destek olmak ortak hedeflerimizden biridir. Deprem gibi afet durumları insanların yaşamlarını ve evlerini kökten değiştirebilir. Bu nedenle, deprem bölgesindeki insanların hayatlarını kolaylaştırmak için hem bugün hem de gelecekte onlara yardımcı olmak önemlidir. </br> </br> İnsanlara yardım etmek için bir platform olarak kullanılabilir. Şimdilik sosyal medya, Github ve Discord hesaplarınızı takip etmek mümkünken, yakında açacağımız web sitesi sayesinde daha da fazla kişiye ulaşabilecek ve yardım konularını daha detaylı konuşabileceksiniz. </br> </br> Sizin gibi insanlar, depremzedelerden daha çok yardım etmeyi amaçlayan kuruluşlar toplumun geleceği için önemlidir. Bu amaçla hareket eden ve depremzedelerin yardımına koşan birçok kişi ve kuruluşun bir araya gelmesine katkı sağlayacağız.",
-    "description2": "Acil Durum Desteği açık kaynaklı bir proje olduğu için herkesin katkıda bulunmasını ve geliştirmesini istiyoruz. Sadece Türkiye'de değil, tüm dünyada depremzedeler için yardım toplayan herkes bu projeden faydalanabilir.",
-    "earthquakeList": "Earthquake List",
+    "description2": "afetcan açık kaynaklı bir proje olduğu için herkesin katkıda bulunmasını ve geliştirmesini istiyoruz. Sadece Türkiye'de değil, tüm dünyada depremzedeler için yardım toplayan herkes bu projeden faydalanabilir.",
     "emergencyHelp": "Yardım Edin (SOS)",
     "feed": "Feed",
     "selectedCountry": "Selected Country",

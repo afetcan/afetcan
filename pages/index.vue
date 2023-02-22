@@ -22,13 +22,12 @@ onMounted(() =>
 )
 
 useHead({
-  title: 'Acil Deprem',
+  title: 'afetcan',
   meta: [
     {
       hid: 'description',
       name: 'description',
-      content:
-        'Acil deprem deprem bilgilerini toplayıp anlandırıp yetkilelerle paylaşan bir site.',
+      content: 'Afet durumlarının hızlı bir şekilde yönetilmesi, önceden bilgilendirme ve koordinasyon süreçlerinin sağlanması için bir yazılım projesi geliştirdik. Bu projede, afet durumlarını anlık olarak takip eden ve paylaşan ilgili kurumlarla birlikte çalışıyoruz.',
     },
   ],
 })
