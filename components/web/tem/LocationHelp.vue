@@ -1,13 +1,13 @@
 <script lang="ts" setup>
 import { useGeolocation } from '@vueuse/core'
 import 'leaflet/dist/leaflet.css'
-import L from 'leaflet'
+import * as L from 'leaflet'
 
 const { coords, error, isSupported }
   = useGeolocation()
 
-let map = ref(null)
-let mapInit = false
+const map: Ref<L.Map> = ref()
+const mapInit = ref(false)
 const viewOpt = reactive({
   coords: [39.1667, 35.6667],
   zoom: 5,
@@ -19,9 +19,11 @@ const data = reactive({
   name: null,
   telephone: null,
   message: null,
-})
+} as any)
+type helpImageType = 'android' | 'ios'
+
 const showHelpModal = ref(false)
-let helpImageType = ref('android')
+const helpImage = ref<helpImageType>('android')
 
 watch(coords, (val) => {
   if (val.longitude && val.latitude) {
@@ -32,9 +34,10 @@ watch(coords, (val) => {
 })
 
 onMounted(() => {
+  const _data = localStorage.getItem('data')
   // read data if saved
-  if (localStorage.getItem('data') !== null) {
-    const savedData = JSON.parse(localStorage.getItem('data'))
+  if (_data !== null) {
+    const savedData = JSON.parse(_data)
     console.log(savedData)
     data.address = savedData.address
     data.name = savedData.name
@@ -44,8 +47,8 @@ onMounted(() => {
   }
 })
 
-function openHelpModal(helpImgType) {
-  helpImageType = helpImgType
+function openHelpModal(value: helpImageType) {
+  helpImage.value = value
   showHelpModal.value = true
 }
 
@@ -54,23 +57,23 @@ function retryGetLocation() {
   window.location.reload()
 }
 
-function initMap(longitude, latitude) {
-  if (!mapInit) {
-    map = L.map('mapObj').fitWorld()
-    map.locate({ setView: true, maxZoom: 16 })
+function initMap(longitude: number, latitude: number) {
+  if (!mapInit.value) {
+    map.value = L.map('mapObj').fitWorld()
+    map.value.locate({ setView: true, maxZoom: 16 })
 
-    map.setView(viewOpt.coords, viewOpt.zoom)
+    map.value.setView(viewOpt.coords, viewOpt.zoom)
     L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
       attribution:
         '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map)
-    mapInit = true
+    mapInit.value = true
   }
 
   viewOpt.coords = [latitude, longitude]
   viewOpt.zoom = 30
-  map.setView(viewOpt.coords, viewOpt.zoom)
-  L.marker(viewOpt.coords).addTo(map)
+  map.value.setView(viewOpt.coords, viewOpt.zoom)
+  L.marker(viewOpt.coords).addTo(map.value)
 }
 
 function send() {
@@ -118,7 +121,7 @@ function send() {
               <div>
                 Konumu nasıl açabilirim:
                 <span class="cursor-pointer text-blue-600 visited:text-blue-300" @click="openHelpModal('android')">Android</span>,
-                <span class="cursor-pointer	text-blue-600 visited:text-blue-300" @click="openHelpModal('iPhone')">iPhone</span>
+                <span class="cursor-pointer	text-blue-600 visited:text-blue-300" @click="openHelpModal('ios')">iPhone</span>
               </div>
               <div class="cursor-pointer text-blue-600 visited:text-blue-300" @click="retryGetLocation()">
                 Tekrar Dene
