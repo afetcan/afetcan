@@ -67,7 +67,6 @@ const sortData = async (searchText?: string): Promise<Country[]> => {
     countryData = search(searchText, initData.value, {
       keySelector: (item: Country) => item.name,
     }) as Country[]
-    console.log(`${countryData.length} ${searchText}`)
   }
   else {
     countryData = initData.value

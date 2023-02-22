@@ -77,6 +77,8 @@
     "soonFeatures": "New Services Coming Soon"
   },
   "settings": {
+    "aboutUs": "About Us",
+    "aboutUsDescription": "To make open source software for disaster situations all over the world. If you want to join the team, contact us. We need many software developers.",
     "bottomChangeLanguage": "You can change the application language below",
     "selectLanguage": "Select Language"
   }

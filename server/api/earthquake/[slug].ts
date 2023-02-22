@@ -1,7 +1,6 @@
 import { turkiyeEarthquakeApi } from '~/server/services/turkiye.earthquake'
 
 export default defineEventHandler(async (context) => {
-  console.log('context', context.context)
   const slug = context.context.params && context.context.params.slug
   try {
     if (slug === 'turkiye') {
@@ -19,7 +18,6 @@ export default defineEventHandler(async (context) => {
     }
   }
   catch (error) {
-    console.log(error)
     return {
       lastUpdate: new Date().toISOString(),
       data: null,

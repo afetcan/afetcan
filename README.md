@@ -1,19 +1,14 @@
 # afetcan TR
-Bu proje Türkiyedeki depremin yaralarını sarabilmek amacıyla üretildi.
-Ama her depremde olduğu gibi bu deprem de bize bir şeyler öğretti.
-Bir depremde en önemli şey, birbirimizi desteklemek ve yardıma koşmak.
-Dünyadan birçok ekip ve insan bize yardımcı oldu. Biz de bu projeyi açık kaynak olarak paylaşarak, dünyanın her yerinden insanlara yardımcı olmaya çalışıyoruz.
+Dünyadaki tüm afetler için açık kaynaklı bir yazılım geliştirerek, afet durumlarında ilgili kurumlarla birlikte kullanılabilecek AfetCan projesini hayata geçirdik. Bu proje, Türkiye'deki büyük depremden sonra @productdevbook tarafından başlatıldı ve sürekli olarak geliştirilmeye devam edecek.
 
-Deprem her an her yerde. Biz hazırız, tüm dünya için. Tüm kaynaklarımız açık kaynak ve erişilebilir.
+Eğer siz de yeteneklerinize güveniyorsanız, bize katılarak gelecekte tüm ülkelerdeki afetlere hızlıca destek verebilmenin yolunu açabilirsiniz.
+
 
 # afetcan EN
-This project is produced in order to heal the wounds of the earthquake in Turkey.
-But as in every earthquake, this earthquake offers us something.
-The most important thing in an earthquake is to support and force the force.
-Many teams and people from around the world helped us. We are trying to help people from all over the world by sharing this project as open source.
 
-Earthquakes are everywhere. We are ready, for the whole world. All of our resources are open source and accessible.
+We developed an open-source software for all disasters in the world and launched the AfetCan project, which can be used together with relevant organizations in times of disaster. This project was initiated by @productdevbook after the major earthquake in Turkey and will continue to be developed continuously.
 
+If you also have confidence in your skills, you can join us and help us pave the way to provide fast support for all disasters in the future in all countries.
 
 ## Kurulum
 
@@ -28,14 +23,16 @@ Pnpm 7.26.3
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Pinia](https://pinia.esm.dev/)
 - [Vue Router](https://next.router.vuejs.org/)
+- [Ionic Framework](https://ionicframework.com/)
+- [Capacitor](https://capacitorjs.com/)
 ...
 
-### Kurulum
+### Setup
 ```bash
 pnpm install
 ```
 
-### Dev
+### Web Dev
 ```bash
 pnpm dev
 ```

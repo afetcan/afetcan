@@ -54,6 +54,31 @@ const changeCountry = async () => {
               :subtitle="t('settings.bottomChangeLanguage')"
               @click="changeCountry"
             />
+
+            <MonoMolListItem
+              class="mt-14"
+              :title="t('settings.aboutUs')"
+              icon="icon-[ph--globe-stand-duotone]"
+              :subtitle="t('settings.aboutUsDescription')"
+              icon-right="icon-[ph--arrow-bend-left-down]"
+            >
+              <div class="bg-zinc-200 p-4">
+                <div class="grid grid-cols-4 place-items-center">
+                  <a href="https://github.com/afetcan" class="hover:text-green-500 w-full h-full text-center" target="_blank">
+                    Github
+                  </a>
+                  <a href="https://twitter.com/afetcanapp" target="_blank" class="hover:text-green-500 w-full h-full text-center">
+                    Twitter
+                  </a>
+                  <a href="https://instagram.com/afetcanapp" target="_blank" class="hover:text-green-500 w-full h-full text-center">
+                    Instagram
+                  </a>
+                  <a href="https://discord.afetcan.com" target="_blank" class="hover:text-green-500 w-full h-full text-center">
+                    Discord
+                  </a>
+                </div>
+              </div>
+            </MonoMolListItem>
           </div>
         </section>
       </div>
