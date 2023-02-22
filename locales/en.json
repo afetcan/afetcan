@@ -7,9 +7,17 @@
     "allCharities": "All Charities",
     "allCountries": "All Countries",
     "charities": "Charities",
-    "description": "The data on this page is obtained from institutions and help sites. Irrespectively, we list all fundraisers supervised by the state. If a roster data is missing, incorrect or should not be added, please contact us. If we are contacted and changes are requested, the requirements will be fulfilled automatically.",
     "donate": "Donate",
     "donation": "Donation Resource",
+    "newForm": {
+      "country": "Country",
+      "description": "Description",
+      "donationUrl": "Donation Url",
+      "name": "Name",
+      "newCharity": "New Charity",
+      "shortDescription": "Short Description",
+      "websiteUrl": "Website Url"
+    },
     "website": "Website",
     "whySupport": "Disasters are natural events that deeply affect lives with their devastating consequences. After disasters, people may have difficulty meeting their shelter, food, water and other basic needs. That's why disaster charities help those in need, helping them get their lives back in order."
   },
@@ -18,6 +26,27 @@
     "add": "Add Country",
     "change": "Change Country",
     "search": "Search Country"
+  },
+  "form": {
+    "error": {
+      "maxLength": "This field must be at most {0} characters",
+      "minLength": "This field must be at least {0} characters",
+      "required": "This field is required",
+      "url": "This field must be a valid url"
+    },
+    "placeholder": {
+      "country": "Please enter a country",
+      "description": "Please enter a description",
+      "donationUrl": "Please enter a donation url",
+      "name": "Please enter a name",
+      "shortDescription": "Please enter a short description",
+      "websiteUrl": "Please enter a website url"
+    },
+    "success": {
+      "add": "Added successfully",
+      "delete": "Deleted successfully",
+      "update": "Updated successfully"
+    }
   },
   "global": {
     "back": "Back",

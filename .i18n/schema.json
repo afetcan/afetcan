@@ -36,8 +36,37 @@
     "donation": "Donation Resource",
     "allCharities": "All Charities",
     "allCountries": "All Countries",
-    "description": "The data on this page is obtained from institutions and help sites. Irrespectively, we list all fundraisers supervised by the state. If a roster data is missing, incorrect or should not be added, please contact us. If we are contacted and changes are requested, the requirements will be fulfilled automatically.",
-    "addCharity": "Add Charity"
+    "addCharity": "Add Charity",
+    "newForm": {
+      "name": "Name",
+      "country": "Country",
+      "websiteUrl": "Website Url",
+      "donationUrl": "Donation Url",
+      "shortDescription": "Short Description",
+      "description": "Description",
+      "newCharity": "New Charity"
+    }
+  },
+  "form": {
+    "error": {
+      "required": "This field is required",
+      "url": "This field must be a valid url",
+      "minLength": "This field must be at least {0} characters",
+      "maxLength": "This field must be at most {0} characters"
+    },
+    "success": {
+      "add": "Added successfully",
+      "update": "Updated successfully",
+      "delete": "Deleted successfully"
+    },
+    "placeholder": {
+      "name": "Please enter a name",
+      "country": "Please enter a country",
+      "websiteUrl": "Please enter a website url",
+      "donationUrl": "Please enter a donation url",
+      "shortDescription": "Please enter a short description",
+      "description": "Please enter a description"
+    }
   },
   "country": {
     "add": "Add Country",

@@ -7,9 +7,17 @@
     "allCharities": "Alle Wohltätigkeitsorganisationen",
     "allCountries": "Alle Länder",
     "charities": "Wohltätigkeitsorganisationen",
-    "description": "Die Daten auf dieser Seite werden von Institutionen und Hilfeseiten erhalten. Unabhängig davon listen wir alle von der Regierung überwachten Spendenaufrufe auf. Wenn Verzeichnisdaten fehlen, falsch sind oder nicht hinzugefügt werden sollten, kontaktieren Sie uns bitte. Wenn wir kontaktiert werden und Änderungen angefordert werden, werden die Anforderungen automatisch erfüllt.",
     "donate": "Spenden",
     "donation": "Spendenressource",
+    "newForm": {
+      "country": "Country",
+      "description": "Description",
+      "donationUrl": "Donation Url",
+      "name": "Name",
+      "newCharity": "New Charity",
+      "shortDescription": "Short Description",
+      "websiteUrl": "Website Url"
+    },
     "website": "Website",
     "whySupport": "Disasters are natural events that deeply affect lives with their devastating consequences. After disasters, people may have difficulty meeting their shelter, food, water and other basic needs. That's why disaster charities help those in need, helping them get their lives back in order."
   },
@@ -18,6 +26,27 @@
     "add": "Land hinzufügen",
     "change": "Change Country",
     "search": "Search Country"
+  },
+  "form": {
+    "error": {
+      "maxLength": "This field must be at most {0} characters",
+      "minLength": "This field must be at least {0} characters",
+      "required": "This field is required",
+      "url": "This field must be a valid url"
+    },
+    "placeholder": {
+      "country": "Please enter a country",
+      "description": "Please enter a description",
+      "donationUrl": "Please enter a donation url",
+      "name": "Please enter a name",
+      "shortDescription": "Please enter a short description",
+      "websiteUrl": "Please enter a website url"
+    },
+    "success": {
+      "add": "Added successfully",
+      "delete": "Deleted successfully",
+      "update": "Updated successfully"
+    }
   },
   "global": {
     "back": "Zurück",

@@ -7,9 +7,17 @@
     "allCharities": "すべてのチャリティー",
     "allCountries": "すべての国",
     "charities": "チャリティー",
-    "description": "このページのデータは、機関やヘルプサイトから取得されたものです。もちろん、私たちは国家によって監督されたすべての募金活動をリストアップしています。もし、ロスターデータが不足している、間違っている、または追加すべきでない場合は、ご連絡ください。連絡があり、変更が要求された場合、自動的に要件が満たされます。",
     "donate": "寄付",
     "donation": "寄付リソース",
+    "newForm": {
+      "country": "Country",
+      "description": "Description",
+      "donationUrl": "Donation Url",
+      "name": "Name",
+      "newCharity": "New Charity",
+      "shortDescription": "Short Description",
+      "websiteUrl": "Website Url"
+    },
     "website": "Webサイト",
     "whySupport": "Disasters are natural events that deeply affect lives with their devastating consequences. After disasters, people may have difficulty meeting their shelter, food, water and other basic needs. That's why disaster charities help those in need, helping them get their lives back in order."
   },
@@ -18,6 +26,27 @@
     "add": "国を追加する",
     "change": "Change Country",
     "search": "Search Country"
+  },
+  "form": {
+    "error": {
+      "maxLength": "This field must be at most {0} characters",
+      "minLength": "This field must be at least {0} characters",
+      "required": "This field is required",
+      "url": "This field must be a valid url"
+    },
+    "placeholder": {
+      "country": "Please enter a country",
+      "description": "Please enter a description",
+      "donationUrl": "Please enter a donation url",
+      "name": "Please enter a name",
+      "shortDescription": "Please enter a short description",
+      "websiteUrl": "Please enter a website url"
+    },
+    "success": {
+      "add": "Added successfully",
+      "delete": "Deleted successfully",
+      "update": "Updated successfully"
+    }
   },
   "global": {
     "back": "戻る",

@@ -2,20 +2,28 @@
 import type { Charity } from '~~/composables/useFormApi'
 import type { AnyConvert } from '~~/types'
 
-const { newCharity } = useFormApi()
-
+const { t } = useI18n()
+const route = useRoute()
 const { toFormValidator, useForm, zod } = useFormFn()
+
+const { newCharity } = useFormApi()
 
 const validationSchema
     = toFormValidator(zod.object<AnyConvert<Charity>>({
-      description: zod.string().min(10).max(1000),
-      donationUrl: zod.string().url(),
-      name: zod.string().min(3).max(100),
-      shortDescription: zod.string().min(10).max(100),
-      websiteUrl: zod.string().url(),
+      description: zod.string().min(10,
+        t('form.error.minLength', ['10']))
+        .max(1000, t('form.error.maxLength', ['1000'])),
+      donationUrl: zod.string().url(t('form.error.url')),
+      name: zod.string()
+        .min(3, t('form.error.minLength', ['1']))
+        .max(100, t('form.error.maxLength', ['100'])),
+      shortDescription: zod.string()
+        .min(10, t('form.error.minLength', ['10']))
+        .max(100, t('form.error.maxLength', ['100'])),
+      websiteUrl: zod.string().url(t('form.error.url')),
     }))
 
-const { handleSubmit, errors, values, setValues, setErrors } = useForm<Charity>({
+const { handleSubmit } = useForm<Charity>({
   validationSchema,
 })
 
@@ -24,16 +32,11 @@ const onSubmit = handleSubmit(async (values) => {
     const data = await newCharity({
       ...values,
     })
-    console.log(data)
   }
   catch (error) {
-    console.log(error)
   }
 })
 
-const { t } = useI18n()
-
-const route = useRoute()
 const getCountry = computed(() => {
   return route.params.country
 })
@@ -57,7 +60,7 @@ const getCountry = computed(() => {
       <div>
         <div>
           <h1 class="text-lg font-bold my-4">
-            Charity New
+            {{ t('charity.newForm.newCharity') }}
           </h1>
         </div>
       </div>
@@ -66,40 +69,35 @@ const getCountry = computed(() => {
           <MonoAtomInput
             name="name"
             type="text"
-            label="name"
-            placeholder="Your name"
-            success-message="Nice and secure!"
+            :label="t('charity.newForm.name')"
+            :placeholder="t('form.placeholder.name')"
           />
           <MonoAtomInput
             name="shortDescription"
             type="text"
-            label="shortDescription"
-            placeholder="Your shortDescription"
-            success-message="Nice and secure!"
+            :label="t('charity.newForm.shortDescription')"
+            :placeholder="t('form.placeholder.shortDescription')"
           />
 
           <MonoAtomInput
             name="description"
             type="text"
-            label="description"
-            placeholder="Your description"
-            success-message="Nice and secure!"
+            :label="t('charity.newForm.description')"
+            :placeholder="t('form.placeholder.description')"
           />
 
           <MonoAtomInput
             name="websiteUrl"
             type="text"
-            label="websiteUrl"
-            placeholder="Your websiteUrl"
-            success-message="Nice and secure!"
+            :label="t('charity.newForm.websiteUrl')"
+            :placeholder="t('form.placeholder.websiteUrl')"
           />
 
           <MonoAtomInput
             name="donationUrl"
             type="text"
-            label="donationUrl"
-            placeholder="Your donationUrl"
-            success-message="Nice and secure!"
+            :label="t('charity.newForm.donationUrl')"
+            :placeholder="t('form.placeholder.donationUrl')"
           />
 
           <div class="mt-4 col-span-full">
