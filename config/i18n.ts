@@ -12,7 +12,7 @@ export const availableLocales: ILocales = {
   en: {
     name: 'English',
     iso: 'en',
-    flag: 'icon-[twemoji--flag-united-states]',
+    flag: 'icon-[twemoji--flag-england]',
   },
   tr: {
     name: 'Türkçe',

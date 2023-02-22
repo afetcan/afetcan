@@ -1,10 +1,13 @@
 {
-  "name": "@acildeprem/website",
+  "name": "@afetcan/website",
   "version": "0.1.2",
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "build:app": "cross-env STATUS=prod cross-env WHERE=app nuxt build",
+    "dev": "cross-env WHERE=web nuxt dev",
+    "dev:app": "cross-env STATUS=dev cross-env WHERE=app nuxt dev",
+    "app:start:dev": "cross-env STATUS=dev npx cap sync && cross-env STATUS=dev pnpm cap run android -l --external --watch",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -12,37 +15,58 @@
     "test:watch": "vitest --watch",
     "lint": "eslint --ext .ts,.tsx,.js,.jsx .",
     "lint:fix": "eslint --ext .ts,.tsx,.js,.jsx . --fix",
-    "release": "bumpp --commit --push --tag"
+    "release": "bumpp --commit --push --tag",
+    "fix:android": "adb reverse tcp:4000 tcp:4000"
   },
   "packageManager": "pnpm@7.26.3",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   },
   "dependencies": {
+    "@capacitor/android": "^4.6.3",
+    "@capacitor/core": "^4.6.3",
+    "@capacitor/ios": "^4.6.3",
+    "@directus/sdk": "^10.3.1",
     "@huntersofbook/chatwoot-nuxt": "^1.0.1",
     "@huntersofbook/plausible-nuxt": "^1.0.1",
     "@iconify-json/ph": "^1.1.3",
     "@iconify-json/twemoji": "^1.1.10",
+    "@iconify-json/wi": "^1.1.4",
     "@iconify/tailwind": "^0.1.1",
+    "@nuxtjs/color-mode": "^3.2.0",
     "@pinia/nuxt": "^0.4.6",
+    "@sindresorhus/slugify": "^2.2.0",
+    "@vee-validate/zod": "4.7.3",
+    "fast-fuzzy": "^1.12.0",
+    "lodash": "^4.17.21",
+    "muninn": "^0.15.0",
     "pinia": "^2.0.30",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "vee-validate": "4.7.3",
+    "zod": "3.20.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.1",
+    "@capacitor/cli": "^4.6.3",
     "@huntersofbook/i18n": "^0.5.1",
     "@nuxt/content": "^2.4.3",
     "@nuxt/devtools": "^0.1.2",
     "@nuxtjs/i18n": "8.0.0-beta.9",
+    "@nuxtjs/ionic": "^0.8.1",
     "@nuxtjs/partytown": "^1.3.0",
     "@nuxtjs/tailwindcss": "^6.3.1",
+    "@types/lodash": "^4.14.191",
     "@types/uuid": "^9.0.0",
     "@vue-macros/nuxt": "^1.0.3",
     "@vueuse/core": "^9.12.0",
     "@vueuse/nuxt": "^9.12.0",
     "bumpp": "^8.2.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
     "eslint": "^8.33.0",
-    "nuxt": "^3.2.0",
+    "nuxt": "^3.2.2",
+    "nuxt-time": "^0.0.3",
     "typescript": "^4.9.5"
   },
   "resolutions": {

@@ -3,37 +3,83 @@
     "description": "Deprem her an her yerde. Biz hazırız, tüm dünya için. Tüm kaynaklarımız açık ve erişilebilir."
   },
   "charity": {
-    "addCharity": "Hayır Kurumu Eklenmesini İstiyorum",
-    "allCharities": "Tüm Hayır Kurumları",
+    "addCharity": "Yardım Kuruluşu Eklenmesini İstiyorum",
+    "allCharities": "Tüm Yardım Kurumları",
     "allCountries": "Tüm Ülkeler",
-    "charities": "Hayır Kurumları",
-    "description": "Bu sayfadaki veriler kurumlardan ve yardım sitelerinden elde edilmektedir. Devlet tarafından denetlenen tüm bağış toplama etkinliklerini ayrı ayrı listeleriz. Liste verisi eksikse, yanlışsa veya eklenmemesi gerekiyorsa, lütfen bizimle iletişime geçin. Bizimle iletişime geçilmesi ve değişiklik talep edilmesi durumunda gereklilikler otomatik olarak yerine getirilecektir.",
+    "charities": "Yardım Kurumları",
     "donate": "Bağış Yap",
     "donation": "Kaynak",
-    "website": "Website"
+    "newForm": {
+      "country": "Ülke",
+      "description": "Açıklama",
+      "donationUrl": "Bağış Url",
+      "name": "İsim",
+      "newCharity": "Yeni Yardım Kuruluşları",
+      "shortDescription": "Kısa Açıklama",
+      "websiteUrl": "İnternet Sitesi Url"
+    },
+    "noCharity": "No charity found",
+    "website": "İnternet Sitesi",
+    "whySupport": "Afetler, yıkıcı sonuçlarıyla yaşamları derinden etkileyen doğa olaylarıdır. Afetlerden sonra insanlar barınma, beslenme, su ve diğer temel ihtiyaçlarını karşılamakta zorluk çekebilirler. Bu nedenle afet yardım kuruluşları, ihtiyaç sahiplerine yardım ederek hayatlarını düzene sokmalarına yardımcı olur."
   },
   "country": {
-    "add": "Ülke Ekle"
+    "404": "Ülke bulunamadı",
+    "add": "Ülke Ekle",
+    "change": "Ülke Değiştir",
+    "search": "Ülke Ara"
+  },
+  "form": {
+    "error": {
+      "add": "An error occurred while adding",
+      "maxLength": "Bu alan en fazla {0} karakter olabilir",
+      "minLength": "Bu alan en az {0} karakter olabilir",
+      "required": "Bu alan zorunludur",
+      "url": "Lütfen geçerli bir url girin"
+    },
+    "placeholder": {
+      "country": "Lütfen bir ülke yazın",
+      "description": "Lütfen bir açıklama girin",
+      "donationUrl": "Lütfen bir bağış url'si girin",
+      "name": "Lütfen bir isim girin",
+      "shortDescription": "Lütfen kısa bir açıklama girin",
+      "websiteUrl": "Lütfen bir web sitesi url'si girin"
+    },
+    "success": {
+      "add": "Eklendi",
+      "delete": "Silindi",
+      "update": "Güncellendi"
+    }
   },
   "global": {
     "back": "Geri",
+    "cancel": "İptal",
+    "change": "Değiştir",
     "copy": "Kopyala",
     "error": "Hata",
     "help": "Yardım Edin (SOS)",
     "home": "Anasayfa",
     "save": "Kaydet",
+    "search": "Ara",
+    "settings": "Ayarlar",
     "share": "Paylaş",
+    "soon": "Yakında",
     "success": "Başarılı",
     "successCopy": "Başarıyla kopyalandı"
   },
   "home": {
-    "charities": "Hayır Kurumları",
+    "charities": "Yardım Kuruluşları",
     "description": "Acil yardıma ihtiyacı olan insanların yanında olmak ve onlara destek olmak ortak hedeflerimizden biridir. Deprem gibi afet durumları insanların yaşamlarını ve evlerini kökten değiştirebilir. Bu nedenle, deprem bölgesindeki insanların hayatlarını kolaylaştırmak için hem bugün hem de gelecekte onlara yardımcı olmak önemlidir. </br> </br> İnsanlara yardım etmek için bir platform olarak kullanılabilir. Şimdilik sosyal medya, Github ve Discord hesaplarınızı takip etmek mümkünken, yakında açacağımız web sitesi sayesinde daha da fazla kişiye ulaşabilecek ve yardım konularını daha detaylı konuşabileceksiniz. </br> </br> Sizin gibi insanlar, depremzedelerden daha çok yardım etmeyi amaçlayan kuruluşlar toplumun geleceği için önemlidir. Bu amaçla hareket eden ve depremzedelerin yardımına koşan birçok kişi ve kuruluşun bir araya gelmesine katkı sağlayacağız.",
-    "description2": "Acil Durum Desteği açık kaynaklı bir proje olduğu için herkesin katkıda bulunmasını ve geliştirmesini istiyoruz. Sadece Türkiye'de değil, tüm dünyada depremzedeler için yardım toplayan herkes bu projeden faydalanabilir.",
+    "description2": "afetcan açık kaynaklı bir proje olduğu için herkesin katkıda bulunmasını ve geliştirmesini istiyoruz. Sadece Türkiye'de değil, tüm dünyada depremzedeler için yardım toplayan herkes bu projeden faydalanabilir.",
+    "earthquakeList": "Depremler",
     "emergencyHelp": "Yardım Edin (SOS)",
+    "feed": "Haberler",
+    "selectedCountry": "Ülke Seçildi",
     "soonFeatures": "Yeni Hizmetler yakında"
   },
   "settings": {
+    "aboutUs": "About Us",
+    "aboutUsDescription": "To make open source software for disaster situations all over the world. If you want to join the team, contact us. We need many software developers.",
+    "bottomChangeLanguage": "Aşağıdaki düğmeyi kullanarak dilinizi değiştirebilirsiniz.",
     "selectLanguage": "Dil Seçin"
   }
 }
