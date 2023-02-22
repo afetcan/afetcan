@@ -41,7 +41,7 @@ const { t } = useI18n()
         />
       </div>
       <div class="mt-4">
-        {{ data?.length === 0 && t('charity.noCharity') }}
+        {{ data?.length === 0 ? t('charity.noCharity') : '' }}
       </div>
     </ContentRenderer>
     <NuxtLink :to="`/${getSlug}/charity/new`" class="bg-gray-200 p-4 rounded flex hover:bg-gray-400 opacity-75 mt-10">

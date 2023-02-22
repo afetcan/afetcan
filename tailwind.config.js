@@ -253,6 +253,7 @@ module.exports = {
     'icon-[twemoji--flag-yemen]',
     'icon-[twemoji--flag-zambia]',
     'icon-[twemoji--flag-zimbabwe]',
+    'icon-[twemoji--flag-england]',
     'bg-blue-100',
     'bg-blue-500',
     'text-blue-900',
