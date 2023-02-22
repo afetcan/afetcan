@@ -10,13 +10,13 @@ We developed an open-source software for all disasters in the world and launched
 
 If you also have confidence in your skills, you can join us and help us pave the way to provide fast support for all disasters in the future in all countries.
 
-## Kurulum
+## Setup
 
-### Gereksinimler
+### Requirements
 Node.js 18.0.0 veya üstü
 Pnpm 7.26.3
 
-### Kullandığımız teknolojiler
+### Technologies we use
 - [Nuxt 3](https://nuxt.com)
 - [Vue 3](https://vuejs.org/)
 - [Vite](https://vitejs.dev/)
@@ -41,3 +41,8 @@ pnpm dev
 ```bash
 pnpm build
 ```
+
+
+# Thanks
+
+- [Türkiye Earthquake API and Design - @ademilter](https://github.com/ademilter/zelzele)
