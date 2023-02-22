@@ -32,6 +32,7 @@ specifiers:
   '@nuxtjs/tailwindcss': ^6.3.1
   '@pinia/nuxt': ^0.4.6
   '@sindresorhus/slugify': ^2.2.0
+  '@types/leaflet': ^1.9.1
   '@types/lodash': ^4.14.191
   '@types/uuid': ^9.0.0
   '@vee-validate/zod': 4.7.3
@@ -43,6 +44,7 @@ specifiers:
   dotenv: ^16.0.3
   eslint: ^8.33.0
   fast-fuzzy: ^1.12.0
+  leaflet: ^1.9.3
   lodash: ^4.17.21
   muninn: ^0.15.0
   nuxt: ^3.2.2
@@ -69,6 +71,7 @@ dependencies:
   '@sindresorhus/slugify': 2.2.0
   '@vee-validate/zod': 4.7.3_f2btg7zmr5jfq4gp3vvwlannri
   fast-fuzzy: 1.12.0
+  leaflet: 1.9.3
   lodash: 4.17.21
   muninn: 0.15.0
   pinia: 2.0.30_typescript@4.9.5
@@ -86,6 +89,7 @@ devDependencies:
   '@nuxtjs/ionic': 0.8.1
   '@nuxtjs/partytown': 1.3.0
   '@nuxtjs/tailwindcss': 6.4.0
+  '@types/leaflet': 1.9.1
   '@types/lodash': 4.14.191
   '@types/uuid': 9.0.0
   '@vue-macros/nuxt': 1.0.3_nnhg43yn6ci2pflv4exydrsr2u
@@ -2573,6 +2577,10 @@ packages:
       '@types/node': 18.13.0
     dev: true
 
+  /@types/geojson/7946.0.10:
+    resolution: {integrity: sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==}
+    dev: true
+
   /@types/hast/2.3.4:
     resolution: {integrity: sha512-wLEm0QvaoawEDoTRwzTXp4b4jpwiJDvR5KMnFnVodm3scufTlBOWRD6N1OBf9TZMhjlNsSfcO5V+7AF4+Vy+9g==}
     dependencies:
@@ -2585,6 +2593,12 @@ packages:
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
+    dev: true
+
+  /@types/leaflet/1.9.1:
+    resolution: {integrity: sha512-lYawM3I3lLO6rmBASaqdGgY6zUL4YHr3H79/axx7FNYyPXuj0P1DZHbkNo8Itbv0i7Y9EryLWtDXXROMygXhRA==}
+    dependencies:
+      '@types/geojson': 7946.0.10
     dev: true
 
   /@types/lodash/4.14.191:
@@ -6839,6 +6853,10 @@ packages:
     dependencies:
       readable-stream: 2.3.7
     dev: true
+
+  /leaflet/1.9.3:
+    resolution: {integrity: sha512-iB2cR9vAkDOu5l3HAay2obcUHZ7xwUBBjph8+PGtmW/2lYhbLizWtG7nTeYht36WfOslixQF9D/uSIzhZgGMfQ==}
+    dev: false
 
   /leek/0.0.24:
     resolution: {integrity: sha512-6PVFIYXxlYF0o6hrAsHtGpTmi06otkwNrMcmQ0K96SeSRHPREPa9J3nJZ1frliVH7XT0XFswoJFQoXsDukzGNQ==}

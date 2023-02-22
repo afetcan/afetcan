@@ -71,6 +71,7 @@ useHead({
               :title="$t('home.emergencyHelp')"
               icon="icon-[ph--phone-disconnect-bold]"
               :subtitle="t('global.soon')"
+              href="/location"
             />
 
             <MonoMolListItem
