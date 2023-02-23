@@ -11,6 +11,10 @@
         "main"
     ],
     "rangeStrategy": "bump",
+    "ignoreDeps": [
+        "node",
+        "pnpm"
+    ],
     "packageRules": [
         {
             "matchFiles": [
