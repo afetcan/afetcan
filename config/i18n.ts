@@ -30,7 +30,7 @@ export const availableLocales: ILocales = {
     flag: 'icon-[twemoji--flag-japan]',
   },
   nl: {
-    name: 'Nederlands',
+    name: 'Dutch',
     iso: 'nl',
     flag: 'icon-[twemoji--flag-netherlands]',
   },
