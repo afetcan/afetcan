@@ -1,85 +1,85 @@
 {
-    "app": {
-        "description": "Aardbevingen zijn overal. We zijn er klaar voor, voor de hele wereld. Al onze bronnen zijn open en toegankelijk."
+  "app": {
+    "description": "Aardbevingen zijn overal. We zijn er klaar voor, voor de hele wereld. Al onze bronnen zijn open en toegankelijk."
+  },
+  "charity": {
+    "addCharity": "Voeg liefdadigheid toe",
+    "allCharities": "Alle liefdadigheidsinstellingen",
+    "allCountries": "Alle landen",
+    "charities": "Liefdadigheidsinstellingen",
+    "donate": "Doneren",
+    "donation": "Donatiebron",
+    "newForm": {
+      "country": "Land",
+      "description": "Beschrijving",
+      "donationUrl": "Donatie-URL",
+      "name": "Naam",
+      "newCharity": "Nieuwe liefdadigheidsinstelling",
+      "shortDescription": "Korte beschrijving",
+      "websiteUrl": "Website-URL"
     },
-    "charity": {
-        "addCharity": "Voeg liefdadigheid toe",
-        "allCharities": "Alle liefdadigheidsinstellingen",
-        "allCountries": "Alle landen",
-        "charities": "Liefdadigheidsinstellingen",
-        "donate": "Doneren",
-        "donation": "Donatiebron",
-        "newForm": {
-            "country": "Land",
-            "description": "Beschrijving",
-            "donationUrl": "Donatie-URL",
-            "name": "Naam",
-            "newCharity": "Nieuwe liefdadigheidsinstelling",
-            "shortDescription": "Korte beschrijving",
-            "websiteUrl": "Website-URL"
-        },
-        "noCharity": "Geen liefdadigheidsinstelling gevonden",
-        "website": "Website",
-        "whySupport": "Rampen zijn natuurlijke gebeurtenissen die levens diep treffen met hun verwoestende gevolgen. Na rampen kunnen mensen moeite hebben om aan hun basisbehoeften zoals onderdak, voedsel, water en andere behoeften te voldoen. Daarom helpen rampenliefdadigheidsinstellingen degenen die hulp nodig hebben, zodat ze hun leven weer op de rails kunnen krijgen."
+    "noCharity": "Geen liefdadigheidsinstelling gevonden",
+    "website": "Website",
+    "whySupport": "Rampen zijn natuurlijke gebeurtenissen die levens diep treffen met hun verwoestende gevolgen. Na rampen kunnen mensen moeite hebben om aan hun basisbehoeften zoals onderdak, voedsel, water en andere behoeften te voldoen. Daarom helpen rampenliefdadigheidsinstellingen degenen die hulp nodig hebben, zodat ze hun leven weer op de rails kunnen krijgen."
+  },
+  "country": {
+    "404": "Land niet gevonden",
+    "add": "Land toevoegen",
+    "change": "Land wijzigen",
+    "search": "Land zoeken"
+  },
+  "form": {
+    "error": {
+      "add": "Er is een fout opgetreden bij het toevoegen",
+      "maxLength": "Dit veld mag maximaal {0} tekens bevatten",
+      "minLength": "Dit veld moet minimaal {0} tekens bevatten",
+      "required": "Dit veld is verplicht",
+      "url": "Dit veld moet een geldige URL zijn"
     },
-    "country": {
-        "404": "Land niet gevonden",
-        "add": "Land toevoegen",
-        "change": "Land wijzigen",
-        "search": "Land zoeken"
+    "placeholder": {
+      "country": "Voer een land in",
+      "description": "Voer een beschrijving in",
+      "donationUrl": "Voer een donatie-URL in",
+      "name": "Voer een naam in",
+      "shortDescription": "Voer een korte beschrijving in",
+      "websiteUrl": "Voer een website-URL in"
     },
-    "form": {
-        "error": {
-            "add": "Er is een fout opgetreden bij het toevoegen",
-            "maxLength": "Dit veld mag maximaal {0} tekens bevatten",
-            "minLength": "Dit veld moet minimaal {0} tekens bevatten",
-            "required": "Dit veld is verplicht",
-            "url": "Dit veld moet een geldige URL zijn"
-        },
-        "placeholder": {
-            "country": "Voer een land in",
-            "description": "Voer een beschrijving in",
-            "donationUrl": "Voer een donatie-URL in",
-            "name": "Voer een naam in",
-            "shortDescription": "Voer een korte beschrijving in",
-            "websiteUrl": "Voer een website-URL in"
-        },
-        "success": {
-            "add": "Succesvol toegevoegd",
-            "delete": "Succesvol verwijderd",
-            "update": "Succesvol bijgewerkt"
-        }
-    },
-    "global": {
-        "back": "Terug",
-        "cancel": "Annuleren",
-        "change": "Veranderen",
-        "copy": "Kopiëren",
-        "error": "Fout",
-        "help": "Help",
-        "home": "Home",
-        "save": "Opslaan",
-        "search": "Zoeken",
-        "settings": "Instellingen",
-        "share": "Delen",
-        "soon": "Binnenkort",
-        "success": "Succes",
-        "successCopy": "Gekopieerd naar klembord"
-    },
-    "home": {
-        "charities": "Goede doelen",
-        "description": "Het is een van onze gezamenlijke doelen om mensen in nood bij te staan en te ondersteunen. Rampzalige situaties zoals aardbevingen kunnen het leven en de huizen van mensen ingrijpend veranderen. Daarom is het belangrijk om mensen in het aardbevingsgebied te helpen om hun leven zowel vandaag als in de toekomst gemakkelijker te maken. </br> </br> Het kan worden gebruikt als een platform om mensen te helpen. Hoewel het op dit moment mogelijk is om uw sociale media-, Github- en Discord-accounts te volgen, zal de binnenkort te openen website u in staat stellen om nog meer mensen te bereiken en hulpaangelegenheden in meer detail te bespreken. </br> </br> Mensen zoals u, organisaties die zich richten op het helpen van meer dan alleen slachtoffers van aardbevingen, zijn belangrijk voor de toekomst van de samenleving. We zullen bijdragen aan het samenbrengen van veel mensen en organisaties die handelen met dit doel voor ogen en haasten zich om hulp te bieden aan slachtoffers van aardbevingen.",
-        "description2": "Aangezien afetcan een open source project is, willen we dat iedereen bijdraagt en verbetert. Dit project kan worden gebruikt door iedereen die hulp inzamelt voor slachtoffers van aardbevingen, niet alleen in Turkije maar over de hele wereld.",
-        "earthquakeList": "Aardbevingslijst",
-        "emergencyHelp": "Noodhulp",
-        "feed": "Feed",
-        "selectedCountry": "Geselecteerd land",
-        "soonFeatures": "Nieuwe diensten komen binnenkort beschikbaar"
-    },
-    "settings": {
-        "aboutUs": "Over ons",
-        "aboutUsDescription": "Om open source software te maken voor noodsituaties over de hele wereld. Als je lid wilt worden van het team, neem dan contact met ons op. We hebben veel software-ontwikkelaars nodig.",
-        "bottomChangeLanguage": "U kunt de applicatietaal hieronder wijzigen",
-        "selectLanguage": "Selecteer taal"
+    "success": {
+      "add": "Succesvol toegevoegd",
+      "delete": "Succesvol verwijderd",
+      "update": "Succesvol bijgewerkt"
     }
+  },
+  "global": {
+    "back": "Terug",
+    "cancel": "Annuleren",
+    "change": "Veranderen",
+    "copy": "Kopiëren",
+    "error": "Fout",
+    "help": "Help",
+    "home": "Home",
+    "save": "Opslaan",
+    "search": "Zoeken",
+    "settings": "Instellingen",
+    "share": "Delen",
+    "soon": "Binnenkort",
+    "success": "Succes",
+    "successCopy": "Gekopieerd naar klembord"
+  },
+  "home": {
+    "charities": "Goede doelen",
+    "description": "Het is een van onze gezamenlijke doelen om mensen in nood bij te staan en te ondersteunen. Rampzalige situaties zoals aardbevingen kunnen het leven en de huizen van mensen ingrijpend veranderen. Daarom is het belangrijk om mensen in het aardbevingsgebied te helpen om hun leven zowel vandaag als in de toekomst gemakkelijker te maken. </br> </br> Het kan worden gebruikt als een platform om mensen te helpen. Hoewel het op dit moment mogelijk is om uw sociale media-, Github- en Discord-accounts te volgen, zal de binnenkort te openen website u in staat stellen om nog meer mensen te bereiken en hulpaangelegenheden in meer detail te bespreken. </br> </br> Mensen zoals u, organisaties die zich richten op het helpen van meer dan alleen slachtoffers van aardbevingen, zijn belangrijk voor de toekomst van de samenleving. We zullen bijdragen aan het samenbrengen van veel mensen en organisaties die handelen met dit doel voor ogen en haasten zich om hulp te bieden aan slachtoffers van aardbevingen.",
+    "description2": "Aangezien afetcan een open source project is, willen we dat iedereen bijdraagt en verbetert. Dit project kan worden gebruikt door iedereen die hulp inzamelt voor slachtoffers van aardbevingen, niet alleen in Turkiye maar over de hele wereld.",
+    "earthquakeList": "Aardbevingslijst",
+    "emergencyHelp": "Noodhulp",
+    "feed": "Feed",
+    "selectedCountry": "Geselecteerd land",
+    "soonFeatures": "Nieuwe diensten komen binnenkort beschikbaar"
+  },
+  "settings": {
+    "aboutUs": "Over ons",
+    "aboutUsDescription": "Om open source software te maken voor noodsituaties over de hele wereld. Als je lid wilt worden van het team, neem dan contact met ons op. We hebben veel software-ontwikkelaars nodig.",
+    "bottomChangeLanguage": "U kunt de applicatietaal hieronder wijzigen",
+    "selectLanguage": "Selecteer taal"
+  }
 }
