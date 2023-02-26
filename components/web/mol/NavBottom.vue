@@ -11,7 +11,7 @@ const open = () => {
 
 <template>
   <nav
-    class="after:content-none after:h-[calc(100%+0.5px)] bg-gray-200 text-black overflow-y-hidden overscroll-none h-14 grid grid-cols-2 shadow-lg border-t-2 border-gray-300"
+    class="after:content-none after:h-[calc(100%+0.5px)] bg-gray-200 dark:bg-gray-700 overflow-y-hidden overscroll-none h-14 grid grid-cols-2 shadow-lg border-t-2 border-gray-300"
   >
     <NuxtLink
       to="/" class="flex text-sm flex-col items-center place-content-center h-full flex-1" @click="$scrollToTop"

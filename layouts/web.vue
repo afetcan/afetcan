@@ -31,7 +31,7 @@ function toggleDark() {
     </NuxtLink>
   </div>
 
-  <div class="h-full">
+  <div class="h-screen min-h-[85vh] overflow-x-auto">
     <slot />
   </div>
   <div class="sticky left-0 right-0 bottom-0 w-full z-10" :style="{ paddingBottom: `env(safe-area-inset-bottom)` }">

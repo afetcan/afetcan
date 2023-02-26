@@ -44,7 +44,7 @@ const { t } = useI18n()
       </NuxtLink>
 
       <NuxtLink
-        class="h-20 cursor-not-allowed p-4 flex items-center bg-gray-200 opacity-50 text-gray-700 rounded text-2xl"
+        class="h-20 cursor-not-allowed p-4 flex items-center bg-gray-200 dark:bg-gray-700 opacity-50 text-gray-700 rounded text-2xl"
         to="#"
       >
         <span>
