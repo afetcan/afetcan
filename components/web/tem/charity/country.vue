@@ -21,7 +21,7 @@ const { t } = useI18n()
     <div v-if="!app" class="pt-4">
       <NuxtLink
         :to="`/${getSlug}`"
-        class="bg-gray-200 hover:bg-gray-400 h-10 px-4 rounded flex items-center w-full"
+        class="bg-gray-200 dark:bg-gray-700 hover:bg-gray-400 h-10 px-4 rounded flex items-center w-full"
       >
         <div class="icon-[ph--caret-left-bold] w-5 h-5 mr-1" />
         {{ t('global.back') }}
@@ -44,7 +44,7 @@ const { t } = useI18n()
         {{ data?.length === 0 ? t('charity.noCharity') : '' }}
       </div>
     </ContentRenderer>
-    <NuxtLink :to="`/${getSlug}/charity/new`" class="bg-gray-200 p-4 rounded flex hover:bg-gray-400 opacity-75 mt-10">
+    <NuxtLink :to="`/${getSlug}/charity/new`" class="bg-gray-200 dark:bg-gray-700 p-4 rounded flex hover:bg-gray-400 opacity-75 mt-10">
       {{ t('charity.addCharity') }}
     </NuxtLink>
   </div>

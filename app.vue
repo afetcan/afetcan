@@ -16,8 +16,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <Html :lang="locale" class="w-full h-full">
-    <Body class="h-full">
+  <Html :lang="locale" class="w-full min-h-screen">
+    <Body class="h-full text-black dark:text-white ">
       <IonApp v-if="app">
         <IonRouterOutlet />
       </IonApp>

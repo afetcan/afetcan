@@ -66,7 +66,7 @@ const onSubmit = handleSubmit(async (values) => {
         <div class="pt-4">
           <NuxtLink
             :to="`/${getCountry}/charity/`"
-            class="bg-gray-200 hover:bg-gray-400 h-10 px-4 rounded flex items-center w-full"
+            class="bg-gray-200 dark:bg-gray-700 hover:bg-gray-400 h-10 px-4 rounded flex items-center w-full"
           >
             <div class="icon-[ph--caret-left-bold] w-5 h-5 mr-1" />
             {{ t('charity.allCharities') }}

@@ -62,7 +62,7 @@ const changeCountry = async () => {
               :subtitle="t('settings.aboutUsDescription')"
               icon-right="icon-[ph--arrow-bend-left-down]"
             >
-              <div class="bg-zinc-200 p-4">
+              <div class="bg-zinc-200 dark:bg-zinc-600 p-4">
                 <div class="grid grid-cols-4 place-items-center">
                   <a href="https://github.com/afetcan" class="hover:text-green-500 w-full h-full text-center" target="_blank">
                     Github

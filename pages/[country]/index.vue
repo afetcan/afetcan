@@ -15,7 +15,7 @@ const getSlug = computed(() => {
         <div class="py-4">
           <NuxtLink
             to="/"
-            class="bg-gray-200 hover:bg-gray-400 h-10 px-4 rounded flex items-center w-full"
+            class="bg-gray-200 dark:bg-gray-700 hover:bg-gray-400 h-10 px-4 rounded flex items-center w-full"
           >
             <div class="icon-[ph--caret-left-bold] w-5 h-5 mr-1" />
             {{ t('global.home') }}
