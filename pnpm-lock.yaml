@@ -20,6 +20,7 @@ specifiers:
   '@huntersofbook/i18n': ^0.5.1
   '@huntersofbook/plausible-nuxt': ^1.0.1
   '@iconify-json/ph': ^1.1.4
+  '@iconify-json/svg-spinners': ^1.1.1
   '@iconify-json/twemoji': ^1.1.11
   '@iconify-json/wi': ^1.1.4
   '@iconify/tailwind': ^0.1.2
@@ -80,6 +81,7 @@ devDependencies:
   '@antfu/eslint-config': 0.35.2_7kw3g6rralp5ps6mg3uyzz6azm
   '@capacitor/cli': 4.7.0
   '@huntersofbook/i18n': 0.5.1
+  '@iconify-json/svg-spinners': 1.1.1
   '@nuxt/content': 2.4.3
   '@nuxt/devtools': 0.1.6_nuxt@3.2.2
   '@nuxtjs/i18n': 8.0.0-beta.10
@@ -1159,6 +1161,12 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/svg-spinners/1.1.1:
+    resolution: {integrity: sha512-Zoe9Pw8Ljfx4dYX5+7Bl8VrerReqJfv1OGee0+Tclg9FWw0Bqrd5TfNseRvXYWNXVIHt+V13uzcTfzpfSTi9Lw==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify-json/twemoji/1.1.11:
     resolution: {integrity: sha512-ZA2v2AGWPC0rxiZDLqsVD+DoYB3n5Ft5q0YYAsy9QyYvoNWSdh6Vxe5d3yUP4mSpNkE4YW96RAjiZu72uXb7kQ==}
     dependencies:
@@ -1179,7 +1187,6 @@ packages:
 
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
-    dev: false
 
   /@intlify/bundle-utils/4.0.0_vue-i18n@9.3.0-beta.16:
     resolution: {integrity: sha512-klXrYT9VXyKEXsD6UY3pShg0O5MPC07n0TZ5RrSs5ry6T1eZVolIFGJi9c3qcDrh1qjJxgikRnPBmD7qGDqbjw==}
