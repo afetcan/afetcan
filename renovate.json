@@ -11,22 +11,28 @@
         "main"
     ],
     "rangeStrategy": "bump",
+    "ignoreDeps": [
+        "node",
+        "pnpm",
+        "npm"
+    ],
     "packageRules": [
         {
-            "matchDatasources": [
-                "npm"
+            "matchFiles": [
+                "package.json"
             ],
             "matchUpdateTypes": [
                 "patch",
                 "minor",
                 "major"
             ],
-            "groupName": "packages",
+            "groupName": "root",
+            "groupSlug": "shared-root",
             "labels": [
-                "packages"
+                "dependencies"
             ],
             "addLabels": [
-                "packages"
+                "dependencies"
             ]
         }
     ]

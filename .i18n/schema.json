@@ -8,7 +8,12 @@
     "successCopy": "Copied to clipboard",
     "success": "Success",
     "error": "Error",
-    "help": "Help"
+    "help": "Help",
+    "settings": "Settings",
+    "search": "Search",
+    "cancel": "Cancel",
+    "change": "Change",
+    "soon": "Soon"
   },
   "app": {
     "description": "Earthquakes are everywhere. We are ready, for the whole world. All our resources are open and accessible."
@@ -18,22 +23,63 @@
     "charities": "Charities",
     "soonFeatures": "New Services Coming Soon",
     "description": "It is one of our common goals to be with and support people in need of emergency assistance. Disaster situations such as earthquakes can radically change people's lives and homes. Therefore, it is important to help people in the earthquake area to make their lives easier both today and in the future. </br> </br> It can be used as a platform for helping people. While it is possible to follow your social media, Github and Discord accounts for now, the website we will open soon will allow you to reach even more people and discuss help issues in more detail. </br> </br> People like you, organizations that aim to help more than earthquake victims are important for the future of society. We will contribute to the coming together of many people and organizations acting for this purpose and rushing to the aid of earthquake victims.",
-    "description2": "Since Emergency Support is an open source project, we want everyone to contribute and improve. This project can be used by anyone who collects aid for earthquake victims not only in Türkiye but all over the world."
+    "description2": "Since Emergency Support is an open source project, we want everyone to contribute and improve. This project can be used by anyone who collects aid for earthquake victims not only in Türkiye but all over the world.",
+    "selectedCountry": "Selected Country",
+    "earthquakeList": "Earthquake List",
+    "feed": "Feed"
   },
   "charity": {
+    "whySupport": "Disasters are natural events that deeply affect lives with their devastating consequences. After disasters, people may have difficulty meeting their shelter, food, water and other basic needs. That's why disaster charities help those in need, helping them get their lives back in order.",
     "charities": "Charities",
     "donate": "Donate",
     "website": "Website",
     "donation": "Donation Resource",
     "allCharities": "All Charities",
     "allCountries": "All Countries",
-    "description": "The data on this page is obtained from institutions and help sites. Irrespectively, we list all fundraisers supervised by the state. If a roster data is missing, incorrect or should not be added, please contact us. If we are contacted and changes are requested, the requirements will be fulfilled automatically.",
-    "addCharity": "Add Charity"
+    "addCharity": "Add Charity",
+    "newForm": {
+      "name": "Name",
+      "country": "Country",
+      "websiteUrl": "Website Url",
+      "donationUrl": "Donation Url",
+      "shortDescription": "Short Description",
+      "description": "Description",
+      "newCharity": "New Charity"
+    },
+    "noCharity": "No charity found. You can use the button below to add."
+  },
+  "form": {
+    "error": {
+      "required": "This field is required",
+      "url": "This field must be a valid url",
+      "minLength": "This field must be at least {0} characters",
+      "maxLength": "This field must be at most {0} characters",
+      "add": "An error occurred while adding"
+    },
+    "success": {
+      "add": "Added successfully",
+      "update": "Updated successfully",
+      "delete": "Deleted successfully"
+    },
+    "placeholder": {
+      "name": "Please enter a name",
+      "country": "Please enter a country",
+      "websiteUrl": "Please enter a website url",
+      "donationUrl": "Please enter a donation url",
+      "shortDescription": "Please enter a short description",
+      "description": "Please enter a description"
+    }
   },
   "country": {
-    "add": "Add Country"
+    "add": "Add Country",
+    "search": "Search Country",
+    "404": "Country not found",
+    "change": "Change Country"
   },
   "settings": {
-    "selectLanguage": "Select Language"
+    "selectLanguage": "Select Language",
+    "bottomChangeLanguage": "You can change the application language below",
+    "aboutUs": "About Us",
+    "aboutUsDescription": "To make open source software for disaster situations all over the world. If you want to join the team, contact us. We need many software developers."
   }
 }

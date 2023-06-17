@@ -1,3 +1,4 @@
 {
-    "volar.preview.port": 3100
+    "volar.preview.port": 3100,
+    "dotenv.enableAutocloaking": false
 }
