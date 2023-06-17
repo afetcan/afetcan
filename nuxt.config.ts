@@ -67,7 +67,7 @@ export default defineNuxtConfig({
     configPath: './tailwind.config.js',
   },
   huntersofbookI18n: {
-    languages: ['tr', 'en', 'de', 'ja', 'nl'],
+    languages: ['tr', 'en', 'de', 'ja', 'ru', 'nl'],
     exportDir: 'locales',
   },
   plausible: {
